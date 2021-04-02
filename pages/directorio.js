@@ -1,0 +1,83 @@
+import Head from 'next/head'
+import Link from 'next/link'
+import StaticNavbar from './components/navbar'
+import Footer from './components/footer'
+import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import styles from '../styles/Section.module.css';
+
+import React, { useState, useEffect } from 'react'
+
+export default function Directorio(props) {
+  
+  const directory = props.directory;
+  
+  return (
+    <div>
+      <Head>
+        <title>Directorio</title>
+        <link rel="icon" href="/images/logo.jpg" />
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+      </Head>
+
+      <StaticNavbar/>
+      <main>
+        <div className={styles.headerDirectory}>
+          <h1>Directorio</h1>
+          <p>Hemos creado un directorio de mujeres para mujeres dónde encontrás servicios con perspectiva de genero.</p>
+        </div>
+        <div className={styles.directory}>
+          <Container className="text-center">
+            <Row>
+              {directory.map(woman => {
+                return(
+                  <Col xs={12} md={4} className={styles.directoryCard}>
+                    <Row>
+                      <Col xs={2} md={2} className={styles.socialCard}>
+                        <a href={woman.facebook}><img src="/images/icons/social/facebookSquare.svg" alt="facebook"/></a><br/>
+                        <a href={woman.email}><img src="/images/icons/social/emailSquare.svg" alt="email"/></a><br/>
+                        <a href={woman.twitter}><img src="/images/icons/social/twitterSquare.svg" alt="twitter"/></a><br/>
+                        <a href={woman.instagram}><img src="/images/icons/social/instagramSquare.svg" alt="instagram"/></a>
+                      </Col>
+                      <Col xs={10} md={10}>
+                        <img src={woman.image}></img>
+                        <h5>{woman.name}</h5>
+                        <hr/>
+                        <h5>{woman.job}</h5>
+                        <p>{woman.description}</p>
+                      </Col>
+                    </Row>
+                  </Col>
+                )
+              })}
+            </Row>
+            </Container>
+        </div>
+      </main>
+      <Footer/>
+    </div>
+  )
+}
+
+export const getStaticProps = async () => {
+
+  const fs = require("fs");
+  const yaml = require('js-yaml')
+  const path = require("path");
+
+  const files = fs.readdirSync("directory");
+  const directory = files.map(filename => {
+      const rawContent = fs.readFileSync(path.join("directory",filename), 'utf8');
+      const data = yaml.load(rawContent);
+      return data;
+    });
+
+  return {
+    props: { directory }
+  };
+};

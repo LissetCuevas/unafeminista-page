@@ -1,0 +1,50 @@
+.nav {
+  padding-top: 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 20px;
+}
+
+.nav_link a{
+  color: black !important;
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  font-size: 1em;
+  margin: 0px 10px 0px 10px;
+}
+
+.nav_link a:hover{
+  color: palevioletred !important;
+}
+
+.nav_link a:disabled{
+  color: palevioletred !important;
+}
+
+.brandName{
+  padding-top: 1.5em;
+  padding-bottom: 0;
+}
+
+.brandName img{
+  height: 5em;
+}
+
+.brandName a{
+  text-decoration: none;
+  color: black;
+}
+
+.brandName p{
+  margin-bottom: 0;
+  font-family: var(--title-font-family);
+  font-size: 2.7em;
+}
+
+@media (max-width: 680px) {
+    .nav {
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 0px;
+    }
+}

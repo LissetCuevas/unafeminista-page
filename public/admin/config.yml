@@ -1,18 +1,89 @@
 backend:
   name: git-gateway
   branch: master
-media_folder: public/img #images that are uploaded via Netlify Cms interface will be stored in this folder
-public_folder: img #I dont know
+media_folder: public/images/media #images that are uploaded via Netlify Cms interface will be stored in this folder
+public_folder: public/images
+display_url: https://unafeminista.com
+logo_url: /images/logo.jpg
+locale: 'es'
+show_preview_links: true
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "BlogPost" # Used in the UI
+    label: "Blog Post" # Used in the UI
     folder: "posts" # The path to the folder where the markdown files are stored
     create: true # Allow users to create new markdown files.
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}-{{day}}-{{month}}-{{year}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for front matter. You will need to modify fields according to your project.
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Download", name: "download", widget: "string"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Author", name: "author", widget: "string", default: "Admin"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Titulo", name: "title", widget: "string"}
+      - {label: "Descripción", name: "description", widget: "string"}
+      - {label: "Imagen de portada", name: "image", widget: "image"}
+      - {label: "Etiqueta", name: "tag", widget: "select",multiple: true, options: ["Cultura","Salud","Notas Rebeldes","Recomendaciones"]}
+      - {label: "Principal", name: "main", widget: "boolean", default: false}
+      - {label: "Fecha", name: "date", widget: "date"}
+      - {label: "Audio", name: "audio", widget: "string"}
+      - {label: "Autora", name: "author", widget: "string", default: "Anonima"}
+      - {label: "Descripción Autora", name: "authorDescription", widget: "text"}
+      - {label: "Foto Autora", name: "authorPhoto", widget: "image"}
+      - {label: "Twitter Autora", name: "authotTwitter", widget: "string"}
+      - {label: "Contenido", name: "body", widget: "markdown"}
+  - name: "directory"
+    label: "Directorio"
+    folder: "directory"
+    create: true
+    identifier_field: name
+    fields:
+      - {label: "Nombre", name: "name", widget: "string"}
+      - {label: "Profesión", name: "job", widget: "string"}
+      - {label: "Descripción", name: "description", widget: "text"}
+      - {label: "Imagen", name: "image", widget: "image"}
+      - {label: "Facebook", name: "facebook", widget: "string"}
+      - {label: "Instagram", name: "instagram", widget: "string"}
+      - {label: "Twitter", name: "twitter", widget: "string"}
+      - {label: "Correo", name: "email", widget: "string"}
+  - name: "pages"
+    label: "Páginas"
+    files:
+      -label: "Libros"
+       name: "books"
+       file: "site/content/books.yml"
+       fields:
+          - label: Libro
+            name: book1
+            fields:
+            - {label: "Titulo", name: "title", widget: "string"}
+            - {label: "Autora", name: "author", widget: "string"}
+            - {label: "Portada", name: "image", widget: "image"}
+            - {label: "Posición", name: "position", widget: "select", multiple: false,options:['1','2','3','4','5']}
+            - {label: "Descripción", name: "description", widget: "text"}
+          - label: Libro 
+            name: book2
+            fields:
+            - {label: "Titulo", name: "title", widget: "string"}
+            - {label: "Autora", name: "author", widget: "string"}
+            - {label: "Portada", name: "image", widget: "image"}
+            - {label: "Posición", name: "position", widget: "select", multiple: false,options:['1','2','3','4','5']}
+            - {label: "Descripción", name: "description", widget: "text"}
+          - label: Libro
+            name: book3
+            fields:
+            - {label: "Titulo", name: "title", widget: "string"}
+            - {label: "Autora", name: "author", widget: "string"}
+            - {label: "Portada", name: "image", widget: "image"}
+            - {label: "Posición", name: "position", widget: "select", multiple: false,options:['1','2','3','4','5']}
+            - {label: "Descripción", name: "description", widget: "text"}
+          - label: Libro
+            name: book4
+            fields:
+            - {label: "Titulo", name: "title", widget: "string"}
+            - {label: "Autora", name: "author", widget: "string"}
+            - {label: "Portada", name: "image", widget: "image"}
+            - {label: "Posición", name: "position", widget: "select", multiple: false,options:['1','2','3','4','5']}
+            - {label: "Descripción", name: "description", widget: "text"}
+          - label: Libro
+            name: book5
+            fields:
+            - {label: "Titulo", name: "title", widget: "string"}
+            - {label: "Autora", name: "author", widget: "string"}
+            - {label: "Portada", name: "image", widget: "image"}
+            - {label: "Posición", name: "position", widget: "select", multiple: false,options:['1','2','3','4','5']}
+            - {label: "Descripción", name: "description", widget: "text"}
