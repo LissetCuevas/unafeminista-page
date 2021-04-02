@@ -43,10 +43,10 @@ collections:
   - name: "pages"
     label: "Páginas"
     files:
-      -label: "Libros"
-       name: "books"
-       file: "site/content/books.yml"
-       fields:
+      - label: "Libros"
+        name: "books"
+        file: "site/content/books.yml"
+        fields:
           - label: Libro
             name: book1
             fields:
