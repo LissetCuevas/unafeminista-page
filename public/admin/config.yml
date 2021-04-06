@@ -57,7 +57,7 @@ collections:
               - {label: Autora, name: author, widget: string}
               - {label: Portada, name: image, widget: image}
               - {label: Descripcion, name: description, widget: text}
-          - {label: Libro 1, name: book1, widget: image}
-          - {label: Libro 2, name: book2, widget: image}
-          - {label: Libro 3, name: book3, widget: image}
-          - {label: Libro 4, name: book4, widget: image}
+          - {label: "Libro 1", name: book1, widget: image}
+          - {label: "Libro 2", name: book2, widget: image}
+          - {label: "Libro 3", name: book3, widget: image}
+          - {label: "Libro 4", name: book4, widget: image}
