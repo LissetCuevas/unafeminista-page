@@ -32,16 +32,16 @@
 .termsFooter{
     width: 50%;
 }
+
 .socialFooter{
     width: 50%;
-    text-align: right !important;
 }
 
 .socialFooter img {
     width: 1.8em;
 }
 
-@media only screen and (max-width: 680px) {
+@media (max-width: 680px) {
     .disapearContent{
       display: none;
     }

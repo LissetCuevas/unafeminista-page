@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import StaticNavbar from './components/navbar'
 import Footer from './components/footer'
 import Container from 'react-bootstrap/Container';
@@ -43,9 +42,9 @@ export default function CirculoDeLectura(props){
         <div class={styles.currentBook}>
           <Container>
             <Row>
-              <Col xs={12} md={7}>
+              <Col xs={12} md={7} className={styles.smHide}>
                 <h1>{currentBook.title}</h1>
-                <h5>{currentBook.author}</h5>
+                <h2>{currentBook.author}</h2>
                 <p>{currentBook.description}</p>
                 <a href="https://forms.gle/GwTu8se6xxNGTgw99">Lee con nosotras</a>
               </Col>

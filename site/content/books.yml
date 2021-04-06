@@ -1,30 +1,9 @@
-book1:
+currentBook:
   title: "Mujeres que corren con los lobos"
   author: "Clarissa Pinkola Estés"
-  position: "1"
-  image: "/images/logo.jpg"
+  image: /images/logo.jpg
   description: "Mujeres que corren con los lobos ha sido un éxito desde su publicación en 1989, este libro  nos muestra una diversidad de historias y reflexiones hacia encontrar sentido a nuestra propia existencia, las letras de Clarissa nos acompañan para entender las complejas relaciones de poder en la sociedad y el impacto que tiene en la vida de las mujeres."
-book2:
-  title: "Mujeres que corren con los lobos"
-  author: "Clarissa Pinkola Estés"
-  position: "2"
-  image: "/images/logo.jpg"
-  description: "Mujeres que corren con los lobos ha sido un éxito desde su publicación en 1989, este libro  nos muestra una diversidad de historias y reflexiones hacia encontrar sentido a nuestra propia existencia, las letras de Clarissa nos acompañan para entender las complejas relaciones de poder en la sociedad y el impacto que tiene en la vida de las mujeres."
-book3:
-  title: "Mujeres que corren con los lobos"
-  author: "Clarissa Pinkola Estés"
-  position: "3"
-  image: "/images/logo.jpg"
-  description: "Mujeres que corren con los lobos ha sido un éxito desde su publicación en 1989, este libro  nos muestra una diversidad de historias y reflexiones hacia encontrar sentido a nuestra propia existencia, las letras de Clarissa nos acompañan para entender las complejas relaciones de poder en la sociedad y el impacto que tiene en la vida de las mujeres."
-book4:
-  title: "Mujeres que corren con los lobos"
-  author: "Clarissa Pinkola Estés"
-  position: "4"
-  image: "/images/logo.jpg"
-  description: "Mujeres que corren con los lobos ha sido un éxito desde su publicación en 1989, este libro  nos muestra una diversidad de historias y reflexiones hacia encontrar sentido a nuestra propia existencia, las letras de Clarissa nos acompañan para entender las complejas relaciones de poder en la sociedad y el impacto que tiene en la vida de las mujeres."
-book5:
-  title: "Mujeres que corren con los lobos"
-  author: "Clarissa Pinkola Estés"
-  position: "5"
-  image: "/images/logo.jpg"
-  description: "Mujeres que corren con los lobos ha sido un éxito desde su publicación en 1989, este libro  nos muestra una diversidad de historias y reflexiones hacia encontrar sentido a nuestra propia existencia, las letras de Clarissa nos acompañan para entender las complejas relaciones de poder en la sociedad y el impacto que tiene en la vida de las mujeres."
+book1: /images/logo.jpg
+book2: /images/logo.jpg
+book3: /images/logo.jpg
+book4: /images/logo.jpg

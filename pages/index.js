@@ -5,9 +5,8 @@ import Footer from './components/footer'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Tabs from 'react-bootstrap/Tabs';
-import Tab from 'react-bootstrap/Tab';
 import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../styles/Home.module.css';
 
@@ -87,22 +86,27 @@ export default function Home(props) {
           </Container>
         </div>
 
-        <div id="#blog" className={styles.blogSection}>
+        <div id="blog" className={styles.blogSection}>
           <h1>Nuestro Blog</h1>
           <div>
-            <Nav onSelect={(topic) => showPostsbyTopic(topic)} className={styles.navTopic}>
-              <p className={styles.navP}>Buscar por:</p>
-              <Nav.Item as="li">
-              <Nav.Link eventKey="Todos" className={styles.navTopicLink}>Todos</Nav.Link>
-              </Nav.Item>
-              {topics.map(topic => {
-                return (
+            <Navbar expand="lg" className={styles.navTopic}>
+              <Navbar.Toggle aria-controls="basic-navbar-nav"><img src="/images/icons/filter.svg"/></Navbar.Toggle>
+              <Navbar.Collapse id="basic-navbar-nav">
+                <Nav onSelect={(topic) => showPostsbyTopic(topic)}>
+                  <p className={styles.navP}>Buscar por:</p>
                   <Nav.Item as="li">
-                  <Nav.Link eventKey={topic} className={styles.navTopicLink}>{topic}</Nav.Link>
+                  <Nav.Link eventKey="Todos" className={styles.navTopicLink}>Todos</Nav.Link>
                   </Nav.Item>
-                );
-              })}
-            </Nav>
+                  {topics.map(topic => {
+                    return (
+                      <Nav.Item as="li">
+                      <Nav.Link eventKey={topic} className={styles.navTopicLink}>{topic}</Nav.Link>
+                      </Nav.Item>
+                    );
+                  })}
+                </Nav>
+              </Navbar.Collapse>
+            </Navbar>
           </div>
           <div className={styles.postsMargin}>
             <img className={styles.backQuotes} src="/images/icons/pinkQuote.svg"></img>

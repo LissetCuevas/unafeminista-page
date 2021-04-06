@@ -156,8 +156,63 @@
 }
 
 @media (max-width: 680px) {
+  .mainPostCol{
+    display: none;
+  }
+}
+
+@media (max-width: 780px) {
+  .mainPostCol h1{
+    font-size: 2.5em;
+  }
+
+  .mainPostCol a{
+    margin-top: 1em;
+    font-size: 1.3em;
+  }
+
   .blogSection {
     padding-left: 5%;
     padding-right: 5%;
+    position: relative;
+  }
+
+  .blogSection h1{
+    position: absolute;
+    top: 1em;
+    left: 5%;
+  }
+
+  .backQuotes{
+    display: none;
+  }
+
+  .mainPictureCol{
+    text-align: center;
+  }
+
+  .mainPictureCol img{
+    height: 22em;
+    margin: auto;
+  }
+
+  .lgPost{
+    height:28em;
+  }
+
+  .mdPost{
+    height:28em;
+  }
+
+  .navTopic button{
+    border: 0;
+    margin-left: 85%;
+  }
+  .navTopic button:focus{
+    box-shadow: none;
+  }
+  .navP {
+    padding: 0.5rem 1rem 0.5rem 0;
+    margin-bottom: 0;
   }
 }

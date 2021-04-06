@@ -67,6 +67,10 @@
     margin-bottom: 6%;
 }
 
+.articleAuthor img{
+    width: 15em;
+}
+
 .authorDescrip{
     padding-right: 6%;
 }
@@ -78,4 +82,16 @@
 
 .modalHeader {
     border-bottom: 0px;
+}
+
+@media (max-width: 680px) {
+    .articleAuthor img{
+        width: 15em;
+        padding-bottom: 1em;
+    }
+
+    .articleAuthor{
+        text-align: left;
+        font-size: 0.9em;
+    }
 }

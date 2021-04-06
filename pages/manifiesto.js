@@ -146,7 +146,9 @@ export default function Manifiesto() {
             In girl power we trust, las morras hacemos revolución, somos las hijas rebeldes y contestonas que un día les 
             dijeron “Tu te callas” pero no nos callaron, nos hicieron replicar más fuerte.
           </p>
-          <h4>Bienvenida.</h4>
+          <p id="bienvenidaP">
+            Bienvenida.
+          </p>
         </div>
         <div className={styles.nosotras}>
           <h2 className={styles.content}>Nosotras</h2>
@@ -154,10 +156,10 @@ export default function Manifiesto() {
             <Row>
               {leads.map((lead,i) => {
                 return(
-                  <Col xs={12} md={3} className="text-center">
+                  <Col key={lead.name} xs={12} md={3} className="text-center">
                     <a href="#" onClick={lead.handleShow}>
                     <img src={lead.photo}/>
-                    <h4>{lead.name}</h4>
+                    <h3>{lead.name}</h3>
                     <p>{lead.position}</p>
                     </a>
                   </Col>
@@ -170,7 +172,7 @@ export default function Manifiesto() {
     
       {leads.map((lead,i) => {
         return(
-          <Modal show={lead.show} onHide={lead.handleClose} animation={false} centered size="lg">
+          <Modal key={`modal_${lead.name}`} show={lead.show} onHide={lead.handleClose} animation={false} centered size="lg">
             <Modal.Body>
               <Container>
                 <Row className={styles.closeModal}>

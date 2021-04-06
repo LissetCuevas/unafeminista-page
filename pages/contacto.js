@@ -62,7 +62,7 @@ export default function Contacto(props) {
                     </Button>
                   </Form>
                 </Col>
-                <Col xs={12} md={4} className={`text-center ${styles.lecturaLinkCol}`}>
+                <Col xs={12} md={4} className={`text-center ${styles.lecturaLinkCol} ${styles.smHide}`}>
                   <a href="/circulo-de-lectura">
                     <p>Aquí encontraras nuestro circulo de lectura</p>
                     <img src={currentBook.image}></img>

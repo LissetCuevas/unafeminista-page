@@ -23,14 +23,13 @@
   margin-bottom: 0.5em;
 }
 
-.manifiesto h4{
-  font-size: 2.2em;
-  font-family: var(--main-font-family);
-}
-
 .manifiesto p{
   font-family: var(--main-font-family);
   font-size: 1.3em;
+}
+
+#bienvenidaP{
+  font-size: 2.2em;
 }
 
 .nosotras{
@@ -45,7 +44,7 @@
   padding: 3% 12% 2% 12%;
 }
 
-.nosotras h4{
+.nosotras h3{
   font-size: 1.1em;
   font-family: var(--second-font-family);
   font-weight: 700;
@@ -132,7 +131,7 @@
   font-size: 3.2em;
 }
 
-.currentBook h5{
+.currentBook h2{
   font-family: var(--main-font-family);
   font-size: 1.3em;
   font-weight: 700;
@@ -313,20 +312,130 @@
   height: 12em;
 }
 
+@media (max-width: 880px) {
+  .directory{
+    padding: 1.5% 5% 5% 5%;
+  }
+}
+
+@media (max-width: 780px) {
+  .nosotras img{
+    height: 10em;
+  }
+  .content {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+  }
+
+  .coverManifiesto p{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .coverManifiesto img{
+    height: 20em;
+    margin-top: -1em;
+  }
+
+  .manifiesto h1{
+    font-size: 3em;
+  }
+
+  .manifiesto p{
+    font-size: 1.2em;
+  }
+
+  .nosotras h2{
+    font-size: 2.6em;
+  }
+
+  .currentBook h1{
+    font-size: 2.5em;
+  }
+
+  .bigColLectoras{
+    text-align: center;
+  }
+
+  .bigColLectoras img{
+    height: 23em;
+    margin-bottom: 2em;
+  }
+
+  .manifestoLectoras{
+    padding: 5% 0 0 0;
+  }
+
+  .manifLectorasRow{
+    padding: 2em 2em 2em 2em;
+    margin: 0;
+  }
+
+  .bigColLectoras h2{
+    font-size: 1.8em;
+  }
+
+  .manifLectorasRow img{
+    margin-bottom:1.5em;
+  }
+
+  .headerDirectory p{
+    padding: 0 0 0 10%;
+  }
+
+  .directoryCard{
+    margin-top: 4.5em 0em 0em 0em;
+  }
+  
+  .contact{
+    margin-top: 5%;
+  }
+
+  .contact button{
+    font-size: 1.2em;
+  }
+
+  .lecturaLinkCol{
+    padding: 2em 1.8em 2em 1.8em ;   
+  }
+
+  .currentBook img{
+    margin: 5% 0 4% 0;
+  }
+
+  .futureBooks img{
+    width: 8em;
+  }
+
+  .directory{
+    padding: 1.5% 3% 5% 3%;
+  }
+}
+
 @media (max-width: 680px) {
-    .content {
-      padding-left: 5%;
-      padding-right: 5%;
-      padding-top: 5%;
-    }
+  .smHide{
+    display: none;
+  }
 
-    .coverManifiesto p{
-      padding-left: 0;
-      padding-right: 0;
-    }
+  .nosotras img{
+    height: 14em;
+  }
 
-    .coverManifiesto img{
-      height: 20em;
-      margin-top: -1em;
-    }
+  .futureBooks img{
+    width: 16em;
+  }
+
+  .directory{
+    padding: 1.5% 0% 5% 0%;
+  }
+
+  .directoryCard{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nosotras{
+    background: linear-gradient(180deg, rgba(218, 185, 240, 0.41) 100%, #ffffff 0%);
+  }
 }

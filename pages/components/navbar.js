@@ -7,7 +7,7 @@ import styles from '../../styles/Nav.module.css';
 
 const StaticNavbar = () => {
   return (
-    <div className="">
+    <div className={styles.navDiv}>
       <div className = {styles.brandName}>
         <a className="d-flex justify-content-md-center justify-content-sm-start align-items-center" href="/">
           <img src="/images/logoRojo.png"
@@ -17,18 +17,18 @@ const StaticNavbar = () => {
           <p>Una feminista</p>
         </a>
       </div>
-    <Navbar expand="lg" className={`${styles.nav}`}>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
-        <Nav className={`mr-auto ${styles.nav_link}`}>
-          <Nav.Link href="/manifiesto">Manifieseto</Nav.Link>
-          <Nav.Link href="/circulo-de-lectura">Circulo de lectura</Nav.Link>
-          <Nav.Link href="/#blog">Blog</Nav.Link>
-          <Nav.Link href="/directorio">Directorio</Nav.Link>
-          <Nav.Link href="/contacto">Contacto</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+      <Navbar expand="lg" className={styles.nav}>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" ><img src="/images/icons/toggle.svg"/></Navbar.Toggle>
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
+          <Nav className={`mr-auto ${styles.nav_link}`}>
+            <Nav.Link key="manifiesto" href="/manifiesto">Manifieseto</Nav.Link>
+            <Nav.Link key="lectura" href="/circulo-de-lectura">Circulo de lectura</Nav.Link>
+            <Nav.Link key="blog" href="/#blog">Blog</Nav.Link>
+            <Nav.Link key="directorio" href="/directorio">Directorio</Nav.Link>
+            <Nav.Link key="contacto" href="/contacto">Contacto</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     </div>
   );
 }
