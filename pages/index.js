@@ -99,7 +99,7 @@ export default function Home(props) {
                   </Nav.Item>
                   {topics.map(topic => {
                     return (
-                      <Nav.Item as="li">
+                      <Nav.Item key={topic} as="li">
                       <Nav.Link eventKey={topic} className={styles.navTopicLink}>{topic}</Nav.Link>
                       </Nav.Item>
                     );
@@ -111,17 +111,17 @@ export default function Home(props) {
           <div className={styles.postsMargin}>
             <img className={styles.backQuotes} src="/images/icons/pinkQuote.svg"></img>
             <Container className={styles.myContainer}>
-              {currentSection.map(subblock => {
+              {currentSection.map((subblock,j) => {
                 return(
-                  <>
+                  <div key={`block_${j}`}>
                   {subblock.map((row,index) => {
                     return(
-                      <Row>
+                      <Row key={`row_${index}`}>
                         {row.map((post,i) => {
                           return(
                           <Col xs={12} md={index%2 != 0 ? 4 : i == 0 ? 7 : 5} 
                                className={index%2 != 0 ? styles.smPost : i == 0 ? styles.lgPost  : styles.mdPost }
-                               key={post.slug}>
+                               key={`post_${i}`}>
                             <a href={"/blog/" + post.slug} className={styles.post}>
                               <img src={post.image} className={`img-responsive ${styles.fitImage}`}></img>
                               <h5>
@@ -137,7 +137,7 @@ export default function Home(props) {
                       </Row>
                     )
                   })}
-                  </>
+                  </div>
                 )
               })}
             </Container>

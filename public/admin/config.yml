@@ -33,6 +33,7 @@ collections:
     folder: "directory"
     create: true
     identifier_field: name
+    slug: "{{day}}-{{month}}-{{year}}-{{name}}"
     fields:
       - {label: "Nombre", name: "name", widget: "string"}
       - {label: "Profesión", name: "job", widget: "string"}

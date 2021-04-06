@@ -34,15 +34,31 @@ export default function Directorio(props) {
         <div className={styles.directory}>
           <Container className="text-center">
             <Row>
-              {directory.map(woman => {
+              {directory.map((woman,i) => {
                 return(
-                  <Col xs={12} md={4} className={styles.directoryCard}>
+                  <Col key={`woman_${i}`} xs={12} md={4} className={styles.directoryCard}>
                     <Row>
                       <Col xs={2} md={2} className={styles.socialCard}>
-                        <a href={woman.facebook}><img src="/images/icons/social/facebookSquare.svg" alt="facebook"/></a><br/>
-                        <a href={woman.email}><img src="/images/icons/social/emailSquare.svg" alt="email"/></a><br/>
-                        <a href={woman.twitter}><img src="/images/icons/social/twitterSquare.svg" alt="twitter"/></a><br/>
-                        <a href={woman.instagram}><img src="/images/icons/social/instagramSquare.svg" alt="instagram"/></a>
+                        {woman.facebook &&
+                          <>
+                          <a href={woman.facebook}><img src="/images/icons/social/facebookSquare.svg" alt="facebook"/></a><br/>
+                          </>
+                        }
+                        {woman.email &&
+                          <>
+                          <a href={woman.email}><img src="/images/icons/social/emailSquare.svg" alt="email"/></a><br/>
+                          </>
+                        }
+                        {woman.twitter &&
+                          <>
+                          <a href={woman.twitter}><img src="/images/icons/social/twitterSquare.svg" alt="twitter"/></a><br/>
+                          </>
+                        }
+                        {woman.instagram &&
+                          <>
+                          <a href={woman.instagram}><img src="/images/icons/social/instagramSquare.svg" alt="instagram"/></a>
+                          </>
+                        }
                       </Col>
                       <Col xs={10} md={10}>
                         <img src={woman.image}></img>
@@ -67,15 +83,15 @@ export default function Directorio(props) {
 export const getStaticProps = async () => {
 
   const fs = require("fs");
-  const yaml = require('js-yaml')
+  const matter = require("gray-matter");
   const path = require("path");
 
   const files = fs.readdirSync("directory");
   const directory = files.map(filename => {
-      const rawContent = fs.readFileSync(path.join("directory",filename), 'utf8');
-      const data = yaml.load(rawContent);
+      const rawContent = fs.readFileSync(path.join("directory",filename)).toString();
+      const { data } = matter(rawContent);
       return data;
-    });
+  });
 
   return {
     props: { directory }

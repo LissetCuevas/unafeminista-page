@@ -14,15 +14,7 @@ import React, { useState, useEffect } from 'react'
 
 export default function Contacto(props) {
   
-  const books = props.books;
-  const getCurrentBook = (books) => {
-    for (let book in books) {
-      if (books[book].position == 1){
-        return books[book];
-      }
-    }
-  };
-  const currentBook = getCurrentBook(books) ? getCurrentBook(books) : books.book1;
+  const currentBook = props.books.currentBook;
 
   return (
     <div>

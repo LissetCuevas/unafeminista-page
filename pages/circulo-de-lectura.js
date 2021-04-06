@@ -10,22 +10,9 @@ import styles from '../styles/Section.module.css';
 import React, { useState, useEffect } from 'react'
 
 export default function CirculoDeLectura(props){
+  const currentBook = props.books.currentBook;
+  const futureBooks = [props.books.book1,props.books.book2,props.books.book3,props.books.book4];
 
-  const getOrderedBooks = (books) =>{
-    let currentBook = {};
-    let futureBooks = [];
-    for (let book in books) {
-      if (books[book].position == 1){
-        currentBook = books[book];
-      }else{
-        futureBooks.push(books[book]);
-      }
-    }
-    futureBooks.sort((a, b)=> a.position - b.position);
-    return [currentBook,futureBooks];
-  }
-  const books = props.books;
-  const [currentBook, futureBooks] = getOrderedBooks(books);
   return (
     <div>
       <Head>
@@ -39,7 +26,7 @@ export default function CirculoDeLectura(props){
 
       <StaticNavbar/>
       <main>
-        <div class={styles.currentBook}>
+        <div className={styles.currentBook}>
           <Container>
             <Row>
               <Col xs={12} md={7} className={styles.smHide}>
@@ -110,10 +97,10 @@ export default function CirculoDeLectura(props){
           <h3>Próximos libros</h3>
           <Container>
             <Row>
-              {futureBooks.map(book => {
+              {futureBooks.map((book,i) => {
                 return(
-                  <Col xs={12} md={3} className={styles.books}>
-                    <img src={book.image}></img>
+                  <Col key={`book_${i}`} xs={12} md={3} className={styles.books}>
+                    <img src={book} alt=""></img>
                   </Col>
                 )
               })}
