@@ -67,7 +67,7 @@ export default function Home(props) {
       <StaticNavbar/>
      
       <main>
-        <div id="mainPost">
+        <div id="mainPost" className={styles.mainPost}>
           <Container>
             <Row>
               <Col xs={12} md={6} className={styles.mainPostCol}>

@@ -48,7 +48,11 @@
     font-size: 1.3em;
   }
   .navDiv{
-    position:relative;
+    position:fixed;
+    width: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 3px rgba(36, 36, 36, 0.2);
+    z-index: 2;
   }
   .nav button{
     margin-left: 90%;
@@ -69,5 +73,8 @@
   }
   .brandName p{
     font-size: 1.5em;
+  }
+  .nav_link a{
+    font-weight: 400;
   }
 }

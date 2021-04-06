@@ -18,7 +18,7 @@ export default function Directorio(props) {
     <div>
       <Head>
         <title>Directorio</title>
-        <link rel="icon" href="/images/logo.jpg" />
+        <link rel="icon" href="/images/logoRojo.png" />
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
@@ -32,8 +32,8 @@ export default function Directorio(props) {
           <p>Hemos creado un directorio de mujeres para mujeres dónde encontrás servicios con perspectiva de genero.</p>
         </div>
         <div className={styles.directory}>
-          <Container className="text-center">
-            <Row>
+          <Container>
+            <Row className="justify-content-center">
               {directory.map((woman,i) => {
                 return(
                   <Col key={`woman_${i}`} xs={12} md={4} className={styles.directoryCard}>

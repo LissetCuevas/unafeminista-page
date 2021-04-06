@@ -230,7 +230,7 @@
 }
 
 .directory{
-  padding: 1.5% 10% 5% 10%;
+  padding: 1.5% 5% 5% 5%;
   font-family: var(--second-font-family);
 }
 
@@ -312,12 +312,6 @@
   height: 12em;
 }
 
-@media (max-width: 880px) {
-  .directory{
-    padding: 1.5% 5% 5% 5%;
-  }
-}
-
 @media (max-width: 780px) {
   .nosotras img{
     height: 10em;
@@ -325,7 +319,7 @@
   .content {
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 5%;
+    padding-top: 6em;
   }
 
   .coverManifiesto p{
@@ -408,8 +402,17 @@
     width: 8em;
   }
 
-  .directory{
-    padding: 1.5% 3% 5% 3%;
+  .currentBook{
+    margin-top: 0;
+    padding-top: 6.5em;
+  }
+
+  .headerDirectory{
+    padding-top: 6.5em;
+  }
+  .contact{
+    margin-top: 0;
+    padding-top: 6.5em;
   }
 }
 
