@@ -51,7 +51,7 @@ collections:
         fields:
           - label: "Libro actual"
             name: currentBook
-            widget: list
+            widget: object
             fields:
               - {label: Titulo, name: title, widget: string}
               - {label: Autora, name: author, widget: string}
