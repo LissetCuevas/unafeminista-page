@@ -15,6 +15,7 @@
   
 .manifiesto{
   margin: 5% 0 5% 0;
+  padding: 0 12% 0 12%; 
 }
 
 .manifiesto h1{
@@ -28,8 +29,8 @@
   font-size: 1.3em;
 }
 
-#bienvenidaP{
-  font-size: 2.2em;
+.bienvenidaP{
+  font-size: 2.2em !important;
 }
 
 .nosotras{
@@ -413,6 +414,9 @@
   .contact{
     margin-top: 0;
     padding-top: 6.5em;
+  }
+  .bienvenidaP{
+    font-size: 1.7em !important;
   }
 }
 

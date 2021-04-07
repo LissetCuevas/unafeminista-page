@@ -122,7 +122,7 @@ export default function Manifiesto() {
           <p>Nos convertimos en un abrazo de luz en medio de las sombras del patriarcado.</p>
           <img src="/images/marcha.png"></img>
         </div>
-        <div className={`${styles.content} ${styles.manifiesto}`}>
+        <div className={styles.manifiesto}>
           <h1>Manifiesto</h1>
           <p>
             Una Feminista inicia el 19 de Agosto de 2013 como una propuesta web de difusión de contenido feminista, 
@@ -146,7 +146,7 @@ export default function Manifiesto() {
             In girl power we trust, las morras hacemos revolución, somos las hijas rebeldes y contestonas que un día les 
             dijeron “Tu te callas” pero no nos callaron, nos hicieron replicar más fuerte.
           </p>
-          <p id="bienvenidaP">
+          <p className={styles.bienvenidaP}>
             Bienvenida.
           </p>
         </div>
