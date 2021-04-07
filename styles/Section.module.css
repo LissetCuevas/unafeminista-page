@@ -421,6 +421,10 @@
     display: none;
   }
 
+  .nosotras h2{
+    text-align: center;
+  }
+
   .nosotras img{
     height: 14em;
   }

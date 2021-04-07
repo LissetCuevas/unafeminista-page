@@ -5,7 +5,7 @@ media_folder: public/images/media #images that are uploaded via Netlify Cms inte
 public_folder: /images/media
 site_url: https://unafeminista.com
 display_url: https://unafeminista.com
-logo_url: /images/logo.jpg
+logo_url: /images/logoRojo.png
 default_locale: 'es'
 local_backend: true
 show_preview_links: true

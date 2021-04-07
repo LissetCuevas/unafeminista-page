@@ -43,13 +43,17 @@
 
 @media (max-width: 680px) {
     .disapearContent{
-      display: none;
+        display: none;
     }
 
     .footer {
-        padding-top: 10px;
+        padding-top: 1.3em;
         padding-left: 5%;
         padding-right: 5%;
-        padding-bottom: 10px;
+        padding-bottom: 1.1em;
+    }
+
+    .socialFooter{
+        width: 100%;
     }
 }
