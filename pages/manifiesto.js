@@ -183,6 +183,12 @@ export default function Manifiesto() {
                     <h4>{lead.name}</h4>
                     <h6>{lead.position}</h6>
                     <p>{lead.description}</p>
+                    <div className={styles.socialModal}>
+                      <a href="https://www.facebook.com/Unafeministamx"><img src="/images/icons/social/facebookSquare.svg" alt="facebook"/></a>
+                      <a href="https://www.facebook.com/Unafeministamx"><img src="/images/icons/social/instagramSquare.svg" alt="instagram"/></a>
+                      <a href="https://www.facebook.com/Unafeministamx"><img src="/images/icons/social/emailSquare.svg" alt="mail"/></a>
+                      <a href="https://www.facebook.com/Unafeministamx"><img src="/images/icons/social/twitterSquare.svg" alt="twitter"/></a>
+                    </div>
                   </Col>
                   <Col xs={12} md={6}>
                     <p className={styles.leadfavInfoModal}>

@@ -12,22 +12,31 @@ import Footer from '../components/footer'
 import styles from '../../styles/Post.module.css';
 
 const Post = ({stats, htmlString, data}) => {
+
+    const copy = function(e) {
+        let selection = document.getSelection();
+        let source = '\nFuente '  + window.location.href
+        e.clipboardData.setData('text/plain', selection + source);
+        console.log()
+        e.preventDefault();
+    }
+
     return( 
         <div>
             <Head>
                 <title>{data.title}</title>
                 <meta title="description" content={data.description}/>
+                <link rel="icon" href="/images/logo.jpg"/>
                 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
             </Head>
             <StaticNavbar/>
-            <main>
+            <main onCopy={copy}>
                 <div className={`text-center d-line align-center ${styles.coverArticle}`} style={{background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${data.image}) center/cover fixed no-repeat`}}>
                     <div className={styles.centerDiv}>
-                        <p>14/01/2020</p>
+                        <p>{data.date}</p>
                         <h1>{data.title}</h1>
                         <hr/>
-                        <p>{data.author} &emsp;- &emsp;@cuenta_twitter</p>
-                        <p>Foto: Catillo Lujo</p>
+                        <p>{data.author} &emsp;- &emsp;{data.authorTwitter}</p>
                         <p>
                             <img src="/images/icons/time.svg"/>&nbsp;{Math.ceil(stats.minutes)} min 
                             &ensp;&ensp;
@@ -45,14 +54,14 @@ const Post = ({stats, htmlString, data}) => {
                     <Container>
                         <Row>
                             <Col xs={12} md={4} className="text-center">
-                                <img src="/images/leads/AndreaGarcia.png"/>
+                                <img src={data.authorPhoto}/>
                             </Col>
                             <Col xs={12} md={8} className={styles.authorDescrip}>
                                 <p>
-                                    Margarita Mantilla (Ciudad de México, 1985) Socióloga e investigadora feminista, Maestra en estudios de la mujer por la UAM-X. Cofundadora de CoCu (Colectiva Cuerpa), Feministas de la UAM-X, Me gusta menstruar y creadora de Tallercitas feministas (espacio para la formación política feminista). Especialista en teoría feminista, desde donde trata los temas de maternidad, economía feminista, acoso callejero, vientres de alquiler, relaciones de género, gordAfobia y más. Apasionada por la música, el cine y la literatura, especialmente donde las realizadoras son mujeres.
+                                    <b>{data.author}</b>. {data.authorDescription}
                                 </p>
                                 <p>
-                                    @cuentatwitter  @instagram @facebook
+                                    {data.authorTwitter}
                                 </p>
                             </Col>
                         </Row>

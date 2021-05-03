@@ -57,7 +57,7 @@ export default function Home(props) {
     <div>
       <Head>
         <title>Una Feminista</title>
-        <link rel="icon" href="/images/logo.jpg" />
+        <link rel="icon" href="/images/logo.jpg"/>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
@@ -120,10 +120,10 @@ export default function Home(props) {
                         {row.map((post,i) => {
                           return(
                           <Col xs={12} md={index%2 != 0 ? 4 : i == 0 ? 7 : 5} 
-                               className={index%2 != 0 ? styles.smPost : i == 0 ? styles.lgPost  : styles.mdPost }
+                               className={index%2 != 0 ? styles.smPost : i == 0 ? styles.lgPost  : styles.mdPost}
                                key={`post_${i}`}>
                             <a href={"/blog/" + post.slug} className={styles.post}>
-                              <img src={post.image} className={`img-responsive ${styles.fitImage}`}></img>
+                              <img src={post.image}></img>
                               <h5>
                                 {post.title}
                               </h5>

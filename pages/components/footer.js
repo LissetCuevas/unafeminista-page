@@ -22,10 +22,10 @@ const Footer = () => {
             <p>©2021 Una feminista - <a href="#">Terminos y condiciones</a></p>
           </div>
           <div className={`d-flex justify-content-center justify-content-md-end ${styles.socialFooter}`}>
-            <Nav.Link href="https://www.facebook.com"><img src="/images/icons/social/facebook.svg" alt="facebook"/></Nav.Link>
-            <Nav.Link href="https://www.instagram.com"><img src="/images/icons/social/twitter.svg" alt="twitter"/></Nav.Link>
+            <Nav.Link href="https://www.facebook.com/Unafeministamx"><img src="/images/icons/social/facebook.svg" alt="facebook"/></Nav.Link>
+            <Nav.Link href="https://twitter.com/unafeministamx"><img src="/images/icons/social/twitter.svg" alt="twitter"/></Nav.Link>
             <Nav.Link href="https://www.youtube.com"><img src="/images/icons/social/youtube.svg" alt="youtube"/></Nav.Link>
-            <Nav.Link href="https://www.instagram.com"><img src="/images/icons/social/instagram.svg" alt="instagram"/></Nav.Link>
+            <Nav.Link href="https://www.instagram.com/unafeminista/"><img src="/images/icons/social/instagram.svg" alt="instagram"/></Nav.Link>
           </div>
       </Nav>
     </footer>

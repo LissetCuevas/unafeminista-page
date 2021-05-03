@@ -67,7 +67,7 @@
 }
 
 .modalPad{
-  padding: 0 3% 0 3%;
+  padding: 0 3% 2.5% 3%;
 }
 
 .closeModal{
@@ -98,6 +98,10 @@
 
 .leadfavInfoModal img{
   margin-right: 0.5em;
+}
+
+.socialModal a {
+  margin-right: 10px;
 }
 
 .leadfavQuote{

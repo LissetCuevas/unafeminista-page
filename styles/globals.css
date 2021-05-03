@@ -7,8 +7,14 @@
   --main-font-family: 'Playfair Display', serif;
   --second-font-family: 'Manrope', sans-serif;
 }
+
 body {
   color: black;
+}
+
+::selection {
+  color: white;
+  background: #F096A3;;
 }
 
 @media (max-width: 980px) {

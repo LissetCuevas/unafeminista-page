@@ -1,0 +1,41 @@
+---
+title: La roca que flotaba en el espacio
+description:
+image: /images/media/larocaqueflota.jpg
+tag: Cultura
+main: false
+date: '10-10-2020'
+audio:
+author: Diana la random
+authorDescription: "Arquitecta, fotógrafa y poeta por las noches. Cuéntame tu historia de fantasmas y la hacemos un dibujo de luz. Virgo."
+authorPhoto: /images/media/dianalarandom.png
+authorTwitter: '@diana_la_random'
+---
+
+> «¡Hágase la luz!», dijo, y la luz fue hecha. Brotó súbitamente del hondo abismo la luz etérea, lo primero de todo, la esencia más pura de las cosas, y desde su nativo oriente comenzó a esparcirse por entre las sombras aéreas, ciñéndola una nube esférica y radiante. 
+John Milton
+El Paraiso Perdido 
+
+¿Hay vida en el tercer planeta? Tardamos en encontrar pruebas; se pensaba que no: ¿Cómo alguien podría vivir dentro de esa atmósfera repleta de nitrógeno y oxigeno? No sabemos si el objetivo principal era demostrar la existencia de vida para los demás vecinos interplanetarios, pero, obstinados como siempre: los afamados –y no tan afamados– fotógrafos, con su tecnología de punta se empeñaron de manera primordial en exponer la existencia de la misma en todo el globo terráqueo.
+
+Pero tercos y contradictorios, como siempre, los afamados –y no tan afamados– “fotógrafos” con su tecnología de punta buscan demostrar que si existe. Ellos se detienen dentro de lapsos temporo-espaciales y observan a su presa, la asechan, la acorralan, esperan la llegada del instante decisivo. Por unos segundos se detiene su pulso, su respiración... de pronto, ¡bang!, disparan a quema ropa, aprisionan la vida que tanto buscaron demostrar. 
+Pero, me adelante demasiado: ¿quién o qué son los fotógrafos?¿de qué están hechos?¿su composición anatómica es la misma que de cualquier otro ser humano?. Hay que remontarnos algunos siglos antes en la historia de la humanidad: se descubrió el fuego, la escritura, inclusive se descubrió el propio ser humano en el reflejo de las superficies y en el reflejo de su propio inconsciente. 
+Si en algún rasgo sobresalen los terrícolas es en la curiosidad casi obscena con la que enfrentan la existencia: ¿cómo regalar la memoria? ¿cómo encapsular fragmentos de realidad? los habitantes de la Francia revolucionaria se concentraron en obtener la copia más fiel de la mirada: entre las respuestas a este enigma buscaban algo que solo podía ser escrito con luz, ya existía una preconcepción de la imagen proyectada: se sumía un espacio en la oscuridad y por un pequeño orificio el exterior entraba volteando la imagende forma horizontal y vertical. La ciencia en oriente ya tenía estudios sobre este fenómeno, Abu Ali iban al-Hasan (965-1038) ya había estudiado el funcionamiento del ojo por medio de estos juegos físico/espaciales. 
+Varios terrícolas lograron que la imagen se fijara en una placa de metal: un espejo con memoria. A este singular objeto se le bautizo con el nombre de fotografía, termino proveniente del griego φῶς (phōs: luz), y γράφω (graf:escribir, trazar), que en conjunto, se refería a un grabado o escrito con luz. Pero, los humanos incapaces de descubrir lo que “realidad” significa aun no estaban listos para verse dentro de un una superficie estática: la vida tan dinámica, acelerada e indispuesta al silencio, se resistía a quedar impresa en una simple placa de metal ¿cómo meter todo ese movimiento, todas esas zonas, espacios: hasta los recovecos más profundos del ser humano, dentro de una superficie de 21x16cm? 
+Pronto empezó el desarrollo del objeto que de forma masiva reproduciría la imagen de la mirada, a este se le nombró cámara haciendo alusión al sentido espacial para aprisionar los instantes dentro de sus “cuatro paredes”. El primer resultado de este extraño artefacto introducía tanta luz que la vida en movimiento no se imprimía en él, escenas desoladas, nos indicaban que de algún modo se construyeron todos esos espacios y objetos, pero, ¿qué era lo que habitaba la tierra?
+
+Para que cualquier ser pudiera capturarse en la cámara debía permanecer en la misma posición al menos 8 minutos: haciendo imposible hacer fotografías en el día a día. Pero, cualquier dificultad técnica fue rápidamente resuelta: el retrato en estudio fotográfico fue posible gracias a utilería para rigidizar el cuerpo (vivo o muerto) por un tiempo prolongado (muy similar a aparatos de tortura), así empezó a conocerse al otro, aunque en ese momento solo sería la clase aristocrática la que podía perdurar en la memoria de los demás humanos. 
+
+A pesar de esta desventaja en el largo tiempo de exposición y por ser un proceso largo y costoso solo las clases altas podían privilegiarse de estos medios: la fotografía fue concebida como una verdad absoluta, incuestionable. 
+Por fin encontramos la prueba de que hay vida en la tierra, vida contenida en unos instantes: la fotografía y la cámara le dan la vuelta al globo terráqueo. Ya no solo el relato hablado y escrito es fundamental para el inconsciente colectivo: ahora se forja un nuevo pilar; un nuevo dios; la imagen. 
+Ahora los humanos se expresan, le dan seguimiento al otro y abortan todas las temáticas que le dan sentido a la roca que gira en el espacio: los roles y el genero, la identidad sexual, la construcción –y destrucción– del paisaje urbano y rural, el eros y el tanatos, la construcción –y destrucción– social, pero todo esto era fijado por la retina del fotógrafo, ahora ¿quién es este extraño ser y quién le da permiso de aprisionar a los otros? No hay ninguna diferencia en su anatomía respecto a demás seres humanos: el mismo número de brazos, piernas, orificios (exceptuando alguna variable previa a la concepción o provocada en algún accidente), no hay nada de anormal en ellos más que gozar de una curiosidad y morbosidad mayor por su entorno. 
+
+> El rol de la hembra humana que se preservó durante siglos (no tenemos datos exactos que asegure que haya cambiado):
+Muñeca, muda sexualizada o madre que tenía que esconderse y sostener a los niños para que lograran permanecer quietos todo el tiempo de exposición. 
+
+Pero ellos viven bajo el influjo de su tiempo, como Homero que gracias a su probable ceguera hizo un uso superior de sus cuerdas vocales, los fotógrafos gracias a su probable ceguera (la imposibilidad de ver y capturar el todo, incapaces emular al gigante Argos) se apropian de un tercer ojo mecánico para no olvidar lo efímero de la propia existencia. Los fotógrafos narran las epopeyas de su raza desde las posibilidades ontológicas de su posición geográfica, cultural y social. 
+¿Hay vida en ese planeta? los humanos lo han demostrado, en 1955 se monta la exposición The Family of Man con 503 fotografías de 273 fotógrafos, aunque ésta buscaba dar un panorama amplio de la vida humana terminó demostrando los sucesos más trágicos y dolorosos de la historia ¿Ahí estaba sumido el inconsciente colectivo?¿en la degradación, el odio, la desesperanza? después de dos guerras mundiales y varias crisis, el fotógrafo empieza a girar la cámara, consciente –o no– de que sus fotografías se han utilizado para manipular masas, generar posturas y dar por sentado hechos, ahora tiene una mirada dirigida hacia el futuro: hacia sí mismo. 
+Todo este tiempo se prostituyó la imagen para la satisfacción del mejor postor, la realidad es un elemento frágil e huidizo que tiene la cualidad de no ser para todos y tal vez para ningún humano en particular. La memoria no está al alcance de todos. Los fotógrafos contemporáneos varían de temáticas, desde la más absurda hasta la más compleja: cambiando el objeto fotográfico y buscando diferentes formas de llevar a la fotografia hasta la punta más sublime del arte. 
+
+En la actualidad los seres humanos se enfrentan en un aceleracionismo y una creación masiva de fotografías/imagen: todos los humanos quieren compartirse y hacerse notar dentro del órgano sin cuerpo, extensión de la mano: el celular. El 90% de las imágenes alteran la realidad, alteran lo que se quiere hacer creer al otro. El instante decisivo ahora está a días luz de la realidad nano-segundaría, ¿Cómo se enfrentará a esta nueva relación espacio-tiempo-imagen el humano fotográfico? 
+Sus vecinos interplanetarios nos lo seguimos cuestionando. 
