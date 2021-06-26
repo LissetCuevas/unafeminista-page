@@ -79,15 +79,15 @@ export default function Home(props) {
               </Col>
               <Col xs={12} md={6} className={styles.mainPictureCol}>
                 <span>
-                <img src="/images/marcha.png"></img>
+                <img className="img-fluid" src="/images/marcha.png"></img>
                 </span>
               </Col>
             </Row>
           </Container>
         </div>
 
-        <div id="blog" className={styles.blogSection}>
-          <h1>Nuestro Blog</h1>
+        <div className={styles.blogSection}>
+          <h1 id="blog">Nuestro Blog</h1>
           <div>
             <Navbar expand="lg" className={styles.navTopic}>
               <Navbar.Toggle aria-controls="basic-navbar-nav"><img src="/images/icons/filter.svg"/></Navbar.Toggle>

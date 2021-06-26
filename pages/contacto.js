@@ -36,7 +36,7 @@ export default function Contacto(props) {
                     <h1>Contacto</h1>
                     <p>¿Te gustaría platicarnos algo? Estamos para escucharte, escribenos y te responderemos lo más pronto posible.</p>
                   </div>
-                  <Form>
+                  <Form action="mailto:unafeminista@hotmail.com" method="POST" enctype="multipart/form-data" name="Mensaje">
                     <Form.Group controlId="name">
                       <Form.Label>Nombre</Form.Label>
                       <Form.Control as="input" placeholder="Ingresa tu nombre"/>
@@ -57,7 +57,10 @@ export default function Contacto(props) {
                 <Col xs={12} md={4} className={`text-center ${styles.lecturaLinkCol} ${styles.smHide}`}>
                   <a href="/circulo-de-lectura">
                     <p>Aquí encontraras nuestro circulo de lectura</p>
+                    <img className={styles.backFloresContacto} src="/images/flores.svg"></img>
+                    <span>
                     <img src={currentBook.image}></img>
+                    </span>
                   </a>    
                 </Col>
               </Row>

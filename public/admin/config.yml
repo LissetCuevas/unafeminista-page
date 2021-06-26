@@ -22,11 +22,12 @@ collections:
       - {label: "Etiqueta", name: "tag", widget: "select",multiple: true, options: ["Cultura","Salud","Notas Rebeldes","Recomendaciones"]}
       - {label: "Principal", name: "main", widget: "boolean", default: false}
       - {label: "Fecha", name: "date", widget: "date"}
-      - {label: "Audio", name: "audio", widget: "string"}
+      - {label: "Audio", name: "audio", widget: "string", required: false}
       - {label: "Autora", name: "author", widget: "string", default: "Anonima"}
-      - {label: "Descripción Autora", name: "authorDescription", widget: "text"}
+      - {label: "Descripción Autora", name: "authorDescription", widget: "text", required: false}
       - {label: "Foto Autora", name: "authorPhoto", widget: "image"}
-      - {label: "Twitter Autora", name: "authorTwitter", widget: "string"}
+      - {label: "Instagram Autora", name: "authorTwitter", widget: "string", required: false}
+      - {label: "Email Autora", name: "authorMail", widget: "string", required: false}
       - {label: "Contenido", name: "body", widget: "markdown"}
   - name: "directory"
     label: "Directorio"
@@ -39,10 +40,12 @@ collections:
       - {label: "Profesión", name: "job", widget: "string"}
       - {label: "Descripción", name: "description", widget: "text"}
       - {label: "Imagen", name: "image", widget: "image"}
-      - {label: "Facebook", name: "facebook", widget: "string"}
-      - {label: "Instagram", name: "instagram", widget: "string"}
-      - {label: "Twitter", name: "twitter", widget: "string"}
-      - {label: "Correo", name: "email", widget: "string"}
+      - {label: "Facebook", name: "facebook", widget: "string", required: false}
+      - {label: "Instagram", name: "instagram", widget: "string", required: false}
+      - {label: "Twitter", name: "twitter", widget: "string", required: false}
+      - {label: "Correo", name: "email", widget: "string", required: false}
+      - {label: "Telefono", name: "phone", widget: "string", required: false}
+      - {label: "Página web", name: "webpage", widget: "string", required: false}
   - name: "pages"
     label: "Páginas"
     files:
@@ -62,3 +65,75 @@ collections:
           - {label: "Libro 2", name: book2, widget: image}
           - {label: "Libro 3", name: book3, widget: image}
           - {label: "Libro 4", name: book4, widget: image}
+      - label: "Nosotras"
+        name: "leads"
+        file: "site/content/leads.yml"
+        fields:
+          - label: "Posición 1"
+            name: position1
+            widget: object
+            fields:
+              - {label: Titulo, name: name, widget: string}
+              - {label: Autora, name: position, widget: string}
+              - {label: Portada, name: photo, widget: image}
+              - {label: Descripcion, name: description, widget: text}
+              - {label: Pelicula, name: movie, widget: string}
+              - {label: Mujer que admira, name: woman, widget: string}
+              - {label: Libro, name: book, widget: string}
+              - {label: "Facebook", name: "facebook", widget: "string"}
+              - {label: "Instagram", name: "instagram", widget: "string"}
+              - {label: "Twitter", name: "twitter", widget: "string"}
+              - {label: "Correo", name: "email", widget: "string"}
+              - {label: Nomostrar, name: show, widget: string}
+              - {label: Nomostrar, name: handleShow, widget: string}
+              - {label: Nomostrar, name: handleClose, widget: string}
+          - label: "Posición 2"
+            name: position2
+            widget: object
+            fields:
+              - {label: Titulo, name: name, widget: string}
+              - {label: Autora, name: position, widget: string}
+              - {label: Portada, name: photo, widget: image}
+              - {label: Descripcion, name: description, widget: text}
+              - {label: Pelicula, name: movie, widget: string}
+              - {label: Mujer que admira, name: woman, widget: string}
+              - {label: Libro, name: book, widget: string}
+              - {label: "Facebook", name: "facebook", widget: "string"}
+              - {label: "Instagram", name: "instagram", widget: "string"}
+              - {label: "Twitter", name: "twitter", widget: "string"}
+              - {label: "Correo", name: "email", widget: "string"}
+              - {label: Nomostrar, name: show, widget: string}
+              - {label: Nomostrar, name: handleShow, widget: string}
+              - {label: Nomostrar, name: handleClose, widget: string}
+          - label: "Posición 3"
+            name: position3
+            widget: object
+            fields:
+              - {label: Titulo, name: name, widget: string}
+              - {label: Autora, name: position, widget: string}
+              - {label: Portada, name: photo, widget: image}
+              - {label: Descripcion, name: description, widget: text}
+              - {label: Pelicula, name: movie, widget: string}
+              - {label: Mujer que admira, name: woman, widget: string}
+              - {label: Libro, name: book, widget: string}
+              - {label: "Facebook", name: "facebook", widget: "string"}
+              - {label: "Instagram", name: "instagram", widget: "string"}
+              - {label: "Twitter", name: "twitter", widget: "string"}
+              - {label: "Correo", name: "email", widget: "string"}
+              - {label: Nomostrar, name: show, widget: string}
+              - {label: Nomostrar, name: handleShow, widget: string}
+              - {label: Nomostrar, name: handleClose, widget: string}
+          - label: "Posición 4"
+            name: position4
+            widget: object
+            fields:
+              - {label: Titulo, name: name, widget: string}
+              - {label: Autora, name: position, widget: string}
+              - {label: Portada, name: photo, widget: image}
+              - {label: Descripcion, name: description, widget: text}
+              - {label: Pelicula, name: movie, widget: string}
+              - {label: Mujer que admira, name: woman, widget: string}
+              - {label: Libro, name: book, widget: string}
+              - {label: Nomostrar, name: show, widget: string}
+              - {label: Nomostrar, name: handleShow, widget: string}
+              - {label: Nomostrar, name: handleClose, widget: string}

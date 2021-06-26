@@ -151,7 +151,7 @@ export default function Manifiesto() {
           </p>
         </div>
         <div className={styles.nosotras}>
-          <h2 className={styles.content}>Nosotras</h2>
+          <h2 id="nosotras" className={styles.content}>Nosotras</h2>
           <Container>
             <Row>
               {leads.map((lead,i) => {

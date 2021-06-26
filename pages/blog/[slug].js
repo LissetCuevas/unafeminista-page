@@ -62,6 +62,8 @@ const Post = ({stats, htmlString, data}) => {
                                 </p>
                                 <p>
                                     {data.authorTwitter}
+                                <br></br>
+                                    {data.authorMail}
                                 </p>
                             </Col>
                         </Row>

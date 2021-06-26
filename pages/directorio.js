@@ -59,6 +59,17 @@ export default function Directorio(props) {
                           <a href={woman.instagram}><img src="/images/icons/social/instagramSquare.svg" alt="instagram"/></a>
                           </>
                         }
+                        {woman.webpage &&
+                          <>
+                          <a href={woman.webpage}><img src="/images/icons/social/instagramSquare.svg" alt="instagram"/></a>
+                          </>
+                        }
+                        {woman.phone &&
+                          <>
+                          <a href={`https://wa.me/${woman.phone}`}>
+                            <img src="/images/icons/social/instagramSquare.svg" alt="instagram"/></a>
+                          </>
+                        }
                       </Col>
                       <Col xs={10} md={10}>
                         <img src={woman.image}></img>

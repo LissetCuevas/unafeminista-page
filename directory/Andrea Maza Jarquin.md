@@ -6,4 +6,5 @@ image: "/images/media/AndreaMaza-Piscologa.png"
 instagram: "www.instagram.com"
 twitter: "www.instagram.com"
 email: "micorreo@gmail.com"
+phone: 5215574309188
 ---

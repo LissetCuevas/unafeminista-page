@@ -36,7 +36,10 @@ export default function CirculoDeLectura(props){
                 <a href="https://forms.gle/GwTu8se6xxNGTgw99">Lee con nosotras</a>
               </Col>
               <Col xs={12} md={5} className="text-center">
+                <img className={styles.backFloresCirculo} src="/images/flores.svg"></img>
+                <span>
                 <img src={currentBook.image}></img>  
+                </span>
                 <h4>Este mes</h4>  
               </Col>
             </Row>

@@ -10,10 +10,10 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <Nav className={styles.disapearContent}>
-        <Nav.Link href="/nosotras">Nosotras</Nav.Link>
-        <Nav.Link href="/manifesto">Manifeseto</Nav.Link>
-        <Nav.Link href="/circulo-de-estudio">Circulo de lectura</Nav.Link>
-        <Nav.Link href="/blog">Blog</Nav.Link>
+        <Nav.Link href="/manifiesto#nosotras">Nosotras</Nav.Link>
+        <Nav.Link href="/manifiesto">Manifieseto</Nav.Link>
+        <Nav.Link href="/circulo-de-lectura">Circulo de lectura</Nav.Link>
+        <Nav.Link href="/#blog">Blog</Nav.Link>
         <Nav.Link href="/contacto">Contacto</Nav.Link>
       </Nav>
       <hr className={styles.disapearContent}/>
@@ -23,9 +23,10 @@ const Footer = () => {
           </div>
           <div className={`d-flex justify-content-center justify-content-md-end ${styles.socialFooter}`}>
             <Nav.Link href="https://www.facebook.com/Unafeministamx"><img src="/images/icons/social/facebook.svg" alt="facebook"/></Nav.Link>
-            <Nav.Link href="https://twitter.com/unafeministamx"><img src="/images/icons/social/twitter.svg" alt="twitter"/></Nav.Link>
-            <Nav.Link href="https://www.youtube.com"><img src="/images/icons/social/youtube.svg" alt="youtube"/></Nav.Link>
+            <Nav.Link href="https://www.twitter.com/unafeministamx"><img src="/images/icons/social/twitter.svg" alt="twitter"/></Nav.Link>
+            <Nav.Link href="https://www.youtube.com/channel/UCcvwkE9-lIIhrQ9DAPoG_kA"><img src="/images/icons/social/youtube.svg" alt="youtube"/></Nav.Link>
             <Nav.Link href="https://www.instagram.com/unafeminista/"><img src="/images/icons/social/instagram.svg" alt="instagram"/></Nav.Link>
+            <Nav.Link href="/podcast"><img src="/images/icons/microphone.svg" alt="podcast"/></Nav.Link>
           </div>
       </Nav>
     </footer>

@@ -4,18 +4,19 @@
 
 .coverManifiesto p{
   font-family: var(--main-font-family);
-  font-size: 1.5em;
+  font-size: 3.5vh;
   padding: 2% 10% 0 10%;
 }
 
 .coverManifiesto img{
-  height: 35em;
+  height: 68vh;
   margin-top: -3em;
 }
   
 .manifiesto{
-  margin: 5% 0 5% 0;
+  margin: 6% 0 6% 0;
   padding: 0 12% 0 12%; 
+  text-align: center;
 }
 
 .manifiesto h1{
@@ -120,14 +121,45 @@
 }
 
 .currentBook img{
-  margin-top: 15%;
-  height: 16em;
+  margin-top: 4em;
+  height: 15em;
+  text-align:center;
+  border-radius: 6%;
+}
+
+.backFloresCirculo{
+  position: absolute;
+  right:10em;
+  top: 5em;
+  z-index: -1;
+  width: 11em;
+}
+
+.currentBook span {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.currentBook span::before {
+  content: ' ';
+  position: absolute;
+  left: -3.8em;
+  top: 1.5em;
+  right: 0;
+  bottom: 0;
+  width: 18em;
+  height: 18em;
+  background: #DAB9F0;
+  border-radius: 50%;
+  z-index: -2;
 }
 
 .currentBook h4{
   font-family: var(--main-font-family);
   font-size: 2.2em;
   font-weight: 700;
+  margin-top: 10px;
   color: #C281ED;
 }
 
@@ -304,6 +336,10 @@
   display: inline-block;
 }
 
+.contact button:hover{
+  background-color: #eb2e4a;
+}
+
 .lecturaLinkCol{
   padding: 2em 3em 0 5em;   
 }
@@ -311,16 +347,48 @@
 .lecturaLinkCol a{
   text-decoration: none;
   color: black;
+  
 }
 
 .lecturaLinkCol img{
+  margin-top: 3em;
   height: 12em;
+  text-align:center;
+  border-radius: 6%;
 }
 
-@media (max-width: 780px) {
+.backFloresContacto{
+  position: absolute;
+  right:10.5em;
+  top: 12.3em;
+  z-index: -1;
+  width: 7.5em;
+}
+
+.lecturaLinkCol span {
+  position: relative;
+  display: inline-block;
+}
+
+.lecturaLinkCol span::before {
+  content: ' ';
+  position: absolute;
+  left: -3em;
+  top: 1em;
+  right: 0;
+  bottom: 0;
+  width: 14em;
+  height: 14em;
+  background: #DAB9F0;
+  border-radius: 50%;
+  z-index: -2;
+}
+
+@media (max-width: 991px) {
   .nosotras img{
     height: 10em;
   }
+
   .content {
     padding-left: 5%;
     padding-right: 5%;

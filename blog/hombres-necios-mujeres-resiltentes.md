@@ -11,6 +11,7 @@ authorDescription: "(Ciudad de México, 1985) Socióloga e investigadora feminis
 "
 authorPhoto: /images/media/margaritamantilla.png
 authorTwitter: '@mag_cosmos'
+authorMail: 'micorreoeste@mag_cosmos.com'
 ---
 
 Frida Kahlo, Rosario Castellanos, Elena Garro y 

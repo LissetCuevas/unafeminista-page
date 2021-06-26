@@ -72,7 +72,7 @@
 }
 
 .mainPictureCol img {
-  height: 36em;
+  height: 80vh;
   margin: -2em 0 0 0;
   position: relative;
 }
@@ -80,10 +80,15 @@
 .mainPostCol {
   padding-top: 6%;
   padding-right: 2%;
+  height:100px;
+}
+
+.mainPostCol, .mainPictureCol{
+  height: 69vh;
 }
 
 .mainPostCol h1 {
-  font-size: 4.5em;
+  font-size: 10.5vh;
   font-family: var(--title-font-family);
   padding-bottom: 10px;
 }
@@ -104,7 +109,7 @@
   border: none;
   border-radius: 40px;
   display: inline-block;
-  margin-top: 50px;
+  margin-top: 6vh;
 }
 
 .blogSection h1 {
@@ -162,13 +167,13 @@
   width: 13em;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 767px) {
   .mainPostCol{
     display: none;
   }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 991px) {
   .mainPostCol h1 {
     font-size: 2.5em;
   }
@@ -199,30 +204,40 @@
   }
 
   .mainPictureCol img {
-    height: 22em;
+    height: 17.5em;
     margin: auto;
   }
 
-  .lgPost {
-    height:28em;
+  .lgPost, .mdPost{
+    min-height: 28em;
+    height: auto;
   }
 
-  .mdPost {
-    height:28em;
+  .mdPost img, .lgPost img {
+    height: 22em;
+    width: 100%;
   }
 
   .navTopic button {
     border: 0;
     margin-left: 85%;
   }
+
   .navTopic button:focus {
     box-shadow: none;
   }
+
   .navP {
     padding: 0.5rem 1rem 0.5rem 0;
     margin-bottom: 0;
   }
+
   .mainPost {
     padding-top: 6.1em;
   }
+
+  .mainPostCol, .mainPictureCol{
+    height: 340px;
+  }
+  
 }
