@@ -5,4 +5,5 @@ description: "Hola soy Jimena y soy asesora de lactancia materna feminista y bus
 image: "/images/media/Jimena.png"
 instagram: "https://www.instagram.com/todaspara1/"
 email: "todasparaunaparatodas@gmail.com"
+linkedin: "https://www.linkedin.com"
 ---

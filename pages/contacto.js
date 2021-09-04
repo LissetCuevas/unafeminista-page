@@ -8,9 +8,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import styles from '../styles/Section.module.css';
+import styles from '../styles/sections/Contacto.module.css';
 
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 
 export default function Contacto(props) {
   
@@ -23,8 +23,8 @@ export default function Contacto(props) {
         <link rel="icon" href="/images/logo.jpg" />
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossOrigin="anonymous" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossOrigin="anonymous"></script>
       </Head>
 
       <StaticNavbar/>
@@ -57,10 +57,9 @@ export default function Contacto(props) {
                 <Col xs={12} md={4} className={`text-center ${styles.lecturaLinkCol} ${styles.smHide}`}>
                   <a href="/circulo-de-lectura">
                     <p>Aquí encontraras nuestro circulo de lectura</p>
-                    <img className={styles.backFloresContacto} src="/images/flores.svg"></img>
-                    <span>
-                    <img src={currentBook.image}></img>
-                    </span>
+                    <div className={styles.bgCircleWFlowers}>
+                      <img src={currentBook.image}></img>
+                    </div>
                   </a>    
                 </Col>
               </Row>

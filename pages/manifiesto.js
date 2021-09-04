@@ -7,9 +7,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Modal from 'react-bootstrap/Modal';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import styles from '../styles/Section.module.css';
+import styles from '../styles/sections/Manifiesto.module.css';
 
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 
 export default function Manifiesto() {
 
@@ -112,15 +112,17 @@ export default function Manifiesto() {
         <link rel="icon" href="/images/logo.jpg" />
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossOrigin="anonymous" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossOrigin="anonymous"></script>
       </Head>
 
       <StaticNavbar/>
       <main>
         <div className={`text-center ${styles.coverManifiesto} ${styles.content}`}>
           <p>Nos convertimos en un abrazo de luz en medio de las sombras del patriarcado.</p>
-          <img src="/images/marcha.png"></img>
+          <div>
+            <img src="/images/marcha[3108].png"></img>
+          </div>
         </div>
         <div className={styles.manifiesto}>
           <h1>Manifiesto</h1>
@@ -161,6 +163,10 @@ export default function Manifiesto() {
                     <img src={lead.photo}/>
                     <h3>{lead.name}</h3>
                     <p>{lead.position}</p>
+                    <div className={styles.conoceme}>
+                      <p>Conóceme</p>
+                      <img src="images/icons/arrow.svg"></img>
+                    </div>
                     </a>
                   </Col>
                 )
@@ -184,10 +190,11 @@ export default function Manifiesto() {
                     <h6>{lead.position}</h6>
                     <p>{lead.description}</p>
                     <div className={styles.socialModal}>
-                      <a href="https://www.facebook.com/Unafeministamx"><img src="/images/icons/social/facebookSquare.svg" alt="facebook"/></a>
-                      <a href="https://www.facebook.com/Unafeministamx"><img src="/images/icons/social/instagramSquare.svg" alt="instagram"/></a>
-                      <a href="https://www.facebook.com/Unafeministamx"><img src="/images/icons/social/emailSquare.svg" alt="mail"/></a>
-                      <a href="https://www.facebook.com/Unafeministamx"><img src="/images/icons/social/twitterSquare.svg" alt="twitter"/></a>
+                      <a href="https://www.facebook.com/Unafeministamx"><img src="/images/icons/social/facebookIcon.svg" alt="facebook"/></a>
+                      <a href="https://www.facebook.com/Unafeministamx"><img src="/images/icons/social/instagramIcon.svg" alt="instagram"/></a>
+                      <a href="https://www.facebook.com/Unafeministamx"><img src="/images/icons/social/emailIcon.svg" alt="mail"/></a>
+                      <a href="https://www.facebook.com/Unafeministamx"><img src="/images/icons/social/twitterIcon.svg" alt="twitter"/></a>
+                      <a href="https://www.facebook.com/Unafeministamx"><img src="/images/icons/social/linkedinIcon.svg" alt="linkedin"/></a>
                     </div>
                   </Col>
                   <Col xs={12} md={6}>

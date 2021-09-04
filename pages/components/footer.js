@@ -1,8 +1,5 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../../styles/Footer.module.css';
 
@@ -18,8 +15,8 @@ const Footer = () => {
       </Nav>
       <hr className={styles.disapearContent}/>
       <Nav className={styles.smallFooter}>
-          <div className={`${styles.termsFooter} ${styles.disapearContent}`}>
-            <p>©2021 Una feminista - <a href="#">Terminos y condiciones</a></p>
+          <div className={`${styles.termsFooter} ${styles.terms}`}>
+            <p><a href="/terminos-y-condiciones">©2021 Una feminista - Terminos y condiciones</a></p>
           </div>
           <div className={`d-flex justify-content-center justify-content-md-end ${styles.socialFooter}`}>
             <Nav.Link href="https://www.facebook.com/Unafeministamx"><img src="/images/icons/social/facebook.svg" alt="facebook"/></Nav.Link>

@@ -1,0 +1,148 @@
+.currentBook{
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+.currentBook img{
+    margin-top: 5em;
+    height: 15em;
+    text-align:center;
+    border-radius: 6%;
+}
+.bgCircleWFlowers{
+    background-image: url("/images/Ciculo_flores.png");
+    background-repeat: no-repeat;
+    background-size: 20em auto;
+    background-position: center top;
+}
+.currentBook h4{
+    font-family: var(--main-font-family);
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #C281ED;
+}
+.currentBook h1{
+    font-family: var(--title-font-family);
+    font-size: 3.2em;
+}
+.currentBook h2{
+    font-family: var(--main-font-family);
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.currentBook p{
+    font-family: var(--main-font-family);
+    font-size: 1.1em;
+    margin-top: 1.3em;
+}
+.currentBook a{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: var(--main-font-family);
+    font-weight: 700;
+    color:white;
+    background-color: var(--primary-color);
+    padding: 0.5em 2em 0.5em 2em;
+    border: none;
+    border-radius: 40px;
+    display: inline-block;
+    margin-top: 2%;
+}
+.currentBook a:hover{
+    background-color: var(--button-hover-color);
+}
+.manifestoLectoras{
+    padding: 5% 10% 0 10%;
+    height: 100%;
+    background: linear-gradient(180deg, #F0E2F9 40%, #ffffff 0%);
+}
+.bigColLectoras img{
+    height: 32em;
+}
+.bigColLectoras h2{
+    font-family: var(--second-font-family);
+    font-weight: 800;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+.manifLectorasRow{
+    font-family: var(--second-font-family);
+    padding: 2em 2em 2em 0;
+    margin-left: 2em;
+    background: #F1E4FF;
+}
+.manifLectorasRow h5{
+    font-weight: 700;
+    font-size: 1.1em;
+}
+.manifLectorasRow p{
+    font-size: 0.9em;
+    margin-bottom: 0;
+}
+.manifLectorasRow img{
+    height:6em;
+}
+.pinkRow{
+    background: var(--primary-color);
+    color: white;
+}
+.futureBooks{
+    padding: 5% 10% 5% 10%;
+    font-family: var(--main-font-family);
+    font-weight: 700;
+}
+.futureBooks img{
+    margin-top: 10%;
+    width: 13em;
+    box-shadow: 4px 4px 8px #ccc;
+}
+
+@media (max-width: 991px) {
+    .currentBook h1{
+      font-size: 2.5em;
+    }
+    .bigColLectoras{
+      text-align: center;
+    }
+    .bigColLectoras img{
+      height: 23em;
+      margin-bottom: 2em;
+    }
+    .manifestoLectoras{
+      padding: 5% 0 0 0;
+    }
+    .manifLectorasRow{
+      padding: 2em 2em 2em 2em;
+      margin: 0;
+    }
+    .bigColLectoras h2{
+      font-size: 1.8em;
+    }
+    .manifLectorasRow img{
+      margin-bottom:1.5em;
+    }
+    .futureBooks img{
+      width: 8em;
+    }
+    .currentBook{
+      margin-top: 0;
+      padding-top: 4vh;
+    }
+    .currentBook img{
+        margin-top: 5em;
+    }
+}
+  
+@media (max-width: 680px) {
+    .smHide{
+        display: none;
+    }
+    .smCurrentBook{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .futureBooks img{
+        width: 16em;
+    }
+}

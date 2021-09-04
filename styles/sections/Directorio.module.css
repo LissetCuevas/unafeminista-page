@@ -1,0 +1,74 @@
+.headerDirectory{
+    padding: 4% 0 4% 0;
+    color: #ffffff;
+    background: url(/images/portadaDirectorio.jpg);
+}
+.headerDirectory h1{
+    font-family: var(--title-font-family);
+    padding: 1% 10% 1% 10%;
+}
+.headerDirectory p{
+    font-family: var(--second-font-family);
+    font-weight: 700;
+    font-size: 1em;
+    padding: 0 50% 0 10%;
+}
+.directory{
+    padding: 1.5% 5% 5% 5%;
+    font-family: var(--second-font-family);
+}
+.directory h5{
+    font-size: 0.9em;
+    text-align: left;
+}
+.directory p{
+    font-size: 0.8em;
+    text-align: left;
+}
+.directory img{
+    height: 10.5em;
+    margin-top: -2.5em;
+    margin-bottom: 1em;
+}
+.socialCard{
+    padding: 1em 0 0 0.5em;
+    width: 3em;
+}
+.socialCard img{
+    width: 2em;
+    height: auto;
+    margin: 0.8em 0.1em 0 0.1em;
+}
+.directory hr{
+    height:2px;
+    opacity: 0.7;
+    width: 50%;
+    margin: 0.3em 0 0.3em 0;
+}
+.directoryCard{
+    margin: 4.5em 1em 1em 1em;
+    box-shadow: 7px 7px 20px rgba(204, 204, 204, 0.3);
+    width: 20em;
+}
+
+@media (max-width: 991px) {
+    .headerDirectory p{
+    padding: 0 0 0 10%;
+    }
+    .directoryCard{
+    margin-top: 4.5em 0em 0em 0em;
+    }
+    .headerDirectory{
+    padding-top: 3vh;
+    }
+}
+
+@media (max-width: 680px) {
+    .directory{
+    padding: 1.5% 0% 5% 0%;
+    }
+    .directoryCard{
+    margin-left: auto;
+    margin-right: auto;
+    }
+}

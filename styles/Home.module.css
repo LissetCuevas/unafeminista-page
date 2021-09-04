@@ -1,30 +1,28 @@
+.main{
+  padding-left: 13%;
+  padding-right: 13%;
+}
 .blogSection {
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-bottom: 4%;
-  padding-top: 5%;
+  margin-top: 12vh;
   position:relative;
+  margin-bottom: 4%;
 }
-
 .postsMargin {
-  margin: 0 -0.8em 0 -0.8em;
+  margin: 0 -0.8vh 0 -0.8vh;
 }
-
-.mdPost {
+/* .mdPost {
   min-height: 39em;
   height: auto;
   padding: 0 0.8em 0 0.8em;
   margin-bottom: 1.5em;
   text-align: center;
 }
-
 .mdPost img {
   height: 34em;
   width: 100%;
   object-fit: cover;
   margin-bottom: 1em;
 }
-
 .lgPost {
   min-height:39em;
   height: auto;
@@ -32,100 +30,89 @@
   margin-bottom: 1.5em;
   text-align: center;
 }
-
 .lgPost img {
   height: 34em;
   width: 100%;
   object-fit: cover;
   margin-bottom: 1em;
-}
-
+} */
 .smPost {
-  min-height: 28em;
+  min-height: 28vmin;
   height: auto;
   padding: 0 0.8em 0 0.8em;
   margin-bottom: 1.5em;
   text-align: center;
 }
-
 .smPost img {
-  height: 22em;
+  height: 44vmin;
   width: 100%;
   object-fit: cover;
   margin-bottom: 1em;
 }
-
 .mainPictureCol span {
   position: relative;
   display: inline-block;
 }
-
 .mainPictureCol span::before {
   content: ' ';
   position: absolute;
   left: 0;
-  top: 50px;
+  top: 4vh;
   right: 0;
   bottom: 0;
   background: #DAB9F0;
   border-radius: 50%;
 }
-
 .mainPictureCol img {
-  height: 80vh;
-  margin: -2em 0 0 0;
+  height: 90vh;
+  margin: -14vh 0 0 0;
   position: relative;
 }
-
 .mainPostCol {
   padding-top: 6%;
   padding-right: 2%;
   height:100px;
 }
-
 .mainPostCol, .mainPictureCol{
   height: 69vh;
 }
-
 .mainPostCol h1 {
-  font-size: 10.5vh;
+  font-size: 10vh;
   font-family: var(--title-font-family);
   padding-bottom: 10px;
 }
-
 .mainPostCol p {
-  font-size: 18px;
+  font-size: 2.5vh;
   font-family: var(--second-font-family);
 }
-
+/* Button 'Leer articulo' */
 .mainPostCol a {
   text-decoration: none;
-  font-size: 24px;
+  font-size: 3vh;
   font-family: var(--main-font-family);
   font-weight: 700;
   color:white;
-  background-color: #F096A3;
-  padding: 16px 27px 16px 27px;
+  background-color: var(--primary-color);
+  padding: 2vh 5vh 2vh 5vh;
   border: none;
   border-radius: 40px;
   display: inline-block;
-  margin-top: 6vh;
+  margin-top: 6%;
 }
-
+.mainPostCol a:hover {
+  background-color: var(--button-hover-color);
+}
 .blogSection h1 {
   font-family: var(--main-font-family);
   font-weight: 700;
 }
-
 .navP {
   padding: 0.5rem 1rem 0.5rem 0;
 }
-
 .navTopic {
   padding-top: 0.7em;
   font-family: var(--second-font-family);
 }
-
 .navTopic a {
   color: #000;
 }
@@ -133,38 +120,32 @@
   border-bottom: 1px solid;
   color: #000;
 }
-
 .navTopic a:hover {
   border-bottom: 1px solid;
-  color: #F096A3;
+  color: var(--primary-color);
 }
-
 .post {
   text-decoration: none;
   color:black;
 }
-
 .post:hover {
   color: palevioletred;
 }
-
 .post h5 {
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 1.3em;
 }
-
 .post p {
   font-family: var(--second-font-family);
   font-size: 0.9em;
 }
-
 .backQuotes {
   position: absolute;
-  right:5em;
-  top: 4.8em;
+  right:5vh;
+  top: 4.8vh;
   z-index: -1;
-  width: 13em;
+  width: 13vh;
 }
 
 @media (max-width: 767px) {
@@ -174,70 +155,62 @@
 }
 
 @media (max-width: 991px) {
+  .main{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .blogSection{
+    margin-top: 3vh;
+  }
   .mainPostCol h1 {
     font-size: 2.5em;
   }
-
   .mainPostCol a {
     margin-top: 1em;
     font-size: 1.3em;
   }
-
-  .blogSection {
-    padding-left: 5%;
-    padding-right: 5%;
-    position: relative;
-  }
-
   .blogSection h1 {
     position: absolute;
-    top: 1em;
-    left: 5%;
+    top: 0;
+    left: 5vmin;
   }
-
   .backQuotes {
     display: none;
   }
-
   .mainPictureCol {
     text-align: center;
   }
-
   .mainPictureCol img {
-    height: 17.5em;
+    height: 40vh;
     margin: auto;
+    margin-top: -4vh;
   }
-
-  .lgPost, .mdPost{
+  .mainPictureCol span::before {
+    top: 5vh;
+  }
+  /* .lgPost, .mdPost{
     min-height: 28em;
     height: auto;
   }
-
   .mdPost img, .lgPost img {
     height: 22em;
     width: 100%;
-  }
-
+  } */
   .navTopic button {
     border: 0;
     margin-left: 85%;
   }
-
   .navTopic button:focus {
     box-shadow: none;
   }
-
   .navP {
     padding: 0.5rem 1rem 0.5rem 0;
     margin-bottom: 0;
   }
-
   .mainPost {
-    padding-top: 6.1em;
+    padding-top: 2vh;
   }
-
   .mainPostCol, .mainPictureCol{
     height: 340px;
   }
-  
 }

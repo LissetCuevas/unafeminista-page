@@ -5,9 +5,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import styles from '../styles/Section.module.css';
+import styles from '../styles/sections/CirculoLectura.module.css';
 
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 
 export default function CirculoDeLectura(props){
   const currentBook = props.books.currentBook;
@@ -20,26 +20,25 @@ export default function CirculoDeLectura(props){
         <link rel="icon" href="/images/logo.jpg" />
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossOrigin="anonymous" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossOrigin="anonymous"></script>
       </Head>
 
       <StaticNavbar/>
       <main>
         <div className={styles.currentBook}>
           <Container>
-            <Row>
-              <Col xs={12} md={7} className={styles.smHide}>
-                <h1>{currentBook.title}</h1>
-                <h2>{currentBook.author}</h2>
-                <p>{currentBook.description}</p>
+            <Row className={styles.smCurrentBook}>
+              <Col xs={12} md={7}>
+                <div className={styles.smHide}>
+                  <h1>{currentBook.title}</h1>
+                  <h2>{currentBook.author}</h2>
+                  <p>{currentBook.description}</p>
+                </div>
                 <a href="https://forms.gle/GwTu8se6xxNGTgw99">Lee con nosotras</a>
               </Col>
-              <Col xs={12} md={5} className="text-center">
-                <img className={styles.backFloresCirculo} src="/images/flores.svg"></img>
-                <span>
-                <img src={currentBook.image}></img>  
-                </span>
+              <Col xs={12} md={5} className={`text-center ${styles.bgCircleWFlowers}`}>
+                <img src={currentBook.image}  />
                 <h4>Este mes</h4>  
               </Col>
             </Row>

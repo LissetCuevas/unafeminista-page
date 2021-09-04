@@ -7,5 +7,5 @@ Actualmente somos más de sesenta terapeutas brindando atención individual, de 
 image: "/images/media/sorece.jpg"
 instagram: "https://instagram.com/soreceac"
 facebook: "https://www.facebook.com/soreceac/"
-email: "https://sorece-ac.org"
+website: "https://www.sorece-ac.org"
 ---

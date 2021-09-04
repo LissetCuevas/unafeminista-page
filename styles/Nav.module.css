@@ -12,7 +12,12 @@
   animation-name: slidein;
   
 }*/
-
+.navDiv {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
 .nav_link a{
   color: black !important;
   font-family: var(--main-font-family);
@@ -20,26 +25,21 @@
   font-size: 1em;
   margin: 0px 10px 0px 10px;
 }
-
 .nav_link a:hover{
   border-bottom: 1px solid;
   color: #000;
 }
-
 .brandName{
   padding-top: 1em;
   padding-bottom: 0;
 }
-
 .brandName img{
   height: 5em;
 }
-
 .brandName a{
   text-decoration: none;
   color: black;
 }
-
 .brandName p{
   margin-bottom: 0;
   font-family: var(--title-font-family);
@@ -62,24 +62,20 @@
     text-align: center;
     font-size: 1.3em;
   }
-
   .navDiv{
-    position:fixed;
+    position:sticky;
     width: 100%;
     background-color: white;
     box-shadow: 2px 2px 3px rgba(36, 36, 36, 0.2);
     z-index: 2;
   }
-
   .nav button{
     margin-left: 90%;
     border: 0px;
   }
-
   .nav button:focus{
     box-shadow: none;
   }
-
   .brandName{
     padding-top: 1em;
     position:absolute;
@@ -87,15 +83,12 @@
     left:5%;
     z-index: 1;
   }
-
   .brandName img{
     height: 3.5em;
   }
-  
   .brandName p{
     font-size: 1.5em;
   }
-
   .nav_link a{
     font-weight: 400;
   }

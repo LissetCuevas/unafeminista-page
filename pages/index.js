@@ -20,8 +20,8 @@ export default function Home(props) {
     let myArray = [...currentSection];
     while (myArray.length) {
       results = [];
-      subArrays.push(myArray.splice(0, 2));
       subArrays.push(myArray.splice(0, 3));
+      // subArrays.push(myArray.splice(0, 3));
       results.push(subArrays);
     }
     return results;
@@ -30,12 +30,7 @@ export default function Home(props) {
   const topics = ['Cultura','Salud','Notas Rebeldes','Recomendaciones'];
   const blog = props.blog;
   const [ currentSection, setCurrentSection ] = useState(splitPosts(blog));
-  const [ postsLength, setPostsLength ] = useState(0);
   const mainPost = blog.find(post => post.main == true)
-
-  const showAllPosts = () =>{
-    setCurrentSection(splitPosts(blog));
-  }
 
   const showPostsbyTopic = (topic) => {
     setCurrentSection(splitPosts(topic == 'Todos' ? blog : blog.filter(post => topic === post.tag)));
@@ -60,26 +55,26 @@ export default function Home(props) {
         <link rel="icon" href="/images/logo.jpg"/>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossOrigin="anonymous" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossOrigin="anonymous"></script>
       </Head>
 
       <StaticNavbar/>
      
-      <main>
-        <div id="mainPost" className={styles.mainPost}>
+      <main className={styles.main}>
+        <div id="mainPost">
           <Container>
             <Row>
               <Col xs={12} md={6} className={styles.mainPostCol}>
                 <h1>{mainPost.title}</h1>
                 <p>{mainPost.description}</p>
-                <Link href="/blog/{mainPost.slug}" as={"/blog/" + mainPost.slug}>
+                <Link href="/blog/{mainPost.slug}" as={"/blog/" + mainPost.slug} className={styles.readArticleButton}>
                   <a>Leer artículo</a>
                 </Link>
               </Col>
               <Col xs={12} md={6} className={styles.mainPictureCol}>
                 <span>
-                <img className="img-fluid" src="/images/marcha.png"></img>
+                <img className="img-fluid" src="/images/marcha[3108].png"></img>
                 </span>
               </Col>
             </Row>
@@ -119,8 +114,7 @@ export default function Home(props) {
                       <Row key={`row_${index}`}>
                         {row.map((post,i) => {
                           return(
-                          <Col xs={12} md={index%2 != 0 ? 4 : i == 0 ? 7 : 5} 
-                               className={index%2 != 0 ? styles.smPost : i == 0 ? styles.lgPost  : styles.mdPost}
+                          <Col xs={12} md={4} className={styles.smPost}
                                key={`post_${i}`}>
                             <a href={"/blog/" + post.slug} className={styles.post}>
                               <img src={post.image}></img>

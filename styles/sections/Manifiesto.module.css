@@ -1,0 +1,162 @@
+.content {
+  padding: 0 12% 0 12%; 
+}
+.coverManifiesto{
+  background-image: url("/images/medio_circulo.svg");
+  background-repeat: no-repeat;
+  background-size: 110vw auto;
+  background-position: center bottom;
+}
+.coverManifiesto p{
+  font-family: var(--main-font-family);
+  font-size: 3.5vh;
+  padding: 2% 10% 0 10%;
+}
+.coverManifiesto img{
+  height: 90vh;
+  margin-top: -18vh;
+}
+.manifiesto{
+  /* margin: 6% 0 6% 0; */
+  padding: 6% 12% 6% 12%; 
+  text-align: center;
+  background-color: white;
+}
+.manifiesto h1{
+  font-size: 4em;
+  font-family: var(--title-font-family);
+  margin-bottom: 0.5em;
+}
+.manifiesto p{
+  font-family: var(--main-font-family);
+  font-size: 1.3em;
+}
+.bienvenidaP{
+  font-size: 2.2em !important;
+}
+.nosotras{
+  margin: 5% 0 5% 0;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(218, 185, 240, 0.41) 52%, #ffffff 0%);
+}
+.nosotras h2{
+  font-family: var(--title-font-family);
+  font-size: 3.1em;
+  padding: 3% 12% 2% 12%;
+}
+.nosotras h3{
+  font-size: 1.1em;
+  font-family: var(--second-font-family);
+  font-weight: 700;
+  margin: 1.2em 0 0.2em 0;
+}
+.nosotras p{
+  font-size: 0.9em;
+  font-family: var(--second-font-family);
+}
+.nosotras img{
+  height: 14em;
+}
+.nosotras img:hover{
+  height: 15em;
+}
+.nosotras a{
+  text-decoration: none;
+  color:black;
+}
+.conoceme{
+  display: flex;
+  color: #A63CED;
+  text-align: center;
+  justify-content: center;
+}
+.conoceme img{
+  height: 25px;
+}
+.conoceme img:hover{
+  height: 25px;;
+}
+.modalPad{
+  padding: 0 3% 2.5% 3%;
+}
+.closeModal{
+  text-align: right;
+}
+.leadInfoModal{
+  padding-right: 4%;
+}
+.leadInfoModal h4{
+  font-family: var(--second-font-family);
+  font-weight: 700;
+}
+.leadInfoModal h6{
+  font-family: var(--second-font-family);
+  margin-bottom: 1.2em;
+}
+.leadInfoModal p{
+  font-family: var(--main-font-family);
+}
+.leadfavInfoModal{
+  font-family: var(--second-font-family);
+  font-size: 0.9em;
+}
+.leadfavInfoModal img{
+  margin-right: 0.5em;
+}
+.socialModal a {
+  margin-right: 10px;
+}
+.socialModal img{
+  height: 1.8em;
+}
+.leadfavQuote{
+  font-family: var(--main-font-family);
+  text-align: right;
+}
+.leadfavQuote p{
+  margin-bottom: 0;
+  margin-right: 1em;
+}
+
+@media (max-width: 991px) {
+  .nosotras img{
+    height: 10em;
+  }
+  .content{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2vh;
+  }
+  .coverManifiesto p{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .coverManifiesto img{
+    height: 20em;
+    margin-top: -7vh;
+  }
+  .manifiesto h1{
+    font-size: 3em;
+  }
+  .manifiesto p{
+    font-size: 1.2em;
+  }
+  .nosotras h2{
+    font-size: 2.6em;
+  }
+  .bienvenidaP{
+    font-size: 1.7em !important;
+  }
+}
+
+@media (max-width: 680px) {
+  .nosotras h2{
+    text-align: center;
+  }
+  .nosotras img{
+    height: 14em;
+  }
+  .nosotras{
+    background: linear-gradient(180deg, rgba(218, 185, 240, 0.41) 100%, #ffffff 0%);
+  }
+}

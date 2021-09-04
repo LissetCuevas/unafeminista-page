@@ -6,6 +6,8 @@
   --title-font-family: 'Abril Fatface', cursive;
   --main-font-family: 'Playfair Display', serif;
   --second-font-family: 'Manrope', sans-serif;
+  --button-hover-color: #eb2e4a;
+  --primary-color: #F096A3; 
 }
 
 body {
@@ -14,7 +16,7 @@ body {
 
 ::selection {
   color: white;
-  background: #F096A3;;
+  background: var(--primary-color);;
 }
 
 @media (max-width: 980px) {

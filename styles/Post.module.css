@@ -7,16 +7,13 @@
     align-items: center;
     background-color: rgba(0,0,0,0.4);
 }
-
 .centerDiv{
     padding: 0 20% 0 20%;
 }
-
 .coverArticle h1 {
     font-family: var(--main-font-family);
     font-weight: 700;
 }
-
 .coverArticle hr{
     width: 40%;
     height: 2px;
@@ -27,44 +24,51 @@
     opacity: 1;
     background: #FFF;
 }
-
 .articleContent{
     padding: 5% 20% 3% 20%;
     font-family: var(--second-font-family);
     font-size: 16.8px;
     line-height: 1.7;
 }
-
 .articleContent h1{
     font-size: 30px;
     font-weight: 700;
 }
-
 .articleContent h2{
     font-size: 24px;
     font-weight: 700;
 }
-/*
-.articleContent p:first-of-type::first-letter{
+/*.articleContent p:first-of-type::first-letter{
     font-size: 250%;
     font-weight: 700;
     margin-left: 3%;
 }*/
-
 .articleContent a{
-    color:  #F096A3;
+    color:  var(--primary-color);
 }
-
+.articleContent img{
+    height: 50vh;
+    width: auto;
+    margin: auto;
+    display: block;
+}
+.articleContent blockquote{
+    padding-left: 10vmin;
+    padding-bottom: 16px;
+    width: auto;
+    margin: auto;
+    display: block;
+    text-align: end;
+    font-style: italic;
+}
 .articleContent h1, .articleContent h2, .articleContent b{ 
     color:  #eb2e4a;
 }
-
 .articleAuthor{
     font-family: var(--main-font-family);
     margin: 0 12% 5% 12%; 
     text-align: right;
 }
-
 .articleAuthor hr{
     width: 80%;
     height: 2px;
@@ -72,20 +76,16 @@
     opacity: 0.8;
     margin-bottom: 6%;
 }
-
 .articleAuthor img{
     width: 15em;
 }
-
 .authorDescrip{
     padding-right: 6%;
 }
-
 .panel-heading {
     border-top-left-radius: inherit; 
     border-top-right-radius: inherit;
 }
-
 .modalHeader {
     border-bottom: 0px;
 }
@@ -95,12 +95,10 @@
         width: 15em;
         padding-bottom: 1em;
     }
-
     .articleAuthor{
         text-align: left;
         font-size: 0.9em;
     }
-
     .articleContent{
         padding: 5% 8% 3% 8%;
     }

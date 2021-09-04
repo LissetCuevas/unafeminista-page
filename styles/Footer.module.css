@@ -7,36 +7,29 @@
     font-family: var(--main-font-family);
     font-weight: 700;
 }
-
 .footer a {
     color: rgb(71, 68, 68) !important;
     text-decoration: none;
 }
-
 .footer a:hover {
-    color:rgb(247, 233, 245) !important;
+    color:#eb2e4a !important;
 }
-
 .smallFooter {
     font-size: small;
     width: 100%;
 }
-
 .smallFooter p {
     padding-top: 0.5rem;
     padding-right: 1rem;
     padding-bottom: 0.5rem;
     padding-left: 1rem;
 }
-
 .termsFooter{
     width: 50%;
 }
-
 .socialFooter{
     width: 50%;
 }
-
 .socialFooter img {
     width: 1.8em;
 }
@@ -45,15 +38,21 @@
     .disapearContent{
         display: none;
     }
-
     .footer {
         padding-top: 1.3em;
         padding-left: 5%;
         padding-right: 5%;
         padding-bottom: 1.1em;
     }
-
     .socialFooter{
         width: 100%;
+    }
+    .terms{
+        width: 100%;
+        text-align: center;
+    }
+    .smallFooter{
+        display: flex;
+        flex-direction: column-reverse;
     }
 }

@@ -43,9 +43,10 @@ collections:
       - {label: "Facebook", name: "facebook", widget: "string", required: false}
       - {label: "Instagram", name: "instagram", widget: "string", required: false}
       - {label: "Twitter", name: "twitter", widget: "string", required: false}
+      - {label: "Linkedin", name: "linkedin", widget: "string", required: false}
       - {label: "Correo", name: "email", widget: "string", required: false}
       - {label: "Telefono", name: "phone", widget: "string", required: false}
-      - {label: "Página web", name: "webpage", widget: "string", required: false}
+      - {label: "Página web", name: "website", widget: "string", required: false}
   - name: "pages"
     label: "Páginas"
     files:
