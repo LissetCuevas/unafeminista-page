@@ -5,7 +5,7 @@ image: /images/media/ilustración_sin_título-3-1-.jpg
 tag:
   - Recomendaciones
 main: false
-date: 2021-09-06T05:00:00.000Z
+date: 06-09-2021
 author: 'Paola Granados '
 authorDescription: >
   Estudiante de Comunicación Social en la UAM Xochimilco. Feminista. Me apasiona
