@@ -1,7 +1,7 @@
 ---
 title: Una mirada femenina al erotismo en el cine
 description: .
-image: /images/media/ilustración_sin_título-3-1-.jpg
+image: /images/media/ilustración_sin_título-4-1-.jpg
 tag:
   - Recomendaciones
 main: false
