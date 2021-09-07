@@ -7,7 +7,7 @@ image: /images/media/img_1079-1-1-.jpg
 tag:
   - Notas Rebeldes
 main: false
-date: 2021-09-06T05:18:45.030Z
+date: 06-09-2021
 author: Crystal Sánchez
 authorDescription: >
 
@@ -64,6 +64,7 @@ Tenemos razones de sobra para ver esta joya (si todavía no han tenido el gustaz
 
 PD. _Si la ven en familia, asegúrense de que su tío el machito esté presente, se va a ir pa’ atrás._ 
 
-__
+
+__
 
 __
