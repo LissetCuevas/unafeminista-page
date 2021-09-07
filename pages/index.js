@@ -17,15 +17,24 @@ export default function Home(props) {
   const splitPosts = (currentSection) => {
     var results = [];
     var subArrays = [];
-    let myArray = [...currentSection];
+    let myArray = sortPosts([...currentSection]);
     while (myArray.length) {
       results = [];
       subArrays.push(myArray.splice(0, 3));
-      // subArrays.push(myArray.splice(0, 3));
       results.push(subArrays);
     }
     return results;
   }  
+
+  const sortPosts = (posts) => {
+    return posts.sort((a,b) => {
+      const date1 = new Date(a.date);
+      const date2 = new Date(b.date);
+      if (a.main) return -1;
+      if (b.main) return 1;
+      return date2.getTime() - date1.getTime();
+    })
+  }
 
   const topics = ['Cultura','Salud','Notas Rebeldes','Recomendaciones'];
   const blog = props.blog;
@@ -33,7 +42,7 @@ export default function Home(props) {
   const mainPost = blog.find(post => post.main == true)
 
   const showPostsbyTopic = (topic) => {
-    setCurrentSection(splitPosts(topic == 'Todos' ? blog : blog.filter(post => topic === post.tag)));
+    setCurrentSection(splitPosts(topic == 'Todos' ? blog : blog.filter(post => post.tag.includes(topic))));
   }
 
   useEffect(()=>{
