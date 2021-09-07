@@ -1,13 +1,12 @@
 ---
 title: El cuerpo deseado y el cuerpo deseante
-description:
-image: /images/media/elcuerpodeseado.jpg
+description: .
+image: /images/media/d_intervenida8-1-.jpg
 tag: Cultura
 main: false
-date: '10-10-2020'
-audio:
+date: 10-10-2020
 author: Daniela Moctezuma
-authorDescription: "Fotógrafa feminista en constante deconstrucción"
+authorDescription: Fotógrafa feminista en constante deconstrucción
 authorPhoto: /images/media/danielamoctezuma.png
 authorTwitter: '@daniela_mct'
 ---
