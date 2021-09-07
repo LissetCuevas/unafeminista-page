@@ -1,19 +1,24 @@
 ---
-title: Hombre necios, mujeres resilentes
-description:
+title: 'Hombre necios, mujeres resilentes'
+description: .
 image: /images/media/hombresnecios.jpg
 tag: Cultura
 main: false
-date: '10-12-2020'
-audio:
+date: 10-12-2020
 author: Margarita Mantilla
-authorDescription: "(Ciudad de México, 1985) Socióloga e investigadora feminista, Maestra en estudios de la mujer por la UAM-X. Cofundadora de CoCu (Colectiva Cuerpa), Feministas de la UAM-X, Me gusta menstruar y creadora de Tallercitas feministas (espacio para la formación política feminista). Especialista en teoría feminista, desde donde trata los temas de maternidad, economía feminista, acoso callejero, vientres de alquiler, relaciones de género, gordAfobia y más. Apasionada por la música, el cine y la literatura, especialmente donde las realizadoras son mujeres.
-"
+authorDescription: >-
+  (Ciudad de México, 1985) Socióloga e investigadora feminista, Maestra en
+  estudios de la mujer por la UAM-X. Cofundadora de CoCu (Colectiva Cuerpa),
+  Feministas de la UAM-X, Me gusta menstruar y creadora de Tallercitas
+  feministas (espacio para la formación política feminista). Especialista en
+  teoría feminista, desde donde trata los temas de maternidad, economía
+  feminista, acoso callejero, vientres de alquiler, relaciones de género,
+  gordAfobia y más. Apasionada por la música, el cine y la literatura,
+  especialmente donde las realizadoras son mujeres. 
 authorPhoto: /images/media/margaritamantilla.png
 authorTwitter: '@mag_cosmos'
-authorMail: 'micorreoeste@mag_cosmos.com'
+authorMail: '@mag_cosmos.com'
 ---
-
 Frida Kahlo, Rosario Castellanos, Elena Garro y 
 el violento amor romántico de los hombres necios con quienes se casaron
 
@@ -31,21 +36,25 @@ Así, desde la mirada feminista se devela en infinidad de casos que eso que se m
 
 ## Frida
 
+![](/images/media/hombresnecios.jpg)
+
 Las feministas hemos adoptado la siguiente consigna: “Abandona a tu Diego Rivera”, porque gracias a la historización con perspectiva de género estamos documentadas sobre la violencia que ejerció el tan aclamado muralista en contra de las mujeres con quienes estuvo casado o sostuvo relaciones sentimentales.
 
-Y con Frida no fue la excepción, sin embargo, a primera vista se puede decir que  ella tuvo una mayor resistencia a través de prácticas fuera de la norma social establecida, como la supuesta “libertad sexual” en su vida de pareja al relacionarse con otras personas erótico-afectivamente. Desgraciadamente, dicha "libertad sexual" nunca fue desde una dinámica de pareja  justa. 
+Y con Frida no fue la excepción, sin embargo, a primera vista se puede decir que  ella tuvo una mayor resistencia a través de prácticas fuera de la norma social establecida, como la supuesta “libertad sexual” en su vida de pareja al relacionarse con otras personas erótico-afectivamente. Desgraciadamente, dicha "libertad sexual" nunca fue desde una dinámica de pareja justa. 
 
 Diego no tenía claridad con Frida en su relación e incluso le fue infiel con su hermana. A través de las cartas que Frida le escribía a Diego se vislumbra que las relaciones que Diego solía sostener con otras mujeres afectan emocionalmente a la pintora:
 
-«No me aterra el dolor y lo sabes, es casi una condición inmanente a mi ser, aunque sí te confieso que sufrí, y sufrí mucho, la vez, todas las veces que me pusiste el cuerno... no sólo con mi hermana sino con otras tantas mujeres... ¿Cómo cayeron en tus enredos?
+_«No me aterra el dolor y lo sabes, es casi una condición inmanente a mi ser, aunque sí te confieso que sufrí, y sufrí mucho, la vez, todas las veces que me pusiste el cuerno... no sólo con mi hermana sino con otras tantas mujeres... ¿Cómo cayeron en tus enredos?_
 
-Tú piensas que me encabroné por lo de Cristina pero hoy he de confesarte que no fue por ella, fue por ti y por mí, primero por mí, porque nunca he podido entender ¿qué buscabas, qué buscas, qué te dan y qué te dieron ellas que yo no te di? Porque no nos hagamos pendejos, Diego, yo todo lo humanamente posible te lo di y lo sabemos, ahora bien, cómo carajos le haces para conquistar a tanta mujer si estás tan feo hijo de la chingada...»
+_Tú piensas que me encabroné por lo de Cristina pero hoy he de confesarte que no fue por ella, fue por ti y por mí, primero por mí, porque nunca he podido entender ¿qué buscabas, qué buscas, qué te dan y qué te dieron ellas que yo no te di? Porque no nos hagamos pendejos, Diego, yo todo lo humanamente posible te lo di y lo sabemos, ahora bien, cómo carajos le haces para conquistar a tanta mujer si estás tan feo hijo de la chingada...»_
 
 Frida Kahlo a Diego Rivera
 
 En estos fragmentos de una carta escrita por Frida a Diego se muestra el sesgo de género cuando el acuerdo de pareja no es monogámico, es decir: que no atraviesa de la misma manera al hombre que a la mujer. Lo anterior se complejiza aún más cuando la mujer acepta el acuerdo de abrir la relación sólo para complacer al hombre, generando violencia simbólica y psicológica en contra de ella; desafortunadamente así fue la dinámica entre la paloma y el elefante.
 
 ## Rosario
+
+![](/images/media/ilustración_sin_título-13.jpg)
 
 Autora de El Eterno Femenino y Poesía no eres tú, así como otras obras de escritura impecable y muy potente.
 
@@ -57,12 +66,14 @@ En las setenta misivas que Castellanos escribió a Guerra, llamadas Cartas a Ric
 
 A continuación, un fragmento de estas cartas:
 
-El que usted me sea fiel o no, no me hace variar de actitud. Yo le seré fiel siempre, a toda costa. No me interesa coquetear con nadie. Lo amo a usted. Si usted me falla, si por cualquier motivo nuestro amor no puede realizarse, yo no quiero volver a saber nada de amor con nadie, yo quiero vivir completamente sola y sin que nadie me hable de estas cosas.
+_El que usted me sea fiel o no, no me hace variar de actitud. Yo le seré fiel siempre, a toda costa. No me interesa coquetear con nadie. Lo amo a usted. Si usted me falla, si por cualquier motivo nuestro amor no puede realizarse, yo no quiero volver a saber nada de amor con nadie, yo quiero vivir completamente sola y sin que nadie me hable de estas cosas._
 Rosario Castellanos a Ricardo Guerra
 
 El fragmento da cuenta de cómo el mito del amor romántico nos enseña a idealizar las relaciones de pareja, al grado de pensar erróneamente que el amor todo lo puede incluso si no hay de por medio acuerdos justos, o si la persona no nos corresponde, lo cual es totalmente falso y dañino.
 
 ## Elena
+
+![](/images/media/ilustración_sin_título-12.jpg)
 
 Elenita, La Garro, que para gran parte de la crítica literaria es la mejor escritora mexicana (después de Sor Juana Inés de la Cruz), y desgraciadamente, para muchas personas es solamente reconocida como la esposa de Octavio Paz, con quien se casó en 1937 cuando ella aún era menor de edad (en esa época la mayoría de edad se cumplía a los 21, Elena se casó a los 20). 
 
@@ -86,9 +97,8 @@ Y para finalizar con broche de oro quiero reiterar una fortaleza feminista para 
 
 Tejer lazos afectivos entre mujeres es muy potente considerando que  los vínculos amorosos y recíprocos entre nosotras subvierten el orden simbólico establecido en una sociedad machista donde impera la misoginia.
 
-
 Y porque lo personal es político:
 
-¡Abandona a tu Diego Rivera!
+**¡Abandona a tu Diego Rivera!
 ¡Renuncia al dañino amor violento de tu Ricardo Guerra!
-¡Nunca permitas que tu Octavio Paz no te deje brillar!
+¡Nunca permitas que tu Octavio Paz no te deje brillar!**
