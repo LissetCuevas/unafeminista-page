@@ -53,7 +53,7 @@ export default function CirculoDeLectura(props){
                   <img src="/images/lectoras.png"></img>
                 </Col>
                 <Col xs={12} md={7} className={styles.manifLectorasCol}>
-                  <Row className={`${styles.pinkRow} ${styles.manifLectorasRow}`}>
+                  <Row className={styles.manifLectorasRow}>
                     <Col xs={12} md={4} className="text-center">
                       <img src="/images/icons/lectoras1.png"></img>
                     </Col>
@@ -66,7 +66,7 @@ export default function CirculoDeLectura(props){
                       </p>
                     </Col>
                   </Row>
-                  <Row className={styles.manifLectorasRow}>
+                  <Row className={`${styles.pinkRow} ${styles.manifLectorasRow}`}>
                     <Col xs={12} md={4} className="text-center">
                       <img src="/images/icons/lectoras2.png"></img>
                     </Col>
