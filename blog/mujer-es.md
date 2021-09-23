@@ -5,7 +5,7 @@ image: /images/media/img_1870.jpg
 tag:
   - Notas Rebeldes
 main: false
-date: 2021-09-06T05:34:50.760Z
+date: 23/09/2021
 author: Jess Peña
 authorDescription: >-
   Mamá autónoma de Regina. Educadora autogestiva, acompañante educativa,
