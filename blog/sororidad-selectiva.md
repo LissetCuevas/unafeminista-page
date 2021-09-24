@@ -7,22 +7,13 @@ tag:
 main: false
 date: 10-10-2020
 author: María Guadalupe Castro Zaragoza
-authorDescription: >-
-  Más conocida como Marialú, soy orgullosamente mexicana con discapacidad motriz
-  de nacimiento PCI y una enfermedad crónica llamada fibromialgia, me considero
-  una mujer comprometida y con experiencia con las causas sociales y la
-  inclusión, de naturaleza conciliadora, empática y colaborativa con dotes de
-  líder.
-
-  Actualmente colaboro en  la Fundación para la Inclusión y Desarrollo de
-  Personas con Discapacidad, FINDEDIS.
-
-  Pertenezco como activista a varios colectivos relacionados con la discapacidad
-  a nivel nacional, como “La Inclusión Nos Une”, "Alianza SIMA",
-  “#YoCuidoMéxico”,  y "Red de Cuidados de México" colectivos que luchan por el
-  reconocimiento del cuidado como un derecho humano, labor hecha
-  mayoritariamente por mujeres.
-authorPhoto: /images/media/mariacastro.png
+authorDescription: >
+  Soy orgullosamente mexicana con discapacidad motriz de nacimiento PCI y una
+  enfermedad crónica llamada fibromialgia, me considero una mujer comprometida y
+  con experiencia con las causas sociales y la inclusión, de naturaleza
+  conciliadora, empática y colaborativa con dotes de líder.
+authorPhoto: /images/media/profile-pic-43-.png
+authorTwitter: 'https://www.instagram.com/jaunelu/'
 ---
 **¿Sororidad selectiva? #SororidadParaTodas #SoyMujerConDiscapacidad.**
 _María Guadalupe Castro Zaragoza._ 
