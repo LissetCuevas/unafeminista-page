@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import StaticNavbar from './components/navbar'
 import Footer from './components/footer'
 import Container from 'react-bootstrap/Container';

@@ -1,11 +1,21 @@
-import Head from 'next/head'
-import StaticNavbar from './components/navbar'
-import Footer from './components/footer'
+import Head from 'next/head';
+import StaticNavbar from './components/navbar';
+import Footer from './components/footer';
+import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import styles from '../styles/sections/Podcast.module.css';
 
 import React from 'react'
 
-export default function Podcast(props){
+const ButtonWImage = (props) => {
+  return (
+    <div className={styles.buttonWImage}>
+      <a href={props.href}><img src={props.src}/></a>
+    </div>
+  )
+}
+
+export default function Podcast(){
   return (
     <div>
       <Head>
@@ -18,8 +28,24 @@ export default function Podcast(props){
       </Head>
 
       <StaticNavbar/>
-      <main>
-        <h1>Podcast</h1>
+      <main className={styles.podcast}>
+          <Container>
+            <Row className={styles.smCurrentBook}>
+              <Col xs={12} md={7}>
+                <p>Bienvenida a nuestro podcast</p>
+                <h1>Escuchanos aquí</h1>
+                <div className={styles.buttonsContainer}>
+                  <ButtonWImage href="https://www.spotify.com" src="images/spotify.svg"/>
+                  <ButtonWImage href="https://www.spotify.com" src="images/Google-podcast.svg"/>
+                  <ButtonWImage href="https://www.spotify.com" src="images/Apple-music.svg"/>
+                  <ButtonWImage href="https://www.spotify.com" src="images/Anchor.svg"/>
+                </div>
+              </Col>
+              <Col md={5} className={styles.illustration}>
+                <img src="/images/Podcast-Illustration.svg"/>
+              </Col>
+            </Row>
+          </Container>
       </main>
       <Footer/>
     </div>
