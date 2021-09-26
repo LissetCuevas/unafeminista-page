@@ -2,13 +2,14 @@
     font-family: var(--title-font-family);
 }
 .podcast p{
-    font-size: 20px;
+    font-size: large;
 }
 .buttonsContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .buttonWImage {
     padding: 0.5em 2em 0.5em 2em;
@@ -22,18 +23,30 @@
     border-radius: 60px;
     box-shadow: 7px 7px 15px rgba(204, 204, 204, 0.6);
 }
-.buttonWImage:hover{
+.buttonWImage:hover {
     background-color: rgba(245, 218, 250, 0.6);
 }
 .buttonWImage img {
     min-width: 30px;
     max-width: 120px;
 }
-.illustration{
+.illustration {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.illustration img{
+.illustration img {
     height: 370px;
+}
+@media (max-width: 992px) {
+    .podcast{
+        margin-top: 20px;
+    }
+    .illustration{
+        display: none;
+    }
+    .buttonsContainer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }

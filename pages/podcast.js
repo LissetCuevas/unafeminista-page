@@ -31,7 +31,7 @@ export default function Podcast(){
       <main className={styles.podcast}>
           <Container>
             <Row className={styles.smCurrentBook}>
-              <Col xs={12} md={7}>
+              <Col xs={12} md={12} lg={7}>
                 <p>Bienvenida a nuestro podcast</p>
                 <h1>Escuchanos aquí</h1>
                 <div className={styles.buttonsContainer}>
