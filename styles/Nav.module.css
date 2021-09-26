@@ -38,11 +38,12 @@
 }
 .brandName a{
   text-decoration: none;
-  color: black;
+  color: #FB5B72;
+  text-transform: uppercase;
 }
 .brandName p{
   margin-bottom: 0;
-  font-family: var(--title-font-family);
+  font-family: var(--main-font-family);
   font-size: 2.7em;
 }
 /*
