@@ -1,0 +1,11 @@
+.terminos{
+    font-family: var(--title-font-family);
+    margin-top: 40px;
+    color: var(--primary-color);
+}
+.text{
+    font-family: var(--main-font-family);
+    margin: 70px 0 70px 0;
+    font-size: large;
+    color:black;
+}
