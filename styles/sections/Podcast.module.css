@@ -1,15 +1,16 @@
 .podcast{
     font-family: var(--title-font-family);
+    margin-bottom: 7vh;
+    margin-top: 5%;
 }
 .podcast p{
-    font-size: large;
+    font-family: var(--main-font-family);
+    padding-top: 20px;
 }
 .buttonsContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 .buttonWImage {
     padding: 0.5em 2em 0.5em 2em;
@@ -30,20 +31,16 @@
     min-width: 30px;
     max-width: 120px;
 }
-.illustration {
+.episodios{
+    margin-top: 5vh;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
-.illustration img {
-    height: 370px;
+.episode{
+    width: 300px;
 }
 @media (max-width: 992px) {
     .podcast{
         margin-top: 20px;
-    }
-    .illustration{
-        display: none;
     }
     .buttonsContainer {
         margin-top: 30px;

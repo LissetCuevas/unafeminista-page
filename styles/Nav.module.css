@@ -24,10 +24,11 @@
   font-weight: 700;
   font-size: 1em;
   margin: 0px 10px 0px 10px;
+  border-bottom: 1px solid;
+  border-color: #FFF;
 }
 .nav_link a:hover{
   border-bottom: 1px solid;
-  color: #000;
 }
 .brandName{
   padding-top: 1em;
@@ -45,6 +46,21 @@
   margin-bottom: 0;
   font-family: var(--main-font-family);
   font-size: 2.7em;
+}
+.brandNameSecondary{
+  position: fixed;
+  top: 12px;
+  left: 10%;
+  z-index: 2;
+}
+.brandNameSecondary img{
+  height: 55px;
+}
+.navSecondary {
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 20px;
 }
 /*
 @keyframes slidein {

@@ -5,19 +5,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../../styles/Nav.module.css';
 
 
-const StaticNavbar = () => {
+const SecondaryStaticNavbar = () => {
   return (
     <div className={styles.navDiv}>
-      <div className = {styles.brandName}>
-        <a className="d-flex justify-content-md-center justify-content-sm-start align-items-center" href="/">
-          <img src="/images/logoRojo.png"
+      <div className = {styles.brandNameSecondary}>
+        <a href="/">
+          <img src="/images/logo.jpg"
               className="rounded-circle"
-              alt="UnaFeminista logo"
+              alt="Logo de Una feminista"
           />
-          <p>Una feminista</p>
         </a>
       </div>
-      <Navbar expand="lg" className={styles.nav}>
+      <Navbar expand="lg" className={styles.navSecondary}>
         <Navbar.Toggle aria-controls="basic-navbar-nav" ><img src="/images/icons/toggle.svg"/></Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
           <Nav className={`mr-auto ${styles.nav_link}`}>
@@ -34,4 +33,4 @@ const StaticNavbar = () => {
   );
 }
 
-export default StaticNavbar;
+export default SecondaryStaticNavbar;

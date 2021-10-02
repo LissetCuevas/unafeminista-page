@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import StaticNavbar from './components/navbar'
-import Footer from './components/footer'
+import Header from './components/header';
+import SecondaryStaticNavbar from './components/secondNav';
+import Footer from './components/footer';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -9,22 +9,16 @@ import styles from '../styles/sections/CirculoLectura.module.css';
 
 import React from 'react'
 
+
 export default function CirculoDeLectura(props){
   const currentBook = props.books.currentBook;
   const futureBooks = [props.books.book1,props.books.book2,props.books.book3,props.books.book4];
 
   return (
     <div>
-      <Head>
-        <title>Circulo de lectura</title>
-        <link rel="icon" href="/images/logo.jpg" />
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+      <Header title="Circulo de lectura"/>
+      <SecondaryStaticNavbar/>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossOrigin="anonymous" />
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossOrigin="anonymous"></script>
-      </Head>
-
-      <StaticNavbar/>
       <main>
         <div className={styles.currentBook}>
           <Container>
@@ -35,7 +29,7 @@ export default function CirculoDeLectura(props){
                   <h2>{currentBook.author}</h2>
                   <p>{currentBook.description}</p>
                 </div>
-                <a href="https://forms.gle/GwTu8se6xxNGTgw99">Lee con nosotras</a>
+                <a href="https://forms.gle/GwTu8se6xxNGTgw99" target="_blank" rel="noopener noreferrer">Lee con nosotras</a>
               </Col>
               <Col xs={12} md={5} className={`text-center ${styles.bgCircleWFlowers}`}>
                 <img src={currentBook.image}  />

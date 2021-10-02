@@ -1,7 +1,7 @@
-import Head from 'next/head';
-import StaticNavbar from './components/navbar';
+import Header from './components/header';
+import SecondaryStaticNavbar from './components/secondNav';
 import Footer from './components/footer';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../styles/sections/Podcast.module.css';
 
@@ -9,45 +9,82 @@ import React from 'react'
 
 const ButtonWImage = (props) => {
   return (
-    <div className={styles.buttonWImage}>
-      <a href={props.href}><img src={props.src}/></a>
-    </div>
+    <a href={props.href} target="_blank" rel="noopener noreferrer">
+      <div className={styles.buttonWImage}>
+        <img src={props.src}/>
+      </div>
+    </a>
   )
 }
 
-export default function Podcast(){
+export default function Podcast(props){
+
+  console.log(props)
   return (
     <div>
-      <Head>
-        <title>Podcast</title>
-        <link rel="icon" href="/images/logo.jpg" />
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+      <Header title="Podcast"/>
+      <SecondaryStaticNavbar/>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossOrigin="anonymous" />
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossOrigin="anonymous"></script>
-      </Head>
-
-      <StaticNavbar/>
+      <div>
+        <img src="/images/podcastCover.JPG" className="w-100"/>
+      </div>
       <main className={styles.podcast}>
-          <Container>
-            <Row className={styles.smCurrentBook}>
-              <Col xs={12} md={12} lg={7}>
-                <p>Bienvenida a nuestro podcast</p>
-                <h1>Escuchanos aquí</h1>
-                <div className={styles.buttonsContainer}>
-                  <ButtonWImage href="https://www.spotify.com" src="images/spotify.svg"/>
-                  <ButtonWImage href="https://www.spotify.com" src="images/Google-podcast.svg"/>
-                  <ButtonWImage href="https://www.spotify.com" src="images/Apple-music.svg"/>
-                  <ButtonWImage href="https://www.spotify.com" src="images/Anchor.svg"/>
-                </div>
-              </Col>
-              <Col md={5} className={styles.illustration}>
-                <img src="/images/Podcast-Illustration.svg"/>
-              </Col>
-            </Row>
-          </Container>
+        <Container>
+          <Row className={styles.smCurrentBook}>
+            <Col xs={12} md={5}>
+              <h5>Bienvenida a nuestro podcast</h5>
+              <h1>Escuchanos aquí</h1>
+              <p>
+                Hola, te damos la bienvenida a nuestro podcast, ponte comoda/o/e, de la mano de algunas expertas platicamos de temas que podrían interesarte.
+              </p>
+            </Col>
+            <Col xs={12} md={7}>
+              <div className={styles.buttonsContainer}>
+                <ButtonWImage href="https://open.spotify.com/show/4ezjQgN50lboCzXrNwPtiD" src="images/spotify.svg"/>
+                <ButtonWImage href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy82MTQwYzJiNC9wb2RjYXN0L3Jzcw==" src="images/Google-podcast.svg"/>
+                <ButtonWImage href="https://podcasts.apple.com/mx/podcast/una-feminista/id1574089955" src="images/Apple-music.svg"/>
+                <ButtonWImage href="https://anchor.fm/una-feminista8" src="images/Anchor.svg"/>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+        <div className={styles.episodios}>
+          <h3>Episodios de nuestra primera temporada</h3>
+          <Carousel>
+            {props.podcast.map(episode => (
+                <Carousel.Item>
+                  <a href={episode.link} target="_blank" rel="noopener noreferrer">
+                    <img
+                      className={styles.episode}
+                      src={episode.image}
+                      alt={episode.id}
+                    />
+                  </a>
+                </Carousel.Item>
+            ))}
+          </Carousel>
+        </div>
       </main>
+
       <Footer/>
     </div>
   )
 }
+
+export const getStaticProps = async () => {
+
+  const fs = require("fs");
+  const matter = require("gray-matter");
+  const path = require("path");
+
+  const files = fs.readdirSync("podcast");
+  const podcast = files.map(filename => {
+      const rawContent = fs.readFileSync(path.join("podcast",filename)).toString();
+      const { data } = matter(rawContent);
+      return data;
+  });
+
+  return {
+    props: { podcast }
+  };
+};
