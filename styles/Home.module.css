@@ -10,32 +10,6 @@
 .postsMargin {
   margin: 0 -0.8vh 0 -0.8vh;
 }
-/* .mdPost {
-  min-height: 39em;
-  height: auto;
-  padding: 0 0.8em 0 0.8em;
-  margin-bottom: 1.5em;
-  text-align: center;
-}
-.mdPost img {
-  height: 34em;
-  width: 100%;
-  object-fit: cover;
-  margin-bottom: 1em;
-}
-.lgPost {
-  min-height:39em;
-  height: auto;
-  padding: 0 0.8em 0 0.8em;
-  margin-bottom: 1.5em;
-  text-align: center;
-}
-.lgPost img {
-  height: 34em;
-  width: 100%;
-  object-fit: cover;
-  margin-bottom: 1em;
-} */
 .smPost {
   min-height: 28vmin;
   height: auto;
@@ -147,6 +121,33 @@
   z-index: -1;
   width: 13vh;
 }
+/* Modal Newsletter */
+.modal{
+  background-color: #F0BBC7;
+}
+.modalContainter{
+  display: flex;
+  justify-content: space-evenly;
+  font-family: var(--second-font-family);
+  padding: 2% 0 3% 0;
+}
+.modalContainter img{
+  height: 200px;
+}
+.modalContainter button{
+  background-color: #C281ED;
+  border-radius: 70px;
+  width: 170px;
+  border-color: var(--primary-color);
+  margin-top: 20px;
+}
+.modalContainter h1{
+  font-size: 25px;
+  font-weight: 700;
+}
+.closeModal{
+  text-align: right;
+}
 
 @media (max-width: 767px) {
   .mainPostCol{
@@ -188,14 +189,6 @@
   .mainPictureCol span::before {
     top: 5vh;
   }
-  /* .lgPost, .mdPost{
-    min-height: 28em;
-    height: auto;
-  }
-  .mdPost img, .lgPost img {
-    height: 22em;
-    width: 100%;
-  } */
   .navTopic button {
     border: 0;
     margin-left: 85%;
