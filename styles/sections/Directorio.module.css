@@ -1,7 +1,5 @@
 .headerDirectory{
-    padding: 4% 0 4% 0;
-    color: #ffffff;
-    background: url(/images/portadaDirectorio.jpg);
+    padding: 2% 0 1% 0;
 }
 .headerDirectory h1{
     font-family: var(--title-font-family);

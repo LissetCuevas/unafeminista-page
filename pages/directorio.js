@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import StaticNavbar from './components/navbar'
-import Footer from './components/footer'
+import Header from './components/header';
+import SecondaryStaticNavbar from './components/secondNav';
+import Footer from './components/footer';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -15,17 +15,13 @@ export default function Directorio(props) {
   
   return (
     <div>
-      <Head>
-        <title>Directorio</title>
-        <link rel="icon" href="/images/logoRojo.png" />
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+      <Header title="Directorio"/>
+      <SecondaryStaticNavbar/>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossOrigin="anonymous" />
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossOrigin="anonymous"></script>
-      </Head>
-
-      <StaticNavbar/>
       <main>
+        <div>
+          <img src="/images/directoryCover.jpg" className="w-100"/>
+        </div>
         <div className={styles.headerDirectory}>
           <h1>Directorio</h1>
           <p>Hemos creado un directorio de mujeres para mujeres dónde encontrás servicios con perspectiva de genero.</p>
@@ -40,7 +36,7 @@ export default function Directorio(props) {
                       <Col xs={2} md={2} className={styles.socialCard}>
                         {woman.facebook &&
                           <>
-                          <a href={woman.facebook}>
+                          <a href={woman.facebook} target="_blank" rel="noopener noreferrer">
                             <img src="/images/icons/social/facebookIcon.svg" alt="facebook"/>
                           </a>
                           <br/>
@@ -48,7 +44,7 @@ export default function Directorio(props) {
                         }
                         {woman.email &&
                           <>
-                          <a href={woman.email}>
+                          <a href={woman.email} target="_blank" rel="noopener noreferrer">
                             <img src="/images/icons/social/emailIcon.svg" alt="email"/>
                           </a>
                           <br/>
@@ -56,7 +52,7 @@ export default function Directorio(props) {
                         }
                         {woman.twitter &&
                           <>
-                          <a href={woman.twitter}>
+                          <a href={woman.twitter} target="_blank" rel="noopener noreferrer">
                             <img src="/images/icons/social/twitterIcon.svg" alt="twitter"/>
                           </a>
                           <br/>
@@ -64,28 +60,28 @@ export default function Directorio(props) {
                         }
                         {woman.instagram &&
                           <>
-                          <a href={woman.instagram}>
+                          <a href={woman.instagram} target="_blank" rel="noopener noreferrer">
                             <img src="/images/icons/social/instagramIcon.svg" alt="instagram"/>
                           </a>
                           </>
                         }
                         {woman.website &&
                           <>
-                          <a href={woman.website}>
+                          <a href={woman.website} target="_blank" rel="noopener noreferrer">
                             <img src="/images/icons/social/websiteIcon.svg" alt="webpage"/>
                           </a>
                           </>
                         }
                         {woman.phone &&
                           <>
-                          <a href={`https://wa.me/${woman.phone}`}>
+                          <a href={`https://wa.me/${woman.phone}`} target="_blank" rel="noopener noreferrer">
                             <img src="/images/icons/social/phoneIcon.svg" alt="phone"/>
                           </a>
                           </>
                         }
                         {woman.linkedin &&
                           <>
-                          <a href={woman.linkedin}>
+                          <a href={woman.linkedin} target="_blank" rel="noopener noreferrer">
                             <img src="/images/icons/social/linkedinIcon.svg" alt="linkedin"/>
                           </a>
                           </>
