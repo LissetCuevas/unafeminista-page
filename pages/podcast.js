@@ -39,10 +39,12 @@ const getNext = (actual,length) => {
 
 export default function Podcast(props){
   const [navBG, setNavBG] = useState(true);
-  const [screenSz, setScreenSz] = useState(window.screen.width);
+  const [screenSz, setScreenSz] = useState(0);
   const numPodcast = props.podcast.length;
 
   useEffect(() => {
+    setScreenSz(window.screen.width);
+
     window.onscroll = () => {
       if(window.scrollY > 10){
         setNavBG(false);
