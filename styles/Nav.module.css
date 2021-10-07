@@ -18,6 +18,12 @@
   top: 0;
   z-index: 2;
 }
+.navDivTransparent {
+  background-color: transparent;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
 .nav_link a{
   color: black !important;
   font-family: var(--main-font-family);
@@ -25,10 +31,10 @@
   font-size: 1em;
   margin: 0px 10px 0px 10px;
   border-bottom: 1px solid;
-  border-color: #FFF;
+  border-color: transparent;
 }
 .nav_link a:hover{
-  border-bottom: 1px solid;
+  border-color: #000;
 }
 .brandName{
   padding-top: 1em;
@@ -56,7 +62,7 @@
 .brandNameSecondary img{
   height: 55px;
 }
-.navSecondary {
+.nav2 {
   padding-top: 20px;
   padding-left: 10%;
   padding-right: 10%;
@@ -79,6 +85,11 @@
     text-align: center;
     font-size: 1.3em;
   }
+  .nav2{
+    padding-top: 1em;
+    text-align: center;
+    font-size: 1.3em;
+  }
   .navDiv{
     position:sticky;
     width: 100%;
@@ -90,7 +101,14 @@
     margin-left: 90%;
     border: 0px;
   }
+  .nav2 button{
+    margin-left: 90%;
+    border: 0px;
+  }
   .nav button:focus{
+    box-shadow: none;
+  }
+  .nav2 button:focus{
     box-shadow: none;
   }
   .brandName{

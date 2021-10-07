@@ -3,12 +3,10 @@ import SecondaryStaticNavbar from './components/secondNav';
 import Footer from './components/footer';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../styles/sections/Manifiesto.module.css';
 
-import React from 'react'
-import LeadModal from './manifiesto/leadModal';
+import React from 'react';
 import LeadCard from './manifiesto/leadCard';
 
 export default function Manifiesto(props) {

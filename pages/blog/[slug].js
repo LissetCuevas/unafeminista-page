@@ -1,14 +1,14 @@
 import React from "react";
 import fs from "fs";
-import path from "path"
-import matter from "gray-matter"
-import Head from "next/head"
-import marked from "marked"
+import path from "path";
+import matter from "gray-matter";
+import marked from "marked";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import StaticNavbar from '../components/navbar'
-import Footer from '../components/footer'
+import SecondaryStaticNavbar from '../components/secondNav';
+import Header from '../components/header';
+import Footer from '../components/footer';
 import styles from '../../styles/Post.module.css';
 
 const Post = ({stats, htmlString, data}) => {
@@ -23,13 +23,15 @@ const Post = ({stats, htmlString, data}) => {
 
     return( 
         <div>
-            <Head>
+            {/* <Head>
                 <title>{data.title}</title>
                 <meta title="description" content={data.description}/>
                 <link rel="icon" href="/images/logo.jpg"/>
                 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-            </Head>
-            <StaticNavbar/>
+            </Head> */}
+            <Header title={data.title}/>
+            <SecondaryStaticNavbar/>
+
             <main onCopy={copy}>
                 <div className={`text-center d-line align-center ${styles.coverArticle}`} style={{background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${data.image}) center/cover fixed no-repeat`}}>
                     <div className={styles.centerDiv}>
