@@ -122,6 +122,39 @@
   z-index: -1;
   width: 10vw;
 }
+/* Modal Newsletter */
+.modal{
+  background-color: #F0BBC7;
+}
+.modalContainter{
+  display: flex;
+  justify-content: space-evenly;
+  font-family: var(--second-font-family);
+  padding: 2% 0 3% 0;
+}
+.modalContainter img{
+  height: 200px;
+}
+.modalContainter button{
+  background-color: #C281ED;
+  border-radius: 70px;
+  width: 170px;
+  border-color: var(--primary-color);
+  margin-top: 20px;
+}
+.modalContainter h1{
+  font-size: 25px;
+  font-weight: 700;
+}
+.closeModal{
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .mainPostCol{
+    display: none;
+  }
+}
 
 @media (max-width: 991px) {
   .main{

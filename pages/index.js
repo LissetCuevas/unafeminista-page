@@ -11,6 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../styles/Home.module.css';
 
 import React, { useState, useEffect } from 'react'
+import NewsLetterModal from './components/newsLetterModal';
 
 export default function Home(props) {
   
@@ -60,9 +61,9 @@ export default function Home(props) {
   return (
     <div>
       <Header title="Una feminista"/>
-
       <StaticNavbar/>
      
+      <NewsLetterModal />
       <main className={styles.main}>
         <div id="mainPost">
           <Container>
