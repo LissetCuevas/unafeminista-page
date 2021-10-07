@@ -39,7 +39,7 @@ const getNext = (actual,length) => {
 
 export default function Podcast(props){
   const [navBG, setNavBG] = useState(true);
-  const [screenSz, setScreenSz] = useState(0);
+  const [screenSz, setScreenSz] = useState(window.screen.width);
   const numPodcast = props.podcast.length;
 
   useEffect(() => {
