@@ -80,10 +80,11 @@ collections:
   - name: "pages"
     label: "Páginas"
     files:
-      - label: "Libros"
+      - label: "Círculo de lectura"
         name: "books"
         file: "site/content/books.yml"
         fields:
+          - {label: "Texto de libro actual", name: currentBookMessage, widget: string}
           - label: "Libro actual"
             name: currentBook
             widget: object

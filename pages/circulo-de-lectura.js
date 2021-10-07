@@ -19,7 +19,7 @@ export default function CirculoDeLectura(props){
       <Header title="Circulo de lectura"/>
       <SecondaryStaticNavbar/>
 
-      <main>
+      <main style={{marginTop: '2.5%'}}>
         <div className={styles.currentBook}>
           <Container>
             <Row className={styles.smCurrentBook}>
@@ -33,7 +33,7 @@ export default function CirculoDeLectura(props){
               </Col>
               <Col xs={12} md={5} className={`text-center ${styles.bgCircleWFlowers}`}>
                 <img src={currentBook.image}  />
-                <h4>Este mes</h4>  
+                <h4>{props.books.currentBookMessage}</h4>  
               </Col>
             </Row>
           </Container>
