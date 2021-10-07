@@ -13,7 +13,9 @@ authorDescription: >
   con experiencia con las causas sociales y la inclusión, de naturaleza
   conciliadora, empática y colaborativa con dotes de líder.
 authorPhoto: /images/media/profile-pic-43-.png
-authorTwitter: 'https://www.instagram.com/jaunelu/'
+authorSocialMedia: instagram
+authorSocialMediaTag: '@pao_granadosc'
+authorSocialMediaLink: 'https://www.instagram.com/pao_granadosc/'
 ---
 **¿Sororidad selectiva? #SororidadParaTodas #SoyMujerConDiscapacidad.**
 _María Guadalupe Castro Zaragoza._ 

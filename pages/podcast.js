@@ -5,7 +5,7 @@ import { Container, Row, Col, Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../styles/sections/Podcast.module.css';
 
-import React, {useEffect, useState} from 'react'
+import React, {useEffect, useState} from 'react';
 
 const ButtonWImage = (props) => {
   return (
@@ -29,7 +29,7 @@ const EpisodeItem = ({episode}) => {
   );
 };
 
-const getNext = (actual,length) => {
+export const getNext = (actual,length) => {
   const next = actual + 1;
   if(next < length){
     return next;
@@ -86,7 +86,13 @@ export default function Podcast(props){
         <div className={styles.episodios}>
           <h3>Episodios de nuestra primera temporada</h3>
           <br/>
-          <Carousel slide={false}>
+          <Carousel 
+            slide={false} 
+            prevLabel={null} 
+            nextLabel={null} 
+            nextIcon={<img src="images/icons/arrowLeft.svg"></img>} 
+            prevIcon={<img src="images/icons/arrowRight.svg"></img>}
+          >
             {props.podcast.map((episode, i) => (
                 <Carousel.Item>
                   <EpisodeItem episode={props.podcast[i]}/>

@@ -45,10 +45,10 @@
     text-align: center;
 }
 .episode{
-    width: 300px;
+    width: 230px;
 }
 .episodeItem{
-    margin: 0 10px 0 10px;
+    margin: 0 20px 0 20px;
 }
 @media (max-width: 992px) {
     .imgpodcast{
@@ -65,5 +65,11 @@
 @media (max-width: 500px) {
     .imgpodcast{
         height: 38vw;
+    }
+}
+@media (max-width: 330px) {
+    .episodeItem img{
+        height: 60vw;
+        width: auto;
     }
 }

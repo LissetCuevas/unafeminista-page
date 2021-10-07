@@ -15,8 +15,6 @@ authorDescription: >
   Sagitario. Mi vida pasa entre ver mis series favoritas, tomar fotos chidas de
   mi carita y de personitas que amo, y escuchar la música de la diosa Dua Lipa.
 authorPhoto: /images/media/profile-pic-2-2-.png
-authorTwitter: 'https://www.instagram.com/cryzz_sanchez/'
-authorMail: crystal.san25af@gmail.com
 ---
 Dirty Dancing de 1987, fue un peliculón revolucionario y un tanto arriesgado para esa época taaaan cerrada en la que se creó y en la que estaba ambientada, los años 60; pero dejando para las mujeres múltiples mensajes de empoderamiento que continúan retumbando hasta ahora.
 

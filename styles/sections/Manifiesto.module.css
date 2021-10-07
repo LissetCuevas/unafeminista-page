@@ -35,7 +35,7 @@
   font-size: 2.2em !important;
 }
 .nosotras{
-  margin: 5% 0 5% 0;
+  margin: 0 0 5% 0;
   height: 100%;
   background: linear-gradient(180deg, rgba(218, 185, 240, 0.41) 250px, #ffffff 0%);
 }
@@ -57,9 +57,6 @@
 .nosotras img{
   height: 14em;
 }
-.nosotras img:hover{
-  height: 15em;
-}
 .nosotras a{
   text-decoration: none;
   color:black;
@@ -71,10 +68,10 @@
   justify-content: center;
 }
 .conoceme img{
-  height: 25px;
+  height: 25px!important;
 }
 .conoceme img:hover{
-  height: 25px;;
+  height: 25px!important;
 }
 .modalPad{
   padding: 0 3% 2.5% 3%;
@@ -116,6 +113,10 @@
 .leadfavQuote p{
   margin-bottom: 0;
   margin-right: 1em;
+}
+.carouselItems{
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 991px) {
