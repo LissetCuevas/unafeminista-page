@@ -5,9 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../../styles/Nav.module.css';
 
 
-const SecondaryStaticNavbar = () => {
+const SecondaryStaticNavbar = ({transparent}) => {
   return (
-    <div className={styles.navDiv}>
+    <div className={transparent ? styles.navDivTransparent : styles.navDiv}>
       <div className = {styles.brandNameSecondary}>
         <a href="/">
           <img src="/images/logo.jpg"
@@ -16,13 +16,13 @@ const SecondaryStaticNavbar = () => {
           />
         </a>
       </div>
-      <Navbar expand="lg" className={styles.navSecondary}>
+      <Navbar expand="lg" className={styles.nav2}>
         <Navbar.Toggle aria-controls="basic-navbar-nav" ><img src="/images/icons/toggle.svg"/></Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
           <Nav className={`mr-auto ${styles.nav_link}`}>
-            <Nav.Link key="manifiesto" href="/manifiesto">Manifieseto</Nav.Link>
+            <Nav.Link key="manifiesto" href="/manifiesto">Manifiesto</Nav.Link>
             <Nav.Link key="podcast" href="/podcast">Podcast</Nav.Link>
-            <Nav.Link key="lectura" href="/circulo-de-lectura">Circulo de lectura</Nav.Link>
+            <Nav.Link key="lectura" href="/circulo-de-lectura">Círculo de lectura</Nav.Link>
             <Nav.Link key="blog" href="/#blog">Blog</Nav.Link>
             <Nav.Link key="directorio" href="/directorio">Directorio</Nav.Link>
             <Nav.Link key="contacto" href="/contacto">Contacto</Nav.Link>

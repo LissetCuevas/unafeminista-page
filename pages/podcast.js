@@ -5,7 +5,7 @@ import { Container, Row, Col, Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../styles/sections/Podcast.module.css';
 
-import React from 'react'
+import React, {useEffect, useState} from 'react';
 
 const ButtonWImage = (props) => {
   return (
@@ -17,17 +17,52 @@ const ButtonWImage = (props) => {
   )
 }
 
-export default function Podcast(props){
-
-  console.log(props)
+const EpisodeItem = ({episode}) => {
   return (
-    <div>
-      <Header title="Podcast"/>
-      <SecondaryStaticNavbar/>
+    <a href={episode.link} target="_blank" rel="noopener noreferrer" className={styles.episodeItem}>
+      <img
+        className={styles.episode}
+        src={episode.image}
+        alt={episode.id}
+      />
+    </a>
+  );
+};
 
-      <div>
-        <img src="/images/podcastCover.JPG" className="w-100"/>
-      </div>
+export const getNext = (actual,length) => {
+  const next = actual + 1;
+  if(next < length){
+    return next;
+  }
+  return next - length;
+}
+
+export default function Podcast(props){
+  const [navBG, setNavBG] = useState(true);
+  const [screenSz, setScreenSz] = useState(0);
+  const numPodcast = props.podcast.length;
+
+  useEffect(() => {
+    setScreenSz(window.screen.width);
+
+    window.onscroll = () => {
+      if(window.scrollY > 10){
+        setNavBG(false);
+      }else{
+        setNavBG(true);
+      }
+    }
+    window.onresize = () => {
+      setScreenSz(window.screen.width);
+    }
+  },[]);
+
+
+  return (
+    <div className={styles.bodyPodcast}>
+      <Header title="Podcast"/>
+      <SecondaryStaticNavbar transparent={navBG}/>
+      <div className={styles.imgpodcast}></div>
       <main className={styles.podcast}>
         <Container>
           <Row className={styles.smCurrentBook}>
@@ -50,16 +85,20 @@ export default function Podcast(props){
         </Container>
         <div className={styles.episodios}>
           <h3>Episodios de nuestra primera temporada</h3>
-          <Carousel>
-            {props.podcast.map(episode => (
+          <br/>
+          <Carousel 
+            slide={false} 
+            prevLabel={null} 
+            nextLabel={null} 
+            nextIcon={<img src="images/icons/arrowLeft.svg"></img>} 
+            prevIcon={<img src="images/icons/arrowRight.svg"></img>}
+          >
+            {props.podcast.map((episode, i) => (
                 <Carousel.Item>
-                  <a href={episode.link} target="_blank" rel="noopener noreferrer">
-                    <img
-                      className={styles.episode}
-                      src={episode.image}
-                      alt={episode.id}
-                    />
-                  </a>
+                  <EpisodeItem episode={props.podcast[i]}/>
+                  { screenSz > 700 && <EpisodeItem episode={props.podcast[getNext(i,numPodcast)]}/> }
+                  { screenSz > 1000 && <EpisodeItem episode={props.podcast[getNext(i+1,numPodcast)]}/> }
+                  { screenSz > 1300 && <EpisodeItem episode={props.podcast[getNext(i+2,numPodcast)]}/> }
                 </Carousel.Item>
             ))}
           </Carousel>

@@ -1,11 +1,8 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Modal from 'react-bootstrap/Modal';
+import { Container, Row, Col, Modal } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../../styles/sections/Manifiesto.module.css';
 
-import React from 'react'
+import React from 'react';
 
 export default function LeadModal(props) {
     const lead = props;

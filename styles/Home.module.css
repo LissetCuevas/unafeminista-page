@@ -3,12 +3,12 @@
   padding-right: 13%;
 }
 .blogSection {
-  margin-top: 12vh;
+  margin-top: 1vw;
   position:relative;
   margin-bottom: 4%;
 }
 .postsMargin {
-  margin: 0 -0.8vh 0 -0.8vh;
+  margin: 15px -0.8vh 0 -0.8vh;
 }
 .smPost {
   min-height: 28vmin;
@@ -18,8 +18,8 @@
   text-align: center;
 }
 .smPost img {
-  height: 44vmin;
-  width: 100%;
+  height: 23vw;
+  width: 23vw;
   object-fit: cover;
   margin-bottom: 1em;
 }
@@ -38,8 +38,9 @@
   border-radius: 50%;
 }
 .mainPictureCol img {
-  height: 90vh;
-  margin: -14vh 0 0 0;
+  width: 100%;
+  height: 100%;
+  margin: -7vw 0 0 0;
   position: relative;
 }
 .mainPostCol {
@@ -48,26 +49,27 @@
   height:100px;
 }
 .mainPostCol, .mainPictureCol{
-  height: 69vh;
+  height: 40vw;
+  margin-bottom: 10px;
 }
 .mainPostCol h1 {
-  font-size: 10vh;
+  font-size: 5vw;
   font-family: var(--title-font-family);
   padding-bottom: 10px;
 }
 .mainPostCol p {
-  font-size: 2.5vh;
+  font-size: 1.5vw;
   font-family: var(--second-font-family);
 }
 /* Button 'Leer articulo' */
 .mainPostCol a {
   text-decoration: none;
-  font-size: 3vh;
+  font-size: 1.7vw;
   font-family: var(--main-font-family);
   font-weight: 700;
   color:white;
   background-color: var(--primary-color);
-  padding: 2vh 5vh 2vh 5vh;
+  padding: 12px 30px 12px 30px;
   border: none;
   border-radius: 40px;
   display: inline-block;
@@ -108,7 +110,6 @@
 .post h5 {
   font-family: var(--main-font-family);
   font-weight: 700;
-  font-size: 1.3em;
 }
 .post p {
   font-family: var(--second-font-family);
@@ -119,7 +120,7 @@
   right:5vh;
   top: 4.8vh;
   z-index: -1;
-  width: 13vh;
+  width: 10vw;
 }
 /* Modal Newsletter */
 .modal{
@@ -160,9 +161,6 @@
     padding-left: 5%;
     padding-right: 5%;
   }
-  .blogSection{
-    margin-top: 3vh;
-  }
   .mainPostCol h1 {
     font-size: 2.5em;
   }
@@ -173,7 +171,7 @@
   .blogSection h1 {
     position: absolute;
     top: 0;
-    left: 5vmin;
+    left: 5%;
   }
   .backQuotes {
     display: none;
@@ -182,13 +180,14 @@
     text-align: center;
   }
   .mainPictureCol img {
-    height: 40vh;
+    width: 30vw;
+    height: auto;
     margin: auto;
-    margin-top: -4vh;
-  }
+    margin-top: -4vw;
+  }/*
   .mainPictureCol span::before {
     top: 5vh;
-  }
+  }*/
   .navTopic button {
     border: 0;
     margin-left: 85%;
@@ -205,5 +204,53 @@
   }
   .mainPostCol, .mainPictureCol{
     height: 340px;
+  }
+}
+
+@media (max-width: 886px) {
+  .smPost img {
+    height: 26vw;
+    width: 26vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .mainPostCol{
+    display: none;
+  }
+  .mainPictureCol img {
+    width: 40vw;
+    height: auto;
+    margin: auto;
+    margin-top: -7vw;
+  }
+  .smPost img {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 680px) {
+  .mainPostCol{
+    display: none;
+  }
+  .mainPictureCol{
+    margin-top: 20px;
+  }
+  .mainPictureCol img {
+    width: 270px;
+    height: auto;
+    margin: auto;
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .smPost img {
+    height: 90vw;
+    width: 90vw;
+  }
+  .mainPostCol, .mainPictureCol{
+    height: 90vw;
   }
 }

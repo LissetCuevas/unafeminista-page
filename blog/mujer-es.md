@@ -16,7 +16,9 @@ authorDescription: >-
 
   Feminista. Escritora de clóset.
 authorPhoto: /images/media/profile-pic-38-.png
-authorTwitter: 'https://www.instagram.com/nekiagencia/'
+authorSocialMedia: instagram
+authorSocialMediaTag: '@pao_granadosc'
+authorSocialMediaLink: 'https://www.instagram.com/pao_granadosc/'
 ---
 
 

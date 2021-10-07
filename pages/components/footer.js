@@ -8,15 +8,15 @@ const Footer = () => {
     <footer className={styles.footer}>
       <Nav className={styles.disapearContent}>
         <Nav.Link href="/manifiesto#nosotras">Nosotras</Nav.Link>
-        <Nav.Link href="/manifiesto">Manifieseto</Nav.Link>
-        <Nav.Link href="/circulo-de-lectura">Circulo de lectura</Nav.Link>
+        <Nav.Link href="/manifiesto">Manifiesto</Nav.Link>
+        <Nav.Link href="/circulo-de-lectura">Círculo de lectura</Nav.Link>
         <Nav.Link href="/#blog">Blog</Nav.Link>
         <Nav.Link href="/contacto">Contacto</Nav.Link>
       </Nav>
       <hr className={styles.disapearContent}/>
       <Nav className={styles.smallFooter}>
           <div className={`${styles.termsFooter} ${styles.terms}`}>
-            <p><a href="/terminos-y-condiciones">©2021 Una feminista - Terminos y condiciones</a></p>
+            <p><a href="/terminos-y-condiciones">©2021 Una feminista - Términos y condiciones</a></p>
           </div>
           <div className={`d-flex justify-content-center justify-content-md-end ${styles.socialFooter}`}>
             <Nav.Link href="https://www.facebook.com/Unafeministamx">

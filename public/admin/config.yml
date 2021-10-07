@@ -3,12 +3,12 @@ backend:
   branch: master
 media_folder: public/images/media #images that are uploaded via Netlify Cms interface will be stored in this folder
 public_folder: /images/media
-site_url: https://unafeminista.com
-display_url: https://unafeminista.com
-logo_url: /images/logoRojo.png
-default_locale: 'es'
+site_url: https://www.unafeminista.com
+display_url: https://www.unafeminista.com
+logo_url: /images/logo.png
+locale: 'es'
 local_backend: true
-show_preview_links: true
+show_preview_links: false
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
@@ -26,8 +26,9 @@ collections:
       - {label: "Autora", name: "author", widget: "string", default: "Anonima"}
       - {label: "Descripción Autora", name: "authorDescription", widget: "text", required: false}
       - {label: "Foto Autora", name: "authorPhoto", widget: "image"}
-      - {label: "Instagram Autora", name: "authorTwitter", widget: "string", required: false}
-      - {label: "Email Autora", name: "authorMail", widget: "string", required: false}
+      - {label: "Red social autora", name: "authorSocialMedia", widget: "select", multiple: false, options: ["email","instagram","facebook","twitter","linkedin"]}
+      - {label: "Link red social autora", name: "authorSocialMediaLink", widget: "string", required: true}
+      - {label: "Etiqueta red social autora", name: "authorSocialMediaTag", widget: "string", required: true}
       - {label: "Contenido", name: "body", widget: "markdown"}
   - name: "directory"
     label: "Directorio"
@@ -64,13 +65,14 @@ collections:
       - {label: Facebook, name: "facebook", widget: "string", required: false}
       - {label: Instagram, name: "instagram", widget: "string", required: false}
       - {label: Twitter, name: "twitter", widget: "string", required: false}
+      - {label: Linkedin, name: "linkedin", widget: "string", required: false}
       - {label: Correo, name: "email", widget: "string", required: false}
       - {label: Foto, name: photo, widget: image}
   - name: "podcast"
     label: "Podcast"
     folder: "podcast"
     create: true
-    identifier_field: name
+    identifier_field: id
     slug: "{{id}}"
     fields:
       - {label: Temporada x Capitulo (ej. 01x06), name: id, widget: string}
@@ -79,10 +81,11 @@ collections:
   - name: "pages"
     label: "Páginas"
     files:
-      - label: "Libros"
+      - label: "Círculo de lectura"
         name: "books"
         file: "site/content/books.yml"
         fields:
+          - {label: "Texto de libro actual", name: currentBookMessage, widget: string}
           - label: "Libro actual"
             name: currentBook
             widget: object

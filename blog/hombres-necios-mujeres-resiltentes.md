@@ -16,8 +16,9 @@ authorDescription: >-
   gordAfobia y más. Apasionada por la música, el cine y la literatura,
   especialmente donde las realizadoras son mujeres. 
 authorPhoto: /images/media/margaritamantilla.png
-authorTwitter: '@mag_cosmos'
-authorMail: '@mag_cosmos.com'
+authorSocialMedia: instagram
+authorSocialMediaTag: '@pao_granadosc'
+authorSocialMediaLink: 'https://www.instagram.com/pao_granadosc/'
 ---
 Frida Kahlo, Rosario Castellanos, Elena Garro y 
 el violento amor romántico de los hombres necios con quienes se casaron

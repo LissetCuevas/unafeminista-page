@@ -35,8 +35,8 @@ export default function Contacto(props) {
                       <Form.Control as="input" placeholder="Ingresa tu nombre"/>
                     </Form.Group>
                     <Form.Group controlId="email">
-                      <Form.Label>Correo electronico</Form.Label>
-                      <Form.Control type="email" placeholder="Ingresa tu correo electronico" />
+                      <Form.Label>Correo electrónico</Form.Label>
+                      <Form.Control type="email" placeholder="Ingresa tu correo electrónico" />
                     </Form.Group>
                     <Form.Group controlId="message">
                       <Form.Label>Mensaje</Form.Label>
@@ -49,7 +49,7 @@ export default function Contacto(props) {
                 </Col>
                 <Col xs={12} md={4} className={`text-center ${styles.lecturaLinkCol} ${styles.smHide}`}>
                   <a href="/circulo-de-lectura">
-                    <p>Aquí encontraras nuestro circulo de lectura</p>
+                    <p>Aquí encontraras nuestro círculo de lectura</p>
                     <div className={styles.bgCircleWFlowers}>
                       <img src={currentBook.image}></img>
                     </div>

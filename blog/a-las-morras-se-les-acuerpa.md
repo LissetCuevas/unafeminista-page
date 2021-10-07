@@ -10,7 +10,9 @@ date: 9-10-2021
 author: Mariana Ramírez
 authorDescription: Acompañante afectiva.
 authorPhoto: /images/media/profile-pic-44-.png
-authorTwitter: '@la_maliana'
+authorSocialMedia: instagram
+authorSocialMediaTag: '@pao_granadosc'
+authorSocialMediaLink: 'https://www.instagram.com/pao_granadosc/'
 ---
 _“Que levante la mano quien se ha sentido personalmente ofendida por Regina George”_
 
