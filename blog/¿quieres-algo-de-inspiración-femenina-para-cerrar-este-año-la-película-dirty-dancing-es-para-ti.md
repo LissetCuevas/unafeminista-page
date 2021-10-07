@@ -1,7 +1,6 @@
 ---
-title: >-
-  ¿Quieres algo de inspiración femenina para cerrar este año? La película Dirty
-  Dancing es para ti.
+title: ¿Quieres algo de inspiración femenina para cerrar este año? La película
+  Dirty Dancing es para ti.
 description: Te tenemos la película perfecta para ti.
 image: /images/media/img_1079-1-1-.jpg
 tag:
@@ -10,11 +9,12 @@ main: false
 date: 06-09-2021
 author: Crystal Sánchez
 authorDescription: >
-
-  Soy Crystal Sánchez, estudiante de Comunicación Social en UAM Xochimilco.
-  Sagitario. Mi vida pasa entre ver mis series favoritas, tomar fotos chidas de
-  mi carita y de personitas que amo, y escuchar la música de la diosa Dua Lipa.
+  
+  Soy Crystal Sánchez, estudiante de Comunicación Social en UAM Xochimilco. Sagitario. Mi vida pasa entre ver mis series favoritas, tomar fotos chidas de mi carita y de personitas que amo, y escuchar la música de la diosa Dua Lipa.
 authorPhoto: /images/media/profile-pic-2-2-.png
+authorSocialMedia: twitter
+authorSocialMediaLink: https://twitter.com/home
+authorSocialMediaTag: "@cristal"
 ---
 Dirty Dancing de 1987, fue un peliculón revolucionario y un tanto arriesgado para esa época taaaan cerrada en la que se creó y en la que estaba ambientada, los años 60; pero dejando para las mujeres múltiples mensajes de empoderamiento que continúan retumbando hasta ahora.
 
