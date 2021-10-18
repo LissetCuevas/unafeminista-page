@@ -46,11 +46,9 @@ Me escucho en las mujeres delgadas, que siempre les dicen “ay que flaca estas�
 
 Me encuentro con las mujeres trans, aquellas que la gente mira feo porque les dicen que no deberían de existir, en el circo llamado vida a ellas les quisieron dar el título de inadaptadas, como si nacer en los cuerpos incorrectos fuera algo que decidiéramos, cómo sí cualquiera de nosotras no hubiera renegado de lo que teníamos entre las piernas y ahora pensemos que lo único que nos hace ser mujer es el cuerpo, blanco, hegemónico y delgado. En ellas que me hacen cuestionarme que es ser mujer, que me han enseñado que no valgo solo por mi vulva, que vuelven a nacer como Lía la Sirena en cada noche de luna llena.
 
-Mi reflejo se dispara con el de las trabajadoras sexuales a las que nunca quiero ver con desdén ¿de qué? ¿Porque el sexo es comerciable? ¿Por qué señalarlas desde mi gran privilegio y no acompañarlas en las decisiones que toman? ¿Y si en vez de señalarlas solo las escuchamos? Como si ser trabajadora sexual fuera algo denigrante. Denigrante es la forma en que juzgas una vida y un contexto que no te corresponde.
+Mi reflejo se dispara con el de las trabajadoras sexuales a las que nunca quiero ver con desdén ¿de qué? ¿Por qué el sexo es comerciable? ¿Por qué señalarlas desde mi gran privilegio y no acompañarlas en las decisiones que toman? ¿Y si en vez de señalarlas solo las escuchamos? Como si ser trabajadora sexual fuera algo denigrante. Denigrante es la forma en que juzgas una vida y un contexto que no te corresponde.
 
 Me avergüenzo de mi falta de sensibilidad al escuchar a mis amigas con discapacidad, en ellas donde la silla o el bastón es parte ahora de su cuerpo, las que no escuchan, las que no ven, las que nos muestran todos los días que la mayor resistencia existe en ellas, en el derecho de ser, de decidir, de estar, de permanecer, de exigir los espacios que les corresponden, de mostrarnos que esta ciudad no está hecha para ellas, ni para nosotras, pinche ciudad caótica, un día te hemos de domar.
-
-
 
 ![](/images/media/img_1869.jpg)
 
