@@ -5,15 +5,15 @@ image: /images/media/ilustración_sin_título-4-1-.jpg
 tag:
   - Recomendaciones
 main: false
-date: 06-09-2021
-author: 'Paola Granados '
+date: 06-10-2021
+author: "Paola Granados "
 authorDescription: >
   Estudiante de Comunicación Social en la UAM Xochimilco. Feminista. Me apasiona
   la fotografía, la ilustración, los días de películas y los perritos.
 authorPhoto: /images/media/profile-pic-14-1-.png
 authorSocialMedia: instagram
-authorSocialMediaTag: '@pao_granadosc'
-authorSocialMediaLink: 'https://www.instagram.com/pao_granadosc/'
+authorSocialMediaLink: https://www.instagram.com/pao_granadosc/
+authorSocialMediaTag: "@pao_granadosc"
 ---
 Cuando pensamos en erotismo en el cine, nos viene a la mente imágenes de cuerpos desnudos y sexo explícito, y sí, es erotismo, pero no es la única forma que existe. Y es que la mayoría del cine, o al menos el más comercial, es dirigido por hombres, donde el erotismo que presentan muestra al cuerpo (mayormente femenino) para satisfacer la mirada masculina.
 
