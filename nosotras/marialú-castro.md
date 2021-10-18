@@ -1,6 +1,6 @@
 ---
 name: Marialú Castro
-position: Creadora de contenido.
+position: Relaciones públicas
 description: "Activista Mexicana con discapacidad #PCI y #fibromialgia,
   defensora de los derechos humanos y el cuidado digno y tiempo propio,
   voluntaria clown en hospitales, maquillista en progreso, amante de las
