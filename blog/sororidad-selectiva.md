@@ -6,7 +6,7 @@ tag:
   - Notas Rebeldes
 main: false
 date: 10-10-2020
-author: María Guadalupe Castro Zaragoza
+author: Marialú Castro
 authorDescription: >
   Soy orgullosamente mexicana con discapacidad motriz de nacimiento PCI y una
   enfermedad crónica llamada fibromialgia, me considero una mujer comprometida y
@@ -14,8 +14,8 @@ authorDescription: >
   conciliadora, empática y colaborativa con dotes de líder.
 authorPhoto: /images/media/profile-pic-43-.png
 authorSocialMedia: instagram
-authorSocialMediaTag: '@pao_granadosc'
-authorSocialMediaLink: 'https://www.instagram.com/pao_granadosc/'
+authorSocialMediaLink: https://www.instagram.com/pao_granadosc/
+authorSocialMediaTag: "@pao_granadosc"
 ---
 **¿Sororidad selectiva? #SororidadParaTodas #SoyMujerConDiscapacidad.**
 _María Guadalupe Castro Zaragoza._ 
