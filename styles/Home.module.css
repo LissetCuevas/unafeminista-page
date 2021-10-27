@@ -25,13 +25,13 @@
 }
 .mainPictureCol span {
   position: relative;
-  display: inline-block;
+  display: block;
 }
 .mainPictureCol span::before {
   content: ' ';
   position: absolute;
   left: 0;
-  top: 4vh;
+  top: 7vh;
   right: 0;
   bottom: 0;
   background: #DAB9F0;
@@ -42,6 +42,10 @@
   height: 100%;
   margin: -7vw 0 0 0;
   position: relative;
+}
+.mainPicture {
+  display: block;
+  margin: -40px 0 0 0;
 }
 .mainPostCol {
   padding-top: 6%;
@@ -184,10 +188,7 @@
     height: auto;
     margin: auto;
     margin-top: -4vw;
-  }/*
-  .mainPictureCol span::before {
-    top: 5vh;
-  }*/
+  }
   .navTopic button {
     border: 0;
     margin-left: 85%;
@@ -214,15 +215,12 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .mainPostCol{
     display: none;
   }
-  .mainPictureCol img {
-    width: 40vw;
-    height: auto;
-    margin: auto;
-    margin-top: -7vw;
+  .mainPictureCol  {
+    margin-bottom: 30vw;
   }
   .smPost img {
     height: 350px;
@@ -237,11 +235,10 @@
   .mainPictureCol{
     margin-top: 20px;
   }
-  .mainPictureCol img {
-    width: 270px;
-    height: auto;
-    margin: auto;
-    margin-top: -50px;
+}
+@media (max-width: 480px) {
+  .mainPictureCol{
+    margin-bottom: 20vw;
   }
 }
 
@@ -252,5 +249,8 @@
   }
   .mainPostCol, .mainPictureCol{
     height: 90vw;
+  }
+  .mainPictureCol{
+    margin-bottom: 5vw;
   }
 }
