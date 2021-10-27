@@ -31,6 +31,9 @@ const Footer = () => {
             <Nav.Link href="https://www.instagram.com/unafeminista/">
               <img src="/images/icons/social/instagram.svg" alt="instagram"/>
             </Nav.Link>
+            <Nav.Link href="/podcast">
+              <img src="/images/icons/social/podcast_footer.svg" alt="podcast"/>
+            </Nav.Link>
           </div>
       </Nav>
     </footer>
