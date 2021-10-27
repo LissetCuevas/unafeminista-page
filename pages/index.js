@@ -80,7 +80,7 @@ export default function Home(props) {
                 <span>
                 <div className={styles.mainPicture}>
                 <Image 
-                  src="/images/marcha[3108].png"
+                  src="/images/marcha2.png"
                   quality={75}
                   width={500}
                   height={570}
