@@ -1,5 +1,6 @@
 import Header from './components/header';
 import Link from 'next/link';
+import Image from 'next/image';
 import StaticNavbar from './components/navbar';
 import Footer from './components/footer';
 import Container from 'react-bootstrap/Container';
@@ -77,7 +78,17 @@ export default function Home(props) {
               </Col>
               <Col xs={12} md={6} className={styles.mainPictureCol}>
                 <span>
-                <img className="img-fluid" src="/images/marcha[3108].png"></img>
+                <div className={styles.mainPicture}>
+                <Image 
+                  src="/images/marcha[3108].png"
+                  quality={75}
+                  width={500}
+                  height={570}
+                  layout='responsive'
+                  
+                />
+                </div>
+                {/* <img className="img-fluid" src="/images/marcha[3108].png"></img> */}
                 </span>
               </Col>
             </Row>

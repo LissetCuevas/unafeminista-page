@@ -16,6 +16,14 @@ export default function Contacto(props) {
   
   const currentBook = props.books.currentBook;
 
+  const sendMail = () => {
+    const body = document.getElementById("mensaje").value;
+    const name = document.getElementById("nombre").value;
+    const subject = `${name} tiene un mensaje desde unafeminista.com`;
+
+    window.location.replace(`mailto:unafeminista@hotmail.com?body=${body}&subject=${subject}`);
+  }
+
   return (
     <div>
       <Header title="Contacto"/>
@@ -29,10 +37,10 @@ export default function Contacto(props) {
                     <h1>Contacto</h1>
                     <p>¿Te gustaría platicarnos algo? Estamos para escucharte, escribenos y te responderemos lo más pronto posible.</p>
                   </div>
-                  <Form action="mailto:unafeminista@hotmail.com" method="POST" enctype="multipart/form-data" name="Mensaje">
+                  <Form action="mailto:unafeminista@hotmail.com" as="div">
                     <Form.Group controlId="name">
                       <Form.Label>Nombre</Form.Label>
-                      <Form.Control as="input" placeholder="Ingresa tu nombre"/>
+                      <Form.Control as="input" placeholder="Ingresa tu nombre" id="nombre"/>
                     </Form.Group>
                     <Form.Group controlId="email">
                       <Form.Label>Correo electrónico</Form.Label>
@@ -40,9 +48,9 @@ export default function Contacto(props) {
                     </Form.Group>
                     <Form.Group controlId="message">
                       <Form.Label>Mensaje</Form.Label>
-                      <Form.Control as="textarea" rows={3} placeholder="Tu mensaje va aquí"/>
+                      <Form.Control as="textarea" rows={3} placeholder="Tu mensaje va aquí" id="mensaje"/>
                     </Form.Group>
-                    <Button variant="primary" type="submit">
+                    <Button variant="primary" type="submit" onClick={sendMail}>
                       Enviar
                     </Button>
                   </Form>
