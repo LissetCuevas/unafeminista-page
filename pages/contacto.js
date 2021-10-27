@@ -35,7 +35,7 @@ export default function Contacto(props) {
                 <Col xs={12} md={8} className={styles.mainPostCol}>
                   <div>
                     <h1>Contacto</h1>
-                    <p>¿Te gustaría platicarnos algo? Estamos para escucharte, escribenos y te responderemos lo más pronto posible.</p>
+                    <p>¿Te gustaría platicarnos algo? Estamos para escucharte, escríbenos y te responderemos lo más pronto posible.</p>
                   </div>
                   <Form action="mailto:unafeminista@hotmail.com" as="div">
                     <Form.Group controlId="name">
@@ -57,7 +57,7 @@ export default function Contacto(props) {
                 </Col>
                 <Col xs={12} md={4} className={`text-center ${styles.lecturaLinkCol} ${styles.smHide}`}>
                   <a href="/circulo-de-lectura">
-                    <p>Aquí encontraras nuestro círculo de lectura</p>
+                    <p>Aquí encontrarás nuestro círculo de lectura</p>
                     <div className={styles.bgCircleWFlowers}>
                       <img src={currentBook.image}></img>
                     </div>

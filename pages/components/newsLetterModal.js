@@ -46,7 +46,7 @@ export default function NewsLetterModal() {
                         </Form>
                     </div>
                     <div>
-                        <img src="/images/lectoras.png" className={styles.modalImage}/>
+                        <img src="/images/imageNewsLetter.png" className={styles.modalImage}/>
                     </div>
                 </div> 
                 </Row>

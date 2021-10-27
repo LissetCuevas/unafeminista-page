@@ -70,7 +70,7 @@ export default function Podcast(props){
               <h5>Bienvenida a nuestro podcast</h5>
               <h1>Escuchanos aquí</h1>
               <p>
-                Hola, te damos la bienvenida a nuestro podcast, ponte comoda/o/e, de la mano de algunas expertas platicamos de temas que podrían interesarte.
+              Hola, te damos la bienvenida a nuestro podcast, invitamos algunas expertas a platicar de temas que podrían interesarte. ¡No te lo pierdas!
               </p>
             </Col>
             <Col xs={12} md={7}>

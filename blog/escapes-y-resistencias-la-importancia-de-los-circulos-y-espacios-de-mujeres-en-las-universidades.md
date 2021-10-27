@@ -20,7 +20,7 @@ authorDescription: >-
   objeto de estudio en el feminismo es desde los nexos entre delito, clase,
   género y cárcel.
 authorPhoto: /images/media/sandraaguilar.png
-authorSocialMedia: instagram
+authorSocialMedia: email
 authorSocialMediaTag: '@pao_granadosc'
 authorSocialMediaLink: 'https://www.instagram.com/pao_granadosc/'
 ---

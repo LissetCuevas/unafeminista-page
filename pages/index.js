@@ -88,7 +88,7 @@ export default function Home(props) {
                   
                 />
                 </div>
-                {/* <img className="img-fluid" src="/images/marcha[3108].png"></img> */}
+                {/* <img className="img-fluid" src="/images/marcha2.png"></img> */}
                 </span>
               </Col>
             </Row>
