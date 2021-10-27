@@ -24,7 +24,7 @@ export default function Directorio(props) {
         </div>
         <div className={styles.headerDirectory}>
           <h1>Directorio</h1>
-          <p>Hemos creado un directorio de mujeres para mujeres dónde encontrás servicios con perspectiva de genero.</p>
+          <p>Hemos creado un directorio increíble dónde encontrarás servicios con perspectiva de género.</p>
         </div>
         <div className={styles.directory}>
           <Container>

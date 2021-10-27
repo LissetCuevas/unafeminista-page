@@ -65,7 +65,7 @@ export default function CirculoDeLectura(props){
                       <img src="/images/icons/lectoras2.png"></img>
                     </Col>
                     <Col xs={12} md={8}>
-                      <h5>¿QUE HACEMOS?</h5>
+                      <h5>¿QUÉ HACEMOS?</h5>
                       <p>
                         La lectura significó para nosotras más que un libro en turno, el circulo de lectoras rebeldes desafía una y otra vez a las leyes 
                         impuestas, nos demuestra que nuestros corazones están conectados reunión con reunión, hoy sentimos todo menos miedo.
@@ -81,7 +81,7 @@ export default function CirculoDeLectura(props){
                       <p>
                         Un espacio de reflexión y amor entre mujeres donde cuestionamos nuestra realidad, somos disidentes, encontramos nuevos puntos de 
                         vista, pero también recibimos y damos amor, aprendemos continuamente, nos hacemos felices, nos asomamos a ventanas que nos dan múltiples 
-                        universos, somos empáticas, aprendimos a tener opciones diversas desde el amor, nos acompañamos a nuestro proceso feminista.
+                        universos, somos empáticas, aprendimos a tener opciones diversas desde el amor, nos acompañamos en nuestra militancia feminista.
                       </p>
                     </Col>
                   </Row>
