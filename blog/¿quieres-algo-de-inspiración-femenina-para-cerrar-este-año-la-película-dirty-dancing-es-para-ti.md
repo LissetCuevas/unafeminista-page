@@ -1,6 +1,5 @@
 ---
-title: ¿Quieres algo de inspiración femenina para cerrar este año? La película
-  Dirty Dancing es para ti.
+title: ¿Quieres algo de inspiración femenina? La película Dirty Dancing es para ti.
 description: Te tenemos la película perfecta para ti.
 image: /images/media/img_1079-1-1-.jpg
 tag:
