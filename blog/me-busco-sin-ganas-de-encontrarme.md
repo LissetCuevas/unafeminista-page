@@ -1,5 +1,5 @@
 ---
-title: Me busco sin ganas de encontrarme
+title: Me busco con ganas de no encontrarme
 description: .
 image: /images/media/img_1869.jpg
 tag:
@@ -28,15 +28,15 @@ Me negaba en aquellas que fueron madres antes de los 18, a las que vi con aires 
 
 Me encuentro doliente en las que el amor romántico les jodio la vida como a mí, porque priorizar a un feto de 25 años sin gestión emocional es mejor que terminar de cortar mis propios cordones sentimentales.
 
-Me alejo de todos esos hombres que perseguí, por los que anhelé ser validada, aceptada, amada porque si no lo tenía no servía quien era, ese amor romántico donde si estaba de su lado era el amor de su vida y si cambiaba de opinión era una puta traidora.
-
-A los que les sirvió mi cuerpo cómo fábrica de deseos y luego cuando cambiaron de opinión me despidieron sin haber firmado la carta de despido.
+Me alejo de todos esos hombres que perseguí, por los que anhelé ser validada, aceptada, amada porque si no lo tenía no servía quien era, ese amor romántico donde si estaba de su lado era el amor de su vida y si cambiaba de opinión era una puta traidora. A los que les sirvió mi cuerpo cómo fábrica de deseos y luego cuando cambiaron de opinión se alejaron dejando fantasmas de dudas en la habitación.
 
 Me mantengo inerte en todas las mujeres que abortaron, que expulsaron un pedazo de células que no querían, que no deseaban, que el misoprostol fue la oblea sagrada. Pero también me encuentro en las que, si querían tenerlo y su cuerpo las traicionó, a las que les fue arrebatado el sueño de muchas y la pesadilla de otras.
 
 En las madres cansadas, fastidiadas, las que tienen que explicar cada 5 minutos que aman a sus hijos, a las malas madres, a las desobedientes, a las que se esconden para comer chocolate, a las que las criaturas persiguen hasta el baño, así como las penumbras de las que nadie les habla cuando firman el contrato de maternidad. Me cobija el amor de las madres que te dan la bendición 10 veces antes de salir de tu casa, que se les hace el corazón pequeño cuando te ven subir al transporte porque no saben si es la última vez que te van a volver a ver.
 
 Me mantengo atenta a las morras de las periferias, las que se levantan a las 5 de la mañana para alcanzar un transporte donde seguro te van a agarrar las nalgas, donde tú perfume se va a olvidar entre el sudor de una clase trabajadora que está harta de ganar un sueldo miserable y viajar hasta 8 horas en el transporte público esperando no ser asaltado.
+
+Me busco para no encontrarme pero si encontrar las ganas de no rendirme cuando el mundo parece más hostil que de costumbre, ese exterior que no nos permite equivocarnos, rendirnos ni cambiar de opinión, aunque nos cueste la vida por ello.
 
 Me encuentro en las mujeres gordas, las de cuerpos grandes que cuando alguien las ve se transforman en nutriólogos y doctores con ojos con poderes mágicos, tú tienes diabetes, pues tú tienes cinismo. Te verías más bonita si bajarás de peso. Y tú te verías más humano si te callas la boca.
 
