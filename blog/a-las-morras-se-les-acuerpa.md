@@ -1,18 +1,19 @@
 ---
 title: A las morras se les acuerpa
-description: >-
-  "Que levante la mano quien se ha sentido personalmente ofendida por Regina
-  George"
+description: '"Que levante la mano quien se ha sentido personalmente ofendida
+  por Regina George"'
 image: /images/media/alasmorrasselesacuerpa.jpg
-tag: Cultura
+tag:
+  - Notas Rebeldes
 main: true
-date: 9-10-2021
+date: 9-11-2021
+audio: https://youtu.be/Ld2-7PYjVrY
 author: Mariana Ramírez
 authorDescription: Acompañante afectiva.
 authorPhoto: /images/media/profile-pic-44-.png
 authorSocialMedia: instagram
-authorSocialMediaTag: '@la_maliana'
-authorSocialMediaLink: 'https://www.instagram.com/la_maliana/'
+authorSocialMediaLink: https://www.instagram.com/la_maliana/
+authorSocialMediaTag: "@la_maliana"
 ---
 _“Que levante la mano quien se ha sentido personalmente ofendida por Regina George”_
 
