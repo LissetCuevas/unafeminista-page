@@ -10,5 +10,5 @@ movie: Amélie
 quote: Está bien, no estar bien.
 instagram: https://www.instagram.com/_tulipaness_/
 email: yulissa.barreda@gmail.com
-photo: /images/media/yuli.png
+photo: /images/media/3cc94465-dd29-4a59-9194-da7eebd67849.jpg
 ---
