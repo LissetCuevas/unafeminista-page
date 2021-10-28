@@ -10,6 +10,6 @@ description: >-
 image: /images/media/Monse-pediatra.png
 facebook: 'https://www.facebook.com/124275152306563/'
 instagram: 'https://instagram.com/pediatra_monse_ortega?igshid=17sd6tqhk8qq5'
-email: 55 6452 7927
+phone: "5564527927"
 ---
 

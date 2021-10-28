@@ -7,7 +7,6 @@ description: >-
   maternidad.
 image: /images/media/Jimena.png
 instagram: 'https://www.instagram.com/todaspara1/'
-linkedin: 'https://www.linkedin.com'
 email: todasparaunaparatodas@gmail.com
 ---
 

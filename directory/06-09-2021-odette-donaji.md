@@ -10,6 +10,6 @@ description: >-
 
   etc.
 image: /images/media/profile-pic-39-1-.png
-instagram: 'https://www.instagram.com/odettcontreras/'
+instagram: "https://www.instagram.com/odettcontreras/"
 ---
 

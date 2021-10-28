@@ -26,7 +26,7 @@ collections:
       - {label: "Autora", name: "author", widget: "string", default: "Anonima"}
       - {label: "Descripción Autora", name: "authorDescription", widget: "text", required: false}
       - {label: "Foto Autora", name: "authorPhoto", widget: "image"}
-      - {label: "Red social autora", name: "authorSocialMedia", widget: "select", multiple: false, options: ["email","instagram","facebook","twitter","linkedin"]}
+      - {label: "Red social autora", name: "authorSocialMedia", widget: "select", multiple: false, options: ["email","instagram","facebook","twitter","linkedin"], required: true}
       - {label: "Link red social autora", name: "authorSocialMediaLink", widget: "string", required: true}
       - {label: "Etiqueta red social autora", name: "authorSocialMediaTag", widget: "string", required: true}
       - {label: "Contenido", name: "body", widget: "markdown"}

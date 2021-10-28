@@ -6,9 +6,6 @@ description: >-
   feminista con enfoque en terapia sistémica. Proporciona Psicoterapia en
   modalidad presencial y en línea a mujeres adolescentes y adultas.
 image: /images/media/AndreaMaza-Piscologa.png
-instagram: 'https://www.instagram.com'
-twitter: 'https://www.instagram.com'
-email: ''
-phone: 5215574309188
+instagram: 'https://www.instagram.com/petuniasylujurias'
 ---
 

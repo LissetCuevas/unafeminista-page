@@ -12,9 +12,9 @@ authorDescription: >-
   gusta guardar los momentos de mi vida en disparos fotográficos, creo en las
   hojas de té, mi vida se puede explicar en una canción de Taylor Swift.
 authorPhoto: /images/media/NathalyMonserrat.png
-authorSocialMedia: instagram
-authorSocialMediaTag: '@pao_granadosc'
-authorSocialMediaLink: 'https://www.instagram.com/pao_granadosc/'
+authorSocialMedia: twitter
+authorSocialMediaTag: '@eraseun19defeb_'
+authorSocialMediaLink: 'https://twitter.com/eraseun19defeb_'
 ---
 Me busco con ganas de no encontrarme
 

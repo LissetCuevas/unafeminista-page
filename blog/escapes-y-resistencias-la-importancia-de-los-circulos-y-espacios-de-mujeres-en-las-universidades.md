@@ -20,9 +20,9 @@ authorDescription: >-
   objeto de estudio en el feminismo es desde los nexos entre delito, clase,
   género y cárcel.
 authorPhoto: /images/media/sandraaguilar.png
-authorSocialMedia: email
-authorSocialMediaTag: '@pao_granadosc'
-authorSocialMediaLink: 'https://www.instagram.com/pao_granadosc/'
+authorSocialMedia: instagram
+authorSocialMediaTag: '@nosoyunsanndwich'
+authorSocialMediaLink: 'https://www.instagram.com/nosoyunsanndwich/'
 ---
 La vida de las mujeres se ha constituido en dinámicas de poder y jerarquización. El mundo, la historia, los otros, la construcción del destino –asignado-, se han encargado de fragmentarnos y rompernos, de ahí el poder que conlleva la simpleza del encuentro de mujeres. El intercambio del abrazo, la palabra, la carcajada, el llanto, la mirada y el con-tacto contiene en sus entrañas un intenso significado y una latente forma de rebelión, pero sobretodo una oposición a la expectativa patriarcal. 
 

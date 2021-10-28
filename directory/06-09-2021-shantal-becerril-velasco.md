@@ -17,6 +17,6 @@ description: >-
 
   la relación con la comida.
 image: /images/media/profile-pic-36-1-.png
-instagram: 'https://www.instagram.com/shan.becerril/'
+instagram: "https://www.instagram.com/shan.becerril/"
 ---
 
