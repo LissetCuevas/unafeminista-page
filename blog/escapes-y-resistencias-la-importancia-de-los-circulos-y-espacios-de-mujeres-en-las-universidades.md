@@ -1,28 +1,26 @@
 ---
-title: >-
-  Escapes y resistencias: la importancia de los círculos y espacios de mujeres
-  en las universidades.
-description: >-
-  Esta es nuestra forma “geométrica” de resistir: El poder de los círculos de
-  mujeres en las universidades.
+title: "Escapes y resistencias: la importancia de los círculos y espacios de
+  mujeres en las universidades."
+description: "Esta es nuestra forma “geométrica” de resistir: El poder de los
+  círculos de mujeres en las universidades."
 image: /images/media/universidades.jpg
 tag: Cultura
 main: false
 date: 10-10-2020
+audio: https://youtu.be/QhZlJYNgr7U
 author: Sandra Aguilar Concha
-authorDescription: >-
-  Soy mujer, veintidós años, feminista, estudianta del último trimestre de
-  derecho en la Universidad Autónoma Metropolitana unidad Azcapotzalco.
-  Activista y altavoz. Integrante de Mujeres en Espiral, proyecto que se dedica
-  al acompañamiento jurídico, pedagógico y artístico de mujeres recluidas en
-  Santa Martha Acatitla. Colaboradora en Justicia Pro Persona, una ONG encargada
-  de litigar con perspectiva de género casos de víctimas de feminicidio. Mi
-  objeto de estudio en el feminismo es desde los nexos entre delito, clase,
-  género y cárcel.
+authorDescription: Soy mujer, veintidós años, feminista, estudianta del último
+  trimestre de derecho en la Universidad Autónoma Metropolitana unidad
+  Azcapotzalco. Activista y altavoz. Integrante de Mujeres en Espiral, proyecto
+  que se dedica al acompañamiento jurídico, pedagógico y artístico de mujeres
+  recluidas en Santa Martha Acatitla. Colaboradora en Justicia Pro Persona, una
+  ONG encargada de litigar con perspectiva de género casos de víctimas de
+  feminicidio. Mi objeto de estudio en el feminismo es desde los nexos entre
+  delito, clase, género y cárcel.
 authorPhoto: /images/media/sandraaguilar.png
 authorSocialMedia: instagram
-authorSocialMediaTag: '@nosoyunsanndwich'
-authorSocialMediaLink: 'https://www.instagram.com/nosoyunsanndwich/'
+authorSocialMediaLink: https://www.instagram.com/nosoyunsanndwich/
+authorSocialMediaTag: "@nosoyunsanndwich"
 ---
 La vida de las mujeres se ha constituido en dinámicas de poder y jerarquización. El mundo, la historia, los otros, la construcción del destino –asignado-, se han encargado de fragmentarnos y rompernos, de ahí el poder que conlleva la simpleza del encuentro de mujeres. El intercambio del abrazo, la palabra, la carcajada, el llanto, la mirada y el con-tacto contiene en sus entrañas un intenso significado y una latente forma de rebelión, pero sobretodo una oposición a la expectativa patriarcal. 
 
