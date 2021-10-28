@@ -36,13 +36,13 @@ En las madres cansadas, fastidiadas, las que tienen que explicar cada 5 minutos 
 
 Me mantengo atenta a las morras de las periferias, las que se levantan a las 5 de la mañana para alcanzar un transporte donde seguro te van a agarrar las nalgas, donde tú perfume se va a olvidar entre el sudor de una clase trabajadora que está harta de ganar un sueldo miserable y viajar hasta 8 horas en el transporte público esperando no ser asaltado.
 
-Me busco para no encontrarme pero si encontrar las ganas de no rendirme cuando el mundo parece más hostil que de costumbre, ese exterior que no nos permite equivocarnos, rendirnos ni cambiar de opinión, aunque nos cueste la vida por ello.
+Me busco para no encontrarme pero si encontrar las ganas de no rendirme cuando el mundo parece más hostil que de costumbre, ese exterior que no nos permite equivocarnos, rendirnos, ni cambiar de opinión, aunque nos cueste la vida por ello.
 
 Me encuentro en las mujeres gordas, las de cuerpos grandes que cuando alguien las ve se transforman en nutriólogos y doctores con ojos con poderes mágicos, tú tienes diabetes, pues tú tienes cinismo. Te verías más bonita si bajarás de peso. Y tú te verías más humano si te callas la boca.
 
-Acompaño a las que se esconden para comer, en las se aprietan el estómago deseando que por la mañana ya no exista, en las que no tienen derecho a disfrutar una hamburguesa, una botella de pollo frito, en las que les dicen que comen como hombres solo porque deciden comer hasta saciarse.
+Acompaño a las que se esconden para comer, en las se aprietan el estómago deseando que por la mañana ya no exista, en las que no tienen derecho a disfrutar una hamburguesa, una cubeta de pollo frito, en las que les dicen que comen como hombres solo porque deciden comer hasta saciarse.
 
-Me escucho en las mujeres delgadas, que siempre les dicen “ay que flaca estas” el aire te va a volar. Ojalá el aire nos volara lejos de aquí, para no tener que vomitar después de comer, para no tener miedo de la comida.
+Me escucho en las mujeres delgadas, que siempre les dicen “ay que flaca estas el aire te va a volar." Ojalá el aire nos volara lejos de aquí, para no tener que vomitar después de comer, para no tener miedo de la comida.
 
 Me encuentro con las mujeres trans, aquellas que la gente mira feo porque les dicen que no deberían de existir, en el circo llamado vida a ellas les quisieron dar el título de inadaptadas, como si nacer en los cuerpos incorrectos fuera algo que decidiéramos, cómo sí cualquiera de nosotras no hubiera renegado de lo que teníamos entre las piernas y ahora pensemos que lo único que nos hace ser mujer es el cuerpo, blanco, hegemónico y delgado. En ellas que me hacen cuestionarme que es ser mujer, que me han enseñado que no valgo solo por mi vulva, que vuelven a nacer como Lía la Sirena en cada noche de luna llena.
 
@@ -52,7 +52,7 @@ Me avergüenzo de mi falta de sensibilidad al escuchar a mis amigas con discapac
 
 ![](/images/media/img_1869.jpg)
 
-Me busco y no me encuentro, pero encuentro a mi abuela Dolores, gran Dolores con una vida de recuerdos, la que no se dejaba, la que disfrutaba andar en el tianguis, la que me materno cuando mi madre se chingaba todos los días hasta Texcoco para que no nos faltara nada, la que me ponía vestidos, la que me abrazaba para dormir. La que tuvo un marido que la golpeaba, que la hizo huir, la que tallaba pisos, hacía de comer en casas ajenas, a la que la gente quería hacer de menos, pero ella era el mejor poema escrito por la vida.
+Me busco y no me encuentro, pero encuentro a mi abuela Dolores, gran Dolores con una vida de recuerdos, la que no se dejaba, la que disfrutaba andar en el tianguis, la que me materno cuando mi madre se chingaba todos los días en viajar hasta Texcoco para que no nos faltara nada, la que me ponía vestidos, la que me abrazaba para dormir. La que tuvo un marido que la golpeaba, que la hizo huir, la que tallaba pisos, hacía de comer en casas ajenas, a la que la gente quería hacer de menos, pero ella era el mejor poema escrito por la vida.
 
 Todavía siento el calor de Sara, a la que hacían dormir en el suelo, la que me cuidaba cuando mamá no podía ni la abuela tampoco, la que sus únicas aspiraciones parecían ser limpiar y hacer la comida, la que me cuido sin haberme parido, pero me paría con dolores cada que me escuchaba llorar.
 
@@ -66,13 +66,13 @@ Me escucho en mis amigas, esas que revisan tu ubicación mientras estás en la c
 
 Me maravillo con mis profesoras, todas las que me han impulsado a ser mejor, las que me dejan aprender de ellas, las que se chingan en sus investigaciones, las que los demás hacen de menos porque no creen que puedan ser tan inteligentes, las que te recomiendan en puestos importantes, las que creen en ti, las que te quieren como si te hubieran parido entre sus letras y calificaciones, las que te inspiran, te escuchan, te acompañan, las que te dejan semillas que el tiempo hará florecer.
 
-Por otra parte, me deseo jamás encontrar en los poemas de los mal llamados poetas malditos, que comparan mis pechos con montañas o mis estrías con rayas de tigre, donde su inspiración es el alcohol, el sexo mal hecho y Tarantino, harta de ustedes y sus definiciones de mujeres, nos escriben desde la utilidad no desde la realidad, porque no nos conocen y no les interesa. Espero nunca escucharme dentro de los pensamientos de aquellos profesores misóginos, como aquel profesor que tuve en la licenciatura que decía que estudiábamos sociales porque eran fáciles, nomás en lo que encontrábamos marido, profesor Godofredo, si las ciencias sociales fueran fáciles quizá usted hubiera tenido otra cosa diferente de la que hablar y no solo llevar un trimestre hablando de Adam Smith.
+Por otra parte, me deseo jamás encontrar en los poemas de los mal llamados poetas malditos, que comparan mis pechos con montañas o mis estrías con rayas de tigre, donde su inspiración es el alcohol, el sexo mal hecho y Tarantino, harta de ustedes y sus definiciones de mujeres, nos escriben desde la utilidad no desde la realidad, porque no nos conocen y no les interesa. Espero nunca escucharme dentro de los pensamientos de aquellos profesores misóginos, como aquel profesor que tuve en la licenciatura que decía que estudiábamos sociales porque eran fáciles, nomás en lo que encontrábamos marido, profesor Godofredo, si las ciencias sociales fueran fáciles quizá usted hubiera tenido otra cosa diferente de la que hablar y no solo llevar un trimestre parloteando sobre Adam Smith.
 
-*¿Algún día me encontraré? ¿O quizá ya me encontré?*
+*¿Algún día me encontraré? O quizá ya me encontré.*
 
 ![Ilustración Odette Donaji.](/images/media/ilustración_sin_título-11-.jpg)
 
-En ellas, en las otras, en las marginadas, en las malas, las putas, las desobedientes, las cautivas, las renegadas, las silenciadas, las desaparecidas, las que tienen algún padecimiento mental, las mujeres de las montañas, las mujeres de las periferias, las grotescas, las de cuerpas grandes, las migrantes, las trans, las de piel negra como la noche, las anónimas, las enojadas, las del bloque negro, las de las resistencias, las de las colectivas, en ellas, en todas.
+En ellas, en las otras, en las marginadas, en las malas, las putas, las desobedientes, las cautivas, las renegadas, las silenciadas, las desaparecidas, las que tienen discapacidad, las mujeres de las montañas, las mujeres de las periferias, las grotescas, las de cuerpas grandes, las migrantes, las trans, las de piel negra como la noche, las anónimas, las enojadas, las del bloque negro, las de las resistencias, las de las colectivas, en ellas, en todas.
 
 **Existimos** y esa es la mejor historia que podemos contarnos y contarles a las que están, a las que vienen, a las que fueron y a las que buscamos.
 
