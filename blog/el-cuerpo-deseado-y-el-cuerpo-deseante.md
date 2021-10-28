@@ -5,12 +5,13 @@ image: /images/media/d_intervenida8-1-.jpg
 tag: Cultura
 main: false
 date: 10-10-2020
+audio: https://youtu.be/kBtT62T2Rx8
 author: Daniela Moctezuma
 authorDescription: Fotógrafa feminista en constante deconstrucción
 authorPhoto: /images/media/danielamoctezuma.png
 authorSocialMedia: instagram
-authorSocialMediaTag: '@daniela_mct'
-authorSocialMediaLink: 'https://www.instagram.com/daniela_mct/'
+authorSocialMediaLink: https://www.instagram.com/daniela_mct/
+authorSocialMediaTag: "@daniela_mct"
 ---
 
 Empecé a fotografiar cuando tenía 15 años. Por alguna razón, comencé a sentirme más segura al hacer autorretrato. A esa edad nunca me detuve a pensar por qué lo hacía, sin embargo, la intimidad que tenía al momento de fotografiarme me generaba una sensación de alivio y acompañamiento a mí misma. Intento recordar qué pensaba la Daniela adolescente, cómo se concebía y qué tanta importancia daba a su físico; no voy a negar que incluso llegué a hacerme fotografías para saberme bonita, agradable y deseada a la vista de lxs demás. Así pasaron varios años, haciendo disparos cómodos y fotografías que no me cuestionaban absolutamente nada. 
