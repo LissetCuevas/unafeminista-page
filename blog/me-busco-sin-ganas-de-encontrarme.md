@@ -1,5 +1,5 @@
 ---
-title: Me busco con ganas de no encontrarme
+title: Me busco sin ganas de encontrarme
 description: .
 image: /images/media/img_1869.jpg
 tag:
@@ -16,7 +16,7 @@ authorSocialMedia: instagram
 authorSocialMediaLink: https://www.instagram.com/eraseun19defebrero/
 authorSocialMediaTag: "@eraseun19defeb"
 ---
-Me busco con ganas de no encontrarme
+Me busco sin ganas de encontrarme.
 
 Me busco en las otras, en esas que no son categóricamente bellas ni aceptadas, esas mujeres con los dientes chuecos y las narices grandes, las que tienen lunares con texturas extrañas y patillas en los costados.
 
