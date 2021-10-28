@@ -6,19 +6,19 @@ tag:
   - Notas Rebeldes
 main: false
 date: 23/09/2021
+audio: https://youtu.be/koN1Bklg18Q
 author: Jess Peña
 authorDescription: >-
   Mamá autónoma de Regina. Educadora autogestiva, acompañante educativa,
   facilitadora
 
-  filopedagógica, tallerista en las montañas. Aliada de infancias no normativas
-  y disidentes.
+  filopedagógica, tallerista en las montañas. Aliada de infancias no normativas y disidentes.
 
   Feminista. Escritora de clóset.
 authorPhoto: /images/media/profile-pic-38-.png
 authorSocialMedia: instagram
-authorSocialMediaTag: '@nekiagencia'
-authorSocialMediaLink: 'https://www.instagram.com/nekiagencia/'
+authorSocialMediaLink: https://www.instagram.com/nekiagencia/
+authorSocialMediaTag: "@nekiagencia"
 ---
 
 
