@@ -6,8 +6,7 @@ description: "Brindo atención personalizada por medio de consultas desde la
   pláticas y trabajo de sensibilización con niños y adultos. Mi objetivo es
   desmitificar la sexualidad para vivirla en libertad y de manera saludable. "
 image: /images/media/Meli-sexologa.png
-facebook: ""
 instagram: https://www.instagram.com/soymama.sexologa/
-twitter: ""
+facebook: https://www.facebook.com/people/soymamasexologa/100063633575087/
 email: melich_ba@outlook.com
 ---
