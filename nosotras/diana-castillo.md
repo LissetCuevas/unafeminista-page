@@ -1,6 +1,6 @@
 ---
 name: Diana Castillo
-position: Creadora de contenido
+position: Editora de contenido
 description: >
   Soy Diana, la Random. Arquitecta, permacultora, fotógrafa y concubina del
   terror. Vivo entre contradicciones perfectamente balanceadas.  Soy Virgo de

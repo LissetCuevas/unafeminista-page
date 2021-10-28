@@ -1,10 +1,14 @@
 ---
-name: "Nathaly Monserrat"
-position: "Directora editorial"
-photo: "/images/leads/NathalyMonserrat.png"
-description: "Soy la mano con glitter detrás de @unafeminista, socióloga en formación, me gusta guardar los momentos de mi vida en disparos fotográficos, creo en las hojas de té, mi vida se puede explicar en una canción de Taylor Swift."
-movie: "Whip it"
-woman: "Ana Chávez y Taylor Swift"
+name: Nathaly Monserrat
+position: Directora editorial
+description: Soy la mano con glitter detrás de @unafeminista, socióloga, me
+  gusta guardar los momentos de mi vida en disparos fotográficos, creo en las
+  hojas de té, mi vida se puede explicar en una canción de Taylor Swift.
 book: '"Persépolis" Marjane Satrapi'
+woman: Ana Chávez y Taylor Swift
+movie: Whip it
 quote: '"Una mujer sin un hombre es como un pez sin bicicleta" Gloria Steinem"'
+instagram: https://www.instagram.com/eraseun19defebrero/
+twitter: https://twitter.com/eraseun19defeb_?s=21
+photo: /images/leads/NathalyMonserrat.png
 ---

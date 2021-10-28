@@ -5,8 +5,8 @@ image: /images/media/ilustración_sin_título-4-1-.jpg
 tag:
   - Recomendaciones
 main: false
-date: 06-09-2021
-author: 'Paola Granados '
+date: 06-10-2021
+author: "Paola Granados "
 authorDescription: >
   Estudiante de Comunicación Social en la UAM Xochimilco. Feminista. Me apasiona
   la fotografía, la ilustración, los días de películas y los perritos.

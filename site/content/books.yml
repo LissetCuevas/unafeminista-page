@@ -1,14 +1,29 @@
 currentBookMessage: Próximamente
 currentBook:
-  title: Mujeres que corren con los lobos
-  author: Clarissa Pinkola Estés
-  image: /images/media/libro1.jpg
-  description: Mujeres que corren con los lobos ha sido un éxito desde su
-    publicación en 1989, este libro  nos muestra una diversidad de historias y
-    reflexiones hacia encontrar sentido a nuestra propia existencia, las letras
-    de Clarissa nos acompañan para entender las complejas relaciones de poder en
-    la sociedad y el impacto que tiene en la vida de las mujeres.
-book1: /images/media/libro2.jpg
+  title: Linea Nigra
+  author: Jazmina Barrera
+  image: /images/media/978607876412.jpg
+  description: Con la inteligente curiosidad y el lenguaje transparente y cálido
+    que se ha mostrado en Cuerpo extraño y Cuaderno de faros, Jazmina Barrera de
+    nuevo explora su cuerpo con la escritura, pero esta vez a través de los
+    primeros momentos de su maternidad. Casi asistiendo a una charla íntima y
+    familiar, que acompañan el pensamiento de la autora en la crónica de las
+    transformaciones de su cuerpo, sus sensaciones, miedos y reacciones,
+    mientras recorren la obra de mujeres que a través de fotografías, textos o
+    pinturas encontraron en el arte su propio lenguaje para relatar y comprender
+    -como madres, hijas o acompañantes- sus experiencias de gestación,
+    alumbramiento y lactancia. Visitando las historias de las mujeres de su
+    familia o de artistas como Tina Modotti, Frida Kahlo, Rosario Castellanos,
+    Marlene Dumas, Mary Shelley, Ursula K. Le Guin, Virginia Woolf, Luz Jiménez,
+    Simone de Beauvoir, Alice Munro o Margaret Atwood, la mirada lúcida y
+    honesta de Barrera no da concesiones a la sensiblería fácil; la escritora
+    explora las oscuridades del embarazo y hace el relato del dolor, la angustia
+    o la felicidad con un lenguaje prístino que se asombra ante el misterio, tan
+    común pero tan mágico, de engendrar vida. Linea nigra es la historia de una
+    mujer cuyo cuerpo se transforma en una escritura que ella irá descifrando
+    poco a poco, mientras que su escritura también es transformada por su cuerpo
+    gestante.
+book1: /images/media/41chfya0w0l._sy344_bo1-204-203-200_ql70_ml2_.jpg
 book2: /images/media/libro3.jpg
-book3: /images/media/libro4.jpg
-book4: /images/media/libro5.jpg
+book3: /images/media/file.jpg
+book4: /images/media/41tbpsmpbql._sx380_bo1-204-203-200_.jpg
