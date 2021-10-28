@@ -5,7 +5,7 @@ image: /images/media/img_1079-1-1-.jpg
 tag:
   - Notas Rebeldes
 main: false
-date: 17-11-2021
+date: 11-11-2021
 author: Crystal Sánchez
 authorDescription: >
   
