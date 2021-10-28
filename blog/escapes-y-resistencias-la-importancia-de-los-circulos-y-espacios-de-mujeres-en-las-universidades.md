@@ -8,7 +8,7 @@ tag: Cultura
 main: false
 date: 10-10-2020
 audio: https://youtu.be/QhZlJYNgr7U
-author: Sandra Aguilar Concha
+author: Sandra Aguilar
 authorDescription: Soy mujer, veintidós años, feminista, estudianta del último
   trimestre de derecho en la Universidad Autónoma Metropolitana unidad
   Azcapotzalco. Activista y altavoz. Integrante de Mujeres en Espiral, proyecto
