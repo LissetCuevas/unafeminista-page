@@ -38,11 +38,9 @@ Me mantengo atenta a las morras de las periferias, las que se levantan a las 5 d
 
 Me busco para no encontrarme pero si encontrar las ganas de no rendirme cuando el mundo parece más hostil que de costumbre, ese exterior que no nos permite equivocarnos, rendirnos, ni cambiar de opinión, aunque nos cueste la vida por ello.
 
-Me encuentro en las mujeres gordas, las de cuerpos grandes que cuando alguien las ve se transforman en nutriólogos y doctores con ojos con poderes mágicos, tú tienes diabetes, pues tú tienes cinismo. Te verías más bonita si bajarás de peso. Y tú te verías más humano si te callas la boca.
+Me encuentro en las mujeres gordas, las de cuerpos grandes que cuando alguien las ve se transforman en nutriólogos y doctores con ojos con poderes mágicos "Tú tienes diabetes" pues tú tienes cinismo. "Te verías más bonita si bajarás de peso" Y tú te verías más humano si te callas la boca. Acompaño a las que se esconden para comer, en las se aprietan el estómago deseando que por la mañana ya no exista, en las que no tienen derecho a disfrutar una hamburguesa, una cubeta de pollo frito, en las que les dicen que comen como hombres solo porque deciden comer hasta saciarse.
 
-Acompaño a las que se esconden para comer, en las se aprietan el estómago deseando que por la mañana ya no exista, en las que no tienen derecho a disfrutar una hamburguesa, una cubeta de pollo frito, en las que les dicen que comen como hombres solo porque deciden comer hasta saciarse.
-
-Me escucho en las mujeres delgadas, que siempre les dicen “ay que flaca estas el aire te va a volar." Ojalá el aire nos volara lejos de aquí, para no tener que vomitar después de comer, para no tener miedo de la comida.
+Me escucho en las mujeres delgadas, que siempre les dicen “ay que flaca estas, el aire te va a volar." Ojalá el aire nos volara lejos de aquí, para no tener que vomitar después de comer, para no tenerle miedo a la comida.
 
 Me encuentro con las mujeres trans, aquellas que la gente mira feo porque les dicen que no deberían de existir, en el circo llamado vida a ellas les quisieron dar el título de inadaptadas, como si nacer en los cuerpos incorrectos fuera algo que decidiéramos, cómo sí cualquiera de nosotras no hubiera renegado de lo que teníamos entre las piernas y ahora pensemos que lo único que nos hace ser mujer es el cuerpo, blanco, hegemónico y delgado. En ellas que me hacen cuestionarme que es ser mujer, que me han enseñado que no valgo solo por mi vulva, que vuelven a nacer como Lía la Sirena en cada noche de luna llena.
 
