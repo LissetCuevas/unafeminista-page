@@ -5,16 +5,16 @@ image: /images/media/img_1080.jpg
 tag: Salud
 main: false
 date: 10-10-2020
+audio: https://youtu.be/a0V4rA6hh-U
 author: Andrea Maza Jarquín
-authorDescription: >-
-  Andrea es una mujer feminista oaxaqueña atrapada por la cdmx desde que era df.
-  Además de ser activista menstrual es psicóloga y tiene un máster en terapia
-  sexual y pareja; todo el tiempo quiere hablar de menstruación, vínculos y
-  cuidados. Le gusta mucho leer, el mar y el helado.
+authorDescription: Andrea es una mujer feminista oaxaqueña atrapada por la cdmx
+  desde que era df. Además de ser activista menstrual es psicóloga y tiene un
+  máster en terapia sexual y pareja; todo el tiempo quiere hablar de
+  menstruación, vínculos y cuidados. Le gusta mucho leer, el mar y el helado.
 authorPhoto: /images/media/AndreaMaza-Piscologa.png
 authorSocialMedia: instagram
-authorSocialMediaTag: '@petuniasylujurias'
-authorSocialMediaLink: 'https://www.instagram.com/petuniasylujurias/'
+authorSocialMediaLink: https://www.instagram.com/petuniasylujurias/
+authorSocialMediaTag: "@petuniasylujurias"
 ---
 Hace casi cinco años y medio que Flores Rojas. Alternativas menstruales vio la luz por primera vez. En el primer post que subí a la cuenta de Facebook lo presenté como “mi proyectito bebé”, y me queda claro que se lo creyó, pues no ha hecho más que crecer y yo soy una madre orgullosa. Mi objetivo al crear Flores Rojas no fue otro más que las mujeres pudiesen encontrar un espacio para acercarse a su menstruación y a sus cuerpos desde una propuesta alternativa y amorosa. En estos años muchas clientas y amigas me han llamado “sacerdotisa menstrual”, “hada de la menstruación”, “diosa de la sangre”, entre otras cosas que me dan mucha risa y a la vez me apapachan el corazón. Pero no crean que mis ganas y fuerzas para visibilizar la menstruación y hablar de ella con amor, ternura y aceptación siempre estuvieron presentes.
 
