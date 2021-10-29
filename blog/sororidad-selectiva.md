@@ -6,6 +6,7 @@ tag:
   - Notas Rebeldes
 main: false
 date: 19-11-2020
+audio: https://youtu.be/OH6jKhz2aO0
 author: Marialú Castro
 authorDescription: >
   Soy orgullosamente mexicana con discapacidad motriz de nacimiento PCI y una
