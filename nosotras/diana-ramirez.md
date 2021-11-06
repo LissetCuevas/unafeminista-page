@@ -9,7 +9,7 @@ woman: Emma Watson
 movie: Coraline y la puerta secreta
 quote: "“No puedo hacer todo, pero aun así puedo hacer algo: y justo porque no
   lo puedo hacer todo, no renunciaré a hacer lo que sí puedo” -\tHelen Keller"
-twitter: www.linkedin.com/in/dianaramírezhuerta
+linkedin: https://www.linkedin.com/in/dianaramírezhuerta
 email: diana.morrison12@gmail.com
 photo: /images/media/diana-ramirez.png
 ---

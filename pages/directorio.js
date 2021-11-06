@@ -32,32 +32,8 @@ export default function Directorio(props) {
               {directory.map((woman,i) => {
                 return(
                   <Col key={`woman_${i}`} xs={12} md={4} className={styles.directoryCard}>
-                    <Row>
+                    <div className={styles.cardDirection}>
                       <Col xs={2} md={2} className={styles.socialCard}>
-                        {woman.facebook &&
-                          <>
-                          <a href={woman.facebook} target="_blank" rel="noopener noreferrer">
-                            <img src="/images/icons/social/facebookIcon.svg" alt="facebook"/>
-                          </a>
-                          <br/>
-                          </>
-                        }
-                        {woman.email &&
-                          <>
-                          <a href={woman.email} target="_blank" rel="noopener noreferrer">
-                            <img src="/images/icons/social/emailIcon.svg" alt="email"/>
-                          </a>
-                          <br/>
-                          </>
-                        }
-                        {woman.twitter &&
-                          <>
-                          <a href={woman.twitter} target="_blank" rel="noopener noreferrer">
-                            <img src="/images/icons/social/twitterIcon.svg" alt="twitter"/>
-                          </a>
-                          <br/>
-                          </>
-                        }
                         {woman.instagram &&
                           <>
                           <a href={woman.instagram} target="_blank" rel="noopener noreferrer">
@@ -72,10 +48,10 @@ export default function Directorio(props) {
                           </a>
                           </>
                         }
-                        {woman.phone &&
+                        {woman.twitter &&
                           <>
-                          <a href={`https://wa.me/${woman.phone}`} target="_blank" rel="noopener noreferrer">
-                            <img src="/images/icons/social/phoneIcon.svg" alt="phone"/>
+                          <a href={woman.twitter} target="_blank" rel="noopener noreferrer">
+                            <img src="/images/icons/social/twitterIcon.svg" alt="twitter"/>
                           </a>
                           </>
                         }
@@ -83,6 +59,27 @@ export default function Directorio(props) {
                           <>
                           <a href={woman.linkedin} target="_blank" rel="noopener noreferrer">
                             <img src="/images/icons/social/linkedinIcon.svg" alt="linkedin"/>
+                          </a>
+                          </>
+                        }
+                        {woman.facebook &&
+                          <>
+                          <a href={woman.facebook} target="_blank" rel="noopener noreferrer">
+                            <img src="/images/icons/social/facebookIcon.svg" alt="facebook"/>
+                          </a>
+                          </>
+                        }
+                        {woman.email &&
+                          <>
+                          <a href={`mailto:${woman.email}`} target="_blank" rel="noopener noreferrer">
+                            <img src="/images/icons/social/emailIcon.svg" alt="email"/>
+                          </a>
+                          </>
+                        }
+                        {woman.phone &&
+                          <>
+                          <a href={`https://wa.me/${woman.phone}`} target="_blank" rel="noopener noreferrer">
+                            <img src="/images/icons/social/phoneIcon.svg" alt="phone"/>
                           </a>
                           </>
                         }
@@ -94,7 +91,7 @@ export default function Directorio(props) {
                         <h5>{woman.job}</h5>
                         <p>{woman.description}</p>
                       </Col>
-                    </Row>
+                    </div>
                   </Col>
                 )
               })}

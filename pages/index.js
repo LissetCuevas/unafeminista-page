@@ -78,17 +78,7 @@ export default function Home(props) {
               </Col>
               <Col xs={12} md={6} className={styles.mainPictureCol}>
                 <span>
-                <div className={styles.mainPicture}>
-                <Image 
-                  src="/images/marcha2.png"
-                  quality={75}
-                  width={500}
-                  height={570}
-                  layout='responsive'
-                  
-                />
-                </div>
-                {/* <img className="img-fluid" src="/images/marcha2.png"></img> */}
+                <img className="img-fluid" src="/images/marcha2.png"></img>
                 </span>
               </Col>
             </Row>

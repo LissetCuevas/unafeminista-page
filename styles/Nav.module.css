@@ -128,3 +128,36 @@
     font-weight: 400;
   }
 }
+@media (max-width: 305px) {
+  .brandName img{
+    height: 2.8em;
+  }
+  .brandName p{
+    font-size: 1.2em;
+  }
+  .nav button{
+    margin-left: 90%;
+    border: 0px;
+    padding: 0;
+  }
+  .nav2 button{
+    margin-left: 90%;
+    border: 0px;
+    padding: 0;
+  }
+  .brandNameSecondary img{
+    margin-top: 4px;
+    height: 45px;
+  }
+}
+@media (max-width: 253px) {
+  .brandName p{
+    display: none;
+  }
+  .nav button{
+    margin-left: 85%;
+  }
+  .nav2 button{
+    margin-left: 85%;
+  }
+}
