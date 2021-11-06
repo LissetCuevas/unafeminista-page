@@ -16,9 +16,11 @@ export default function LeadModal(props) {
                     </Row>
                     <Row className={styles.modalPad}>
                         <Col xs={12} md={6} className={styles.leadInfoModal}>
+                            <div>
                             <h4>{lead.name}</h4>
                             <h6>{lead.position}</h6>
                             <p>{lead.description}</p>
+                            </div>
                             <div className={styles.socialModal}>
                                 {lead.facebook && 
                                     <a href={lead.facebook} target="_blank" rel="noopener noreferrer">
@@ -31,7 +33,7 @@ export default function LeadModal(props) {
                                     </a>
                                 }
                                 {lead.email &&
-                                    <a href={lead.email} target="_blank" rel="noopener noreferrer">
+                                    <a href={`mailto:${lead.email}`} target="_blank" rel="noopener noreferrer">
                                         <img src="/images/icons/social/emailIcon.svg" alt="mail"/>
                                     </a>
                                 }
@@ -47,7 +49,7 @@ export default function LeadModal(props) {
                                 }
                             </div>
                         </Col>
-                        <Col xs={12} md={6}>
+                        <Col xs={12} md={6} className={styles.hide}>
                             <p className={styles.leadfavInfoModal}>
                                 <img src="/images/icons/book.svg"/>{lead.book}
                             </p>

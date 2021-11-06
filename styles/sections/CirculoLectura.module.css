@@ -143,6 +143,33 @@
         text-align: center;
     }
     .futureBooks img{
-        width: 16em;
+        width: 30vw;
     }
+    .bigColLectoras img{
+        height: 15em;
+    }
+}
+
+@media (max-width: 500px) {
+    .futureBooks img{
+        width: 50vw;
+    }
+    .currentBook img{
+        height: 68vw;
+    }
+    .bgCircleWFlowers{
+        background-size: 85vw auto;
+    }
+    .currentBook h4{
+        font-size: 8vw;
+    }
+}
+@media (max-width: 350px) {
+    .futureBooks img{
+        width: 60vw;
+    }
+    .currentBook h4{
+        font-size: 10vw;
+    }
+
 }

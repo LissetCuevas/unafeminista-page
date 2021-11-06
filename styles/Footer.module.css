@@ -56,3 +56,19 @@
         flex-direction: column-reverse;
     }
 }
+@media (max-width: 275px) {
+    .socialFooter img {
+        width: 1.5em;
+        padding: 0;
+    }
+    .smallFooter a{
+        padding: 10px;
+    }
+}
+@media (max-width: 195px) {
+    .socialFooter{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+  
