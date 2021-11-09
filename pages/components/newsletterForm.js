@@ -36,13 +36,13 @@ export default function NewsletterForm ({status, message, onValidated}) {
                 </Button>
             </div>
             {status === "sending" && 
-                <Alert variant='secondary' style={{padding: 0}}>Enviando...</Alert>
+                <Alert variant='secondary'style={{padding: 3, fontSize: 15}}>Enviando...</Alert>
             }
             {status === "error" && 
-                <Alert variant='warning' style={{padding: 3, fontSize: 15, width: 'auto'}}>Introduce correctamente tu correo.</Alert>
+                <Alert variant='warning' style={{padding: 3, fontSize: 15}}>Introduce correctamente tu correo.</Alert>
             }
             {status === "success" && 
-                <Alert variant='success'>¡Ya estas suscrita!</Alert>
+                <Alert variant='success' style={{padding: 3, fontSize: 15}}>¡Ya estas suscrita!</Alert>
             }
         </div>
     )
