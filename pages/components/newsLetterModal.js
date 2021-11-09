@@ -9,8 +9,8 @@ import styles from '../../styles/Home.module.css';
 import React, {useEffect} from 'react'
 
 export default function NewsLetterModal() {
-
     const [visible, setVisible] = React.useState(false);
+    
     useEffect(()=>{
         let pop_status = localStorage.getItem('pop_status');
         console.log(pop_status)

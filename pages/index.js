@@ -57,6 +57,9 @@ export default function Home(props) {
         }
       });
     }
+    !function(c,h,i,m,p){
+      m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)
+    }(document,"script","https://chimpstatic.com/mcjs-connected/js/users/b1fe6a5e8ea37a86dc1c29f51/1abbfedf05d071a95ee653dba.js");
   },[])
 
   return (
@@ -64,7 +67,7 @@ export default function Home(props) {
       <Header title="Una feminista"/>
       <StaticNavbar/>
      
-      <NewsLetterModal />
+      {/* <NewsLetterModal /> */}
       <main className={styles.main}>
         <div id="mainPost">
           <Container>
