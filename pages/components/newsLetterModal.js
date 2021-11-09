@@ -1,12 +1,14 @@
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Modal from 'react-bootstrap/Modal';
+import NewsletterForm from './newsletterForm';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../../styles/Home.module.css';
+import MailchimpSubscribe from 'react-mailchimp-subscribe';
 
 import React, {useEffect} from 'react'
+
+const url = "https://linktr.us5.list-manage.com/subscribe/post?u=b1fe6a5e8ea37a86dc1c29f51&amp;id=50bff0a552";
 
 export default function NewsLetterModal() {
     const [visible, setVisible] = React.useState(false);
@@ -35,16 +37,16 @@ export default function NewsLetterModal() {
                 </Row>
                 <Row className={styles.modalPad}>
                 <div className={styles.modalContainter}>
-                    <div>
-                        <h1>¿Te gustaría saber más de nosotras?</h1>
-                        <p>Suscribete a nuestro newsletter</p>
-                        <Form action="mailto:unafeminista@hotmail.com" method="POST" enctype="multipart/form-data" name="Mensaje">
-                            <Form.Control type="email" placeholder="Escribe tu correo electronico" />
-                            <Button variant="primary" type="submit">
-                            Suscribirme
-                            </Button>
-                        </Form>
-                    </div>
+                    <MailchimpSubscribe 
+                        url={url}
+                        render={({ subscribe, status, message}) => (
+                            <NewsletterForm
+                                status={ status }
+                                message={ message }
+                                onValidated={ formData => subscribe( formData ) }
+                            />
+                        )}
+                    />
                     <div>
                         <img src="/images/imageNewsLetter.png" className={styles.modalImage}/>
                     </div>
