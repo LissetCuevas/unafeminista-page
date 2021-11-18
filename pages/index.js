@@ -145,7 +145,7 @@ export default function Home(props) {
           </div>
         </div>
       </main>
-      <div className={styles.modalContainter} style={{backgroundColor: 'rgb(240 187 199 / 31%)'}}>
+      <div className={styles.modalContainter} style={{backgroundColor: 'rgb(240 187 199 / 31%)', padding: 15}}>
         <MailchimpSubscribe 
             url={url}
             render={({ subscribe, status, message}) => (
@@ -156,6 +156,9 @@ export default function Home(props) {
                 />
             )}
         />
+        {/* <div className={styles.hide}>
+            <img src="/images/imageNewsLetter.png" className={styles.modalImage}/>
+        </div> */}
       </div> 
       <Footer/>
     </div>

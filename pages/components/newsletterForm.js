@@ -23,7 +23,7 @@ export default function NewsletterForm ({status, message, onValidated}) {
 
     return (
         <div>
-            <h1>¿Te gustaría saber más de nosotras?</h1>
+            <h4>¿Te gustaría saber más de nosotras?</h4>
             <p>Suscribete a nuestro newsletter</p>
             <div style={{marginBottom: 15, display: 'flex', flexDirection: 'column'}}>
                 <input 
