@@ -10,6 +10,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../styles/Home.module.css';
+import NewsletterForm from './components/newsletterForm';
+import MailchimpSubscribe from 'react-mailchimp-subscribe';
 
 import React, { useState, useEffect } from 'react'
 import NewsLetterModal from './components/newsLetterModal';
@@ -42,6 +44,7 @@ export default function Home(props) {
   const blog = props.blog;
   const [ currentSection, setCurrentSection ] = useState(splitPosts(blog));
   const mainPost = blog.find(post => post.main == true)
+  const url = "https://linktr.us5.list-manage.com/subscribe/post?u=b1fe6a5e8ea37a86dc1c29f51&amp;id=50bff0a552";
 
   const showPostsbyTopic = (topic) => {
     setCurrentSection(splitPosts(topic == 'Todos' ? blog : blog.filter(post => post.tag.includes(topic))));
@@ -142,6 +145,18 @@ export default function Home(props) {
           </div>
         </div>
       </main>
+      <div className={styles.modalContainter} style={{backgroundColor: 'rgb(240 187 199 / 31%)'}}>
+        <MailchimpSubscribe 
+            url={url}
+            render={({ subscribe, status, message}) => (
+                <NewsletterForm
+                    status={ status }
+                    message={ message }
+                    onValidated={ formData => subscribe( formData ) }
+                />
+            )}
+        />
+      </div> 
       <Footer/>
     </div>
   )

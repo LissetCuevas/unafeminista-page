@@ -7,7 +7,6 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <Nav className={styles.disapearContent}>
-        <Nav.Link href="/manifiesto#nosotras">Nosotras</Nav.Link>
         <Nav.Link href="/manifiesto">Manifiesto</Nav.Link>
         <Nav.Link href="/circulo-de-lectura">Círculo de lectura</Nav.Link>
         <Nav.Link href="/#blog">Blog</Nav.Link>
