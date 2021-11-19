@@ -1,24 +1,22 @@
 ---
-title: 'Hombre necios, mujeres resilentes'
+title: Hombre necios, mujeres resilentes
 description: .
 image: /images/media/hombresnecios.jpg
 tag: Cultura
 main: false
-date: 10-12-2020
+date: 9-10-2020
+audio: https://youtu.be/hcNBnldLc54
 author: Margarita Mantilla
-authorDescription: >-
-  (Ciudad de México, 1985) Socióloga e investigadora feminista, Maestra en
-  estudios de la mujer por la UAM-X. Cofundadora de CoCu (Colectiva Cuerpa),
-  Feministas de la UAM-X, Me gusta menstruar y creadora de Tallercitas
-  feministas (espacio para la formación política feminista). Especialista en
-  teoría feminista, desde donde trata los temas de maternidad, economía
-  feminista, acoso callejero, vientres de alquiler, relaciones de género,
-  gordAfobia y más. Apasionada por la música, el cine y la literatura,
-  especialmente donde las realizadoras son mujeres. 
+authorDescription: "Socióloga e investigadora feminista, Maestra en estudios de
+  la mujer por la UAM-X. Cofundadora de CoCu (Colectiva Cuerpa), Feministas de
+  la UAM-X, Me gusta menstruar y creadora de Tallercitas feministas (espacio
+  para la formación política feminista). Especialista en teoría feminista, desde
+  donde trata los temas de maternidad, economía feminista, acoso callejero,
+  vientres de alquiler, relaciones de género, gordAfobia y más. "
 authorPhoto: /images/media/margaritamantilla.png
 authorSocialMedia: twitter
-authorSocialMediaTag: '@mag_cosmos'
-authorSocialMediaLink: 'https://twitter.com/mag_cosmos/'
+authorSocialMediaLink: https://twitter.com/mag_cosmos/
+authorSocialMediaTag: "@mag_cosmos"
 ---
 Frida Kahlo, Rosario Castellanos, Elena Garro y 
 el violento amor romántico de los hombres necios con quienes se casaron
