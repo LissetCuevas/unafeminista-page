@@ -47,7 +47,7 @@ export default function NewsLetterModal() {
                             />
                         )}
                     />
-                    <div>
+                    <div className={styles.hide}>
                         <img src="/images/imageNewsLetter.png" className={styles.modalImage}/>
                     </div>
                 </div> 
