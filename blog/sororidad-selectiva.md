@@ -1,6 +1,7 @@
 ---
 title: ¿Sororidad selectiva?
-description: .
+description: Las mujeres que vivimos con discapacidad, padecemos varias
+  discriminaciones, éstas no se suman sino que se multiplican, se potencializan.
 image: /images/media/ilustración_sin_título-3-1-.jpg
 tag:
   - Notas Rebeldes
