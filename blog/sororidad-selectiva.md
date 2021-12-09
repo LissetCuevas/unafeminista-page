@@ -4,7 +4,7 @@ description: .
 image: /images/media/ilustración_sin_título-3-1-.jpg
 tag:
   - Notas Rebeldes
-main: false
+main: true
 date: 19-11-2020
 audio: https://youtu.be/OH6jKhz2aO0
 author: Marialú Castro
