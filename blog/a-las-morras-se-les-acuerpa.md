@@ -5,7 +5,7 @@ description: '"Que levante la mano quien se ha sentido personalmente ofendida
 image: /images/media/alasmorrasselesacuerpa.jpg
 tag:
   - Notas Rebeldes
-main: true
+main: false
 date: 9-11-2021
 audio: https://youtu.be/Ld2-7PYjVrY
 author: Mariana Ramírez
