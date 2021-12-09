@@ -29,7 +29,7 @@ export default function CirculoDeLectura(props){
                   <h2>{currentBook.author}</h2>
                   <p>{currentBook.description}</p>
                 </div>
-                <a href="https://forms.gle/GwTu8se6xxNGTgw99" target="_blank" rel="noopener noreferrer">Lee con nosotras</a>
+                <a href="https://forms.gle/j6duzyzHBae9xjTa8" target="_blank" rel="noopener noreferrer">Lee con nosotras</a>
               </Col>
               <Col xs={12} md={5} className={`text-center ${styles.bgCircleWFlowers}`}>
                 <img src={currentBook.image}  />
