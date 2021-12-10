@@ -6,6 +6,7 @@ tag:
   - Notas Rebeldes
 main: false
 date: 20 de septiembre de 2021
+audio: https://youtu.be/DGZ5fbV-634
 author: Nathaly Monserrat
 authorDescription: Soy la mano con glitter detrás de @unafeminista, socióloga en
   formación, me gusta guardar los momentos de mi vida en disparos fotográficos,
