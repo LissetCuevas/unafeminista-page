@@ -35,13 +35,19 @@ La revisión general de los artículos pasa por manos de las colaboradoras despu
 
 
 **Características generales del artículo**
-**Tipografía general** 
+
+
+Tipografía general 
 •	 Arial.
+
+
 **Cabezas de página o títulos** 
 
 El documento debe llevar el titulo final del escrito y el subtítulo que guiará a las, les y los lectores al artículo.
 Debe contener los apellidos o seudónimo que la autora prefiera para darle los créditos correspondientes.
 Debe incluir una pequeña biografía que incluya las redes sociales o correo donde le gustaría que el público pueda contactarla o seguir su trabajo, así como adjuntar en el correo una fotografía con fondo de cualquier color menos blanco para poder poner el diseño general de las autoras invitadas.
+
+
 
 **Citas o créditos**
 
