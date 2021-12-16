@@ -16,11 +16,9 @@ authorSocialMediaTag: "@unafeminista"
 
 **Estilo neutro**
 
-
 Nuestro proyecto digital Una Feminista, tiene tanto en sus contenidos generales como perspectiva creativa llevar un estilo neutro, es decir que sea accesible al publico general, poder llevar un tema complejo a un lenguaje cómodo y amable que inicie la conversación fuera de nuestros espacios. Los términos precisos y sencillos ayudan a distinguir las intenciones generales del escrito, teniendo la oportunidad de pasar de un lenguaje cotidiano a uno más formal sin caer en frases rebuscadas.
 
 ![](/images/media/ilustración_sin_título-1-1-.jpg)
-
 
 *¿Cómo revisaremos los textos?*
 Se recomienda que la revisión del artículo se realice al menos en dos puntos:
@@ -34,13 +32,16 @@ Los párrafos se prefieren cortos y que muestren una idea clara: es decir que la
 **Contenido general**
 
 La revisión general de los artículos pasa por manos de las colaboradoras después de su revisión final para la aprobación general. La revisión de este contenido viene a cuenta para evitar replicar discursos de odio, transfobia, racismo o discriminación a cualquier grupo social vulnerable, la intención de nuestro proyecto web jamás será generalizar ni ocasionar ambigüedades o dañar a otras personas.
-Características generales del artículo
-Tipografía general 
+
+
+**Características generales del artículo**
+**Tipografía general** 
 •	 Arial.
-Cabezas de página o títulos 
-•	El documento debe llevar el titulo final del escrito y el subtítulo que guiará a las, les y los lectores al artículo.
-•	Debe contener los apellidos o seudónimo que la autora prefiera para darle los créditos correspondientes.
-•	Debe incluir una pequeña biografía que incluya las redes sociales o correo donde le gustaría que el público pueda contactarla o seguir su trabajo, así como adjuntar en el correo una fotografía con fondo de cualquier color menos blanco para poder poner el diseño general de las autoras invitadas.
+**Cabezas de página o títulos** 
+
+El documento debe llevar el titulo final del escrito y el subtítulo que guiará a las, les y los lectores al artículo.
+Debe contener los apellidos o seudónimo que la autora prefiera para darle los créditos correspondientes.
+Debe incluir una pequeña biografía que incluya las redes sociales o correo donde le gustaría que el público pueda contactarla o seguir su trabajo, así como adjuntar en el correo una fotografía con fondo de cualquier color menos blanco para poder poner el diseño general de las autoras invitadas.
 
 **Citas o créditos**
 
