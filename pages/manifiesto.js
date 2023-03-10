@@ -23,6 +23,13 @@ export default function Manifiesto(props) {
     }
   },[]);
 
+  const showControls = () => (
+    screenSz <= 700 && leads.length > 1
+    ||  screenSz > 700 && leads.length > 2
+    ||  screenSz > 1000 && leads.length > 3
+    ||  screenSz > 1300 && leads.length > 4
+  );
+
   return (
     <div>
       <Header title="Manifiesto"/>
@@ -74,18 +81,20 @@ export default function Manifiesto(props) {
             nextLabel={null} 
             nextIcon={<img src="/images/icons/arrowLeft.svg" style={{height:'50px', width: 'auto'}}/>} 
             prevIcon={<img src="/images/icons/arrowRight.svg" style={{height:'50px', width: 'auto'}}/>}
+            controls={showControls()}
+            interval={showControls() ? 5000 : null}
           >
             {leads.map((lead, i) => (
                 <Carousel.Item>
                   <div className={styles.carouselItems}>
                     <LeadCard {...leads[i]} key={leads[i].name}/>
-                    { screenSz > 700 && 
+                    { screenSz > 700 && leads.length >= 2 && 
                       <LeadCard {...leads[getNext(i,numLeads)]} key={leads[getNext(i,numLeads)].name}/> 
                     }
-                    { screenSz > 1000 && 
+                    { screenSz > 1000 && leads.length >= 3 && 
                       <LeadCard {...leads[getNext(i+1,numLeads)]} key={leads[getNext(i+1,numLeads)].name}/> 
                     }
-                    { screenSz > 1300 && 
+                    { screenSz > 1300 && leads.length >= 4 && 
                       <LeadCard {...leads[getNext(i+2,numLeads)]} key={leads[getNext(i+2,numLeads)].name}/>
                     }
                   </div>
